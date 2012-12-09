@@ -1,13 +1,11 @@
-package com.appjangle.i110.data.game1;
-
-import com.appjangle.i110.data.Types;
+package com.appjangle.i110.data;
 
 import io.nextweb.Link;
 import io.nextweb.Node;
 import io.nextweb.Query;
 import io.nextweb.Session;
 
-public class Game1Data {
+public class CaseData {
 
 	public static void writeData(Session session, Node node) {
 
@@ -31,6 +29,12 @@ public class Game1Data {
 		Link buyerPower = session.node(Types.aBuyerPowerDescription);
 		Link newEntrants = session.node(Types.aThreatofNewEntrantsDescription);
 
+		// game 3 types
+		Link correctValueChainActivites = session
+				.node(Types.correctValueChainActivites);
+		Link valueChainJustification = session
+				.node(Types.valueChainJustification);
+
 		case1.append("Starbucks").append(brandName);
 		case1.append(
 				"http://hollywoodandswine.com/wp-content/uploads/2012/03/Starbucks-2.jpg")
@@ -39,14 +43,15 @@ public class Game1Data {
 				"To inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.")
 				.append(vision);
 
-		// Game 1
+		// Game 1, Strategy
+
 		case1.append("differentiation").append(correctStrategy);
 
 		case1.append(
 				"Justification: Starbucks has a focus on high quality and customer service, indicative of a high cost strategy. They also market to all customers of the café industry, which is broad market.")
 				.append(strategyJustification);
 
-		// Game 2
+		// Game 2, Porter's five forces
 
 		// see
 		// http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Industry_Structure
@@ -72,8 +77,17 @@ public class Game1Data {
 		case1.append(
 				"There are low start-up costs required to enter the café industry.")
 				.append(newEntrants);
-		
-		// Game 3
+
+		// Game 3, Value chain
+
+		case1.append("procurement,makeProjectOrService,technologyDevelopment")
+				.append(correctValueChainActivites);
+
+		case1.append(
+				"Procurement: Starbucks needs to get the best quality, certified fairtrade coffee beans.\n"
+						+ "Make the product or service: Starbucks’ strategy involves quality, and pleasing people – this is achieved through providing the best possible cup of coffee\n"
+						+ "Research and Development: In order to differentiate their product, and compete with rivals,  Starbucks must continually produce new offerings. ")
+				.append(valueChainJustification);
 
 	}
 }

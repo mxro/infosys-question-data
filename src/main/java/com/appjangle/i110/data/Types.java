@@ -36,4 +36,10 @@ public class Types {
 	public static final String aBuyerPowerDescription = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Buyer_Power";
 
 	public static final String aSupplierPowerDescription = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Supplier_Power";
+
+	// Game 3
+	
+	public static final String correctValueChainActivites =  "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Value_Chain_Activites";
+
+	public static final String valueChainJustification = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Activities_Justiciation";
 }
