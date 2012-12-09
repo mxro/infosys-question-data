@@ -104,6 +104,24 @@ public class GetStrategicQuandrantQuestionData {
 															public String getBrandImageLink() {
 																return brandImageLink;
 															}
+
+															@Override
+															public String getBrandVideoLink() {
+																// TODO Auto-generated method stub
+																return null;
+															}
+
+															@Override
+															public String getBrandVision() {
+																// TODO Auto-generated method stub
+																return null;
+															}
+
+															@Override
+															public String getCorrectStrategyJustification() {
+																// TODO Auto-generated method stub
+																return null;
+															}
 														});
 
 													}

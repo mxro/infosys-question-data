@@ -99,6 +99,9 @@ public class CaseData {
 						+ "Make the product or service: Starbucks’ strategy involves quality, and pleasing people – this is achieved through providing the best possible cup of coffee\n"
 						+ "Research and Development: In order to differentiate their product, and compete with rivals,  Starbucks must continually produce new offerings. ",
 				"./valueChainJustification").append(valueChainJustification);
+		
+		System.out.println("all appended!");
+		session.commit().get();
 
 	}
 }

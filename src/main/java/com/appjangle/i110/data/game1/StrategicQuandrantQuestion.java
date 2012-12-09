@@ -10,6 +10,12 @@ public interface StrategicQuandrantQuestion {
 
 	public String getBrandImageLink();
 
+	public String getBrandVideoLink();
+	
+	public String getBrandVision();
+	
 	public String getCorrectStrategy();
+	
+	public String getCorrectStrategyJustification();
 
 }
