@@ -19,6 +19,9 @@ public class Types {
 
 	public static final String aBrandVideo = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Video_Link";
 	
+	public static final String anIndustry = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Industry";
+
+	
 	// Game 1
 
 	public static final String aCorrectStrategy = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Correct_Strategy";
