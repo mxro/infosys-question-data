@@ -12,42 +12,43 @@ public class LoadStrategicQuandrantQuestion {
 		
 		final Node node = link.get();
 		
+		final Types t = new Types(session);
+		
 		return new StrategicQuandrantQuestion() {
-			
-			
+
 			@Override
 			public String getCorrectCompetiveScope() {
-				return node.select(session.node(Types.aCompetitiveScope)).get().value(String.class);
+				return node.select(t.competitiveScope).get().value(String.class);
 			}
 
 			@Override
 			public String getCorrectCostStrategy() {
-				return node.select(session.node(Types.aCostStrategy)).get().value(String.class);
+				return node.select(t.costStrategy).get().value(String.class);
 			}
 			
 			@Override
 			public String getCorrectStrategy() {	
-				return node.select(session.node(Types.aCorrectStrategy)).get().value(String.class);
+				return node.select(t.correctStrategy).get().value(String.class);
 			}
 			
 			@Override
 			public String getBrandVision() {
-				return node.select(session.node(Types.aVision)).get().value(String.class);
+				return node.select(t.vision).get().value(String.class);
 			}
 			
 			@Override
 			public String getBrandVideoLink() {
-				return node.select(session.node(Types.aBrandVideo)).get().value(String.class);
+				return node.select(t.brandVideo).get().value(String.class);
 			}
 			
 			@Override
 			public String getBrandName() {
-				return node.select(session.node(Types.aBrandName)).get().value(String.class);
+				return node.select(t.brandName).get().value(String.class);
 			}
 			
 			@Override
 			public String getBrandImageLink() {
-				return node.select(session.node(Types.aBrandVideo)).get().value(String.class);
+				return node.select(t.brandImage).get().value(String.class);
 			}
 
 			

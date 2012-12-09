@@ -11,31 +11,31 @@ public class Types {
 
 	public Link brandImage;
 
-	public  Link brandVideo;
+	public Link brandVideo;
 
-	public  Link industry;
+	public Link industry;
 
 	public Link correctStrategy;
 
-	public  Link competitiveScope;
+	public Link competitiveScope;
 
 	public Link costStrategy;
 
-	public  Link correctIndustryStructure;
+	public Link correctIndustryStructure;
 
 	public Link threatOfSubsitutes;
 
-	public  Link supplierPower;
+	public Link supplierPower;
 
-	public  Link rivarly;
+	public Link rivarly;
 
 	public Link buyerPower;
 
-	public  Link newEntrants;
+	public Link newEntrants;
 
-	public  Link correctValueChainActivites;
+	public Link correctValueChainActivites;
 
-	public  Object valueChainJustification;
+	public Object valueChainJustification;
 
 	public Types(Session session) {
 		// required data types
