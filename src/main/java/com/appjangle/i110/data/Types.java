@@ -13,9 +13,14 @@ public class Types {
 
 	public static final String aBrandName = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Brand_Name";
 	
+	public static final String aVision = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Vision";
+	
 	public static final String aBrandImage= "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Brand_Image";
+	
+	// Game 1
 	
 	public static final String aCorrectStrategy = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Correct_Strategy";
 	
+	public static final String aBuyerPowerDescription = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Buyer_Power";
 	
 }
