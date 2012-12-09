@@ -40,7 +40,7 @@
 
 		<dependency>
 			<groupId>com.appjangle.java</groupId>
-			<artifactId>appjangle-java</artifactId>
+			<artifactId>appjangle-javaonedb</artifactId>
 			<version>0.0.14</version>
 		</dependency>
 
