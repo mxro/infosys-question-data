@@ -5,6 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
+import com.appjangle.i110.data.game1.GetStrategicQuandrantQuestionDataCallback;
+import com.appjangle.i110.data.game1.StrategicQuandrantQuestion;
+
 import one.async.joiner.CallbackLatch;
 import one.client.jre.OneJre;
 import one.core.domain.OneClient;
@@ -12,9 +15,8 @@ import one.core.dsl.CoreDsl;
 import one.core.nodes.OneNode;
 import one.core.nodes.OneTypedReference;
 import examples.GetQuestionBags.GetQuestionBagsCallback;
-import examples.GetStrategicQuandrantQuestionData.GetStrategicQuandrantQuestionDataCallback;
-import examples.GetStrategicQuandrantQuestionData.StrategicQuandrantQuestion;
 import examples.GetStrategicQuandrantQuestions.GetQuestionsCallback;
+
 
 public class DownloadAllQuestionData {
 

@@ -1,5 +1,9 @@
 package examples;
 
+import com.appjangle.i110.data.Types;
+import com.appjangle.i110.data.game1.GetStrategicQuandrantQuestionDataCallback;
+import com.appjangle.i110.data.game1.StrategicQuandrantQuestion;
+
 import one.core.domain.OneClient;
 import one.core.dsl.CoreDsl;
 import one.core.dsl.callbacks.WhenChildrenSelected;
@@ -9,28 +13,6 @@ import one.core.nodes.OneTypedReference;
 import one.core.nodes.OneValue;
 
 public class GetStrategicQuandrantQuestionData {
-
-	/**
-	 * This interface wraps the data of a strategy quandrant questions.
-	 *
-	 */
-	public static interface StrategicQuandrantQuestion {
-
-		public String getBrandName();
-
-		public String getBrandImageLink();
-
-		public String getCorrectStrategy();
-
-	}
-
-	public static interface GetStrategicQuandrantQuestionDataCallback {
-
-		public void onSuccess(StrategicQuandrantQuestion question);
-
-		public void onFailure(Throwable t);
-
-	}
 
 	/**
 	 * <p>Given a link to a question node, this method will download the associated
