@@ -8,7 +8,7 @@ import io.nextweb.Session;
 import io.nextweb.common.LocalServer;
 import io.nextweb.jre.Nextweb;
 
-public class QuestionData {
+public class TestApp {
 
 	public static void main(String[] args) {
 
