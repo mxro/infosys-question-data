@@ -38,8 +38,9 @@ public class Types {
 	public Object valueChainJustification;
 
 	public Types(Session session) {
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-types --> 
+		
 		// required data types
-
 		brandName = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Brand_Name");
 		vision = session
@@ -78,6 +79,7 @@ public class Types {
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Value_Chain_Activites");
 		valueChainJustification = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Activities_Justiciation");
+		// <!-- one.end -->
 	}
 
 	/**
