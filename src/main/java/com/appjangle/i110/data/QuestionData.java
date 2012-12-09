@@ -18,7 +18,7 @@ public class QuestionData {
 
 		Node cases = session.seed("local").get();
 
-		CaseData.writeCaseData(session, cases);
+		GameData.writeCaseData(session, cases);
 
 		// the 'c1' at the end indicates that we select case 1!
 		StrategicQuandrantQuestion case1game1 = LoadStrategicQuandrantQuestion
