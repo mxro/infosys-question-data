@@ -1,6 +1,5 @@
 package examples;
 
-import com.appjangle.i110.data.Types;
 import com.appjangle.i110.data.game1.StrategicQuandrantQuestion;
 import com.appjangle.i110.data.internal.GetStrategicQuandrantQuestionDataCallback;
 
@@ -27,7 +26,7 @@ public class GetStrategicQuandrantQuestionData {
 
 		// select from the question node the children of the type brand name
 		dsl.selectFrom(question).theChildren()
-				.linkingTo(dsl.reference(Types.aBrandName)).in(client)
+				.linkingTo(dsl.reference("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Brand_Name")).in(client)
 				.and(new WhenChildrenSelected<OneTypedReference<Object>>() {
 
 					@SuppressWarnings("unchecked")
@@ -49,7 +48,7 @@ public class GetStrategicQuandrantQuestionData {
 
 						dsl.selectFrom(question)
 								.theChildren()
-								.linkingTo(dsl.reference(Types.aBrandImage))
+								.linkingTo(dsl.reference("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Brand_Image"))
 								.in(client)
 								.and(new WhenChildrenSelected<OneTypedReference<Object>>() {
 
@@ -69,7 +68,7 @@ public class GetStrategicQuandrantQuestionData {
 										dsl.selectFrom(question)
 												.theChildren()
 												.linkingTo(
-														dsl.reference(Types.aCorrectStrategy))
+														dsl.reference("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Correct_Strategy"))
 												.in(client)
 												.and(new WhenChildrenSelected<OneTypedReference<Object>>() {
 
