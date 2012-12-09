@@ -1,4 +1,6 @@
-package com.appjangle.i110.data.game1;
+package com.appjangle.i110.data.internal;
+
+import com.appjangle.i110.data.game1.StrategicQuandrantQuestion;
 
 
 public interface GetStrategicQuandrantQuestionDataCallback {

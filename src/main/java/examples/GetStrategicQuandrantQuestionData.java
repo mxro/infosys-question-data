@@ -1,8 +1,8 @@
 package examples;
 
 import com.appjangle.i110.data.Types;
-import com.appjangle.i110.data.game1.GetStrategicQuandrantQuestionDataCallback;
 import com.appjangle.i110.data.game1.StrategicQuandrantQuestion;
+import com.appjangle.i110.data.internal.GetStrategicQuandrantQuestionDataCallback;
 
 import one.core.domain.OneClient;
 import one.core.dsl.CoreDsl;

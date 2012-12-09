@@ -5,8 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
-import com.appjangle.i110.data.game1.GetStrategicQuandrantQuestionDataCallback;
 import com.appjangle.i110.data.game1.StrategicQuandrantQuestion;
+import com.appjangle.i110.data.internal.GetStrategicQuandrantQuestionDataCallback;
 
 import one.async.joiner.CallbackLatch;
 import one.client.jre.OneJre;
