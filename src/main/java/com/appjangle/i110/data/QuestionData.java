@@ -21,14 +21,21 @@ public class QuestionData {
 		
 		CaseData.writeCaseData(session, cases);
 		
-		StrategicQuandrantQuestion q1 = LoadStrategicQuandrantQuestion.getQuestionFromNode(session, session.node(cases.uri()+"/c1"));
+		// the 'c1' at the end indicates that we select case 1!
+		StrategicQuandrantQuestion game1 = LoadStrategicQuandrantQuestion.getQuestionFromNode(session, session.node(cases.uri()+"/c1"));
 		
-		System.out.println(q1.getBrandName());
-		
+		System.out.println("Loading data for game type one from case 1 ....");
+		System.out.println("Brand name: "+game1.getBrandName());
+		System.out.println("Brand image: "+game1.getBrandImageLink());
+		System.out.println("Brand vision: "+game1.getBrandVision());
+		System.out.println("Correct strategy: "+game1.getCorrectStrategy());
+		System.out.println("Strategy justification:");
+		System.out.println(" Competitive scope: "+game1.getCorrectCompetiveScope());
+		System.out.println(" Cost strategy: "+game1.getCorrectCostStrategy());
 		
 		session.close().get();
 		server.shutdown().get();
-		
+		System.out.println("Example completed.");
 	}
 	
 }

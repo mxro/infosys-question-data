@@ -16,6 +16,8 @@ public interface StrategicQuandrantQuestion {
 	
 	public String getCorrectStrategy();
 	
-	public String getCorrectStrategyJustification();
+	public String getCorrectCompetiveScope();
+	
+	public String getCorrectCostStrategy();
 
 }

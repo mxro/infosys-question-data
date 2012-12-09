@@ -23,7 +23,9 @@ public class Types {
 
 	public static final String aCorrectStrategy = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Correct_Strategy";
 
-	public static final String aStrategyJustification = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Justification";
+	public static final String aCompetitiveScope = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Competitive_Scope";
+	
+	public static final String aCostStrategy = "http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Cost_Strategy";
 
 	// Game 2
 

@@ -14,9 +14,15 @@ public class LoadStrategicQuandrantQuestion {
 		
 		return new StrategicQuandrantQuestion() {
 			
+			
 			@Override
-			public String getCorrectStrategyJustification() {
-				return node.select(session.node(Types.aStrategyJustification)).get().value(String.class);
+			public String getCorrectCompetiveScope() {
+				return node.select(session.node(Types.aCompetitiveScope)).get().value(String.class);
+			}
+
+			@Override
+			public String getCorrectCostStrategy() {
+				return node.select(session.node(Types.aCostStrategy)).get().value(String.class);
 			}
 			
 			@Override
@@ -43,6 +49,8 @@ public class LoadStrategicQuandrantQuestion {
 			public String getBrandImageLink() {
 				return node.select(session.node(Types.aBrandVideo)).get().value(String.class);
 			}
+
+			
 		};
 	}
 	

@@ -118,10 +118,17 @@ public class GetStrategicQuandrantQuestionData {
 															}
 
 															@Override
-															public String getCorrectStrategyJustification() {
+															public String getCorrectCompetiveScope() {
 																// TODO Auto-generated method stub
 																return null;
 															}
+
+															@Override
+															public String getCorrectCostStrategy() {
+																// TODO Auto-generated method stub
+																return null;
+															}
+
 														});
 
 													}
