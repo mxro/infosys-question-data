@@ -8,34 +8,59 @@ import io.nextweb.Session;
 import io.nextweb.common.LocalServer;
 import io.nextweb.jre.Nextweb;
 
-
 public class QuestionData {
 
 	public static void main(String[] args) {
-		
+
 		LocalServer server = Nextweb.startServer(8991);
-		
+
 		Session session = Nextweb.createSession();
-		
+
 		Node cases = session.seed("local").get();
-		
+
 		CaseData.writeCaseData(session, cases);
-		
+
 		// the 'c1' at the end indicates that we select case 1!
-		StrategicQuandrantQuestion game1 = LoadStrategicQuandrantQuestion.getQuestionFromNode(session, session.node(cases.uri()+"/c1"));
-		
-		System.out.println("Loading data for game type one from case 1 ....");
-		System.out.println("Brand name: "+game1.getBrandName());
-		System.out.println("Brand image: "+game1.getBrandImageLink());
-		System.out.println("Brand vision: "+game1.getBrandVision());
-		System.out.println("Correct strategy: "+game1.getCorrectStrategy());
+		StrategicQuandrantQuestion case1game1 = LoadStrategicQuandrantQuestion
+				.getQuestionFromNode(session, session.node(cases.uri() + "/c1"));
+
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
+		System.out.println("Loading data for game type 1 from case 1 ....");
+		System.out.println("Brand name: " + case1game1.getBrandName());
+		System.out.println("Brand image: " + case1game1.getBrandImageLink());
+		System.out.println("Brand vision: " + case1game1.getBrandVision());
+		System.out.println("Correct strategy: "
+				+ case1game1.getCorrectStrategy());
 		System.out.println("Strategy justification:");
-		System.out.println(" Competitive scope: "+game1.getCorrectCompetiveScope());
-		System.out.println(" Cost strategy: "+game1.getCorrectCostStrategy());
-		
+		System.out.println(" Competitive scope: "
+				+ case1game1.getCorrectCompetiveScope());
+		System.out.println(" Cost strategy: "
+				+ case1game1.getCorrectCostStrategy());
+		System.out.println(" Therefore, the correct strategy is: "
+				+ case1game1.getCorrectStrategy());
+
+		// the 'c2' at the end indicates that we select case 2!
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
+		StrategicQuandrantQuestion case2game1 = LoadStrategicQuandrantQuestion
+				.getQuestionFromNode(session, session.node(cases.uri() + "/c2"));
+
+		System.out.println("Loading data for game type 1 from case 2 ....");
+		System.out.println("Brand name: " + case2game1.getBrandName());
+		System.out.println("Brand image: " + case2game1.getBrandImageLink());
+		System.out.println("Brand vision: " + case2game1.getBrandVision());
+		System.out.println("Correct strategy: "
+				+ case2game1.getCorrectStrategy());
+		System.out.println("Strategy justification:");
+		System.out.println(" Competitive scope: "
+				+ case2game1.getCorrectCompetiveScope());
+		System.out.println(" Cost strategy: "
+				+ case2game1.getCorrectCostStrategy());
+		System.out.println(" Therefore, the correct strategy is: "
+				+ case2game1.getCorrectStrategy());
+
 		session.close().get();
 		server.shutdown().get();
 		System.out.println("Example completed.");
 	}
-	
+
 }
