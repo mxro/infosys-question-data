@@ -29,7 +29,7 @@
     	session.getAll(brandName, brandImage, correctStrategy, competitiveScope, costStrategy, function() {
     		$(".output").append("<p><b>Brand Data</b></p>");
     		$(".output").append("<p>Brand: "+brandName.get().value()+"</p>");
-    		$(".output").append("<p>Image: <img src='"+brandImage.get().value()+"'></p>");
+    		$(".output").append("<p>Image: <img width='70px' height='auto' src='"+brandImage.get().value()+"'></p>");
     		$(".output").append("<p><b>Justification</b></p>");
     		$(".output").append("<p>Competitive Scope: "+competitiveScope.get().value()+"</p>");
     		$(".output").append("<p>Cost Strategy: "+costStrategy.get().value()+"</p>");
