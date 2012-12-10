@@ -16,11 +16,12 @@ c.append("differentiation", "./correctStrategy").append(
         t.correctStrategy);
 
 c.append(
-        "Broad market – Nike appeals to a wide range of diverse consumers at all ends of the spectrum.",
+        "Broad market: Nike appeals to a wide range of diverse consumers at all ends of the spectrum.",
         "./competitveScope").append(t.competitiveScope);
 
 c.append(
-        "High cost – Nike sells high quality products and therefore can sell at inflated prices. It also attempts to use its brand name as a distinctive selling point.",
+        "High cost: Nike sells high quality products and therefore can sell at inflated prices. It also attempts to use its brand name as a distinctive selling point.",
+        
         "./costStrategy").append(t.costStrategy);
 
 // Game 2, Porter's five forces
