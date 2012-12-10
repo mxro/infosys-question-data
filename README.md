@@ -6,25 +6,22 @@ The question data is encoded using scripts based on the [Nextweb API](http://nex
 
 ## Question Data
 
-The data for questions is described in a number of text files. These text files utilize the Nextweb syntax to define the data for questions.
+The data for questions is described in a number of text files. These text files utilize the Nextweb syntax to define the data for questions. Each text file contains the data for all game types for one case. The currently defined cases are:
 
-Each text file contains the data for all game types for one case. The currently defined cases are:
+[case1-starbucks.txt](https://github.com/mxro/infosys-question-data/blob/master/src/main/resources/common/case1-starbucks.txt):
+The definition of general and game-specific data for the Starbucks brand.
 
-[case1-starbucks.txt](https://github.com/mxro/infosys-question-data/blob/master/src/main/resources/common/case1-starbucks.txt)
+[case2-nike.txt](https://github.com/mxro/infosys-question-data/blob/master/src/main/resources/common/case2-nike.txt):
+The definition of general and game-specific data for the Nike brand.
 
-[case2-nike.txt](https://github.com/mxro/infosys-question-data/blob/master/src/main/resources/common/case2-nike.txt)
+There is also a file which lists all data types of relevance (These data types are documented in more detail as part of the [110 project documentation](http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types)):
 
-There is also a file which lists all data types of relevance:
+[Data Types](https://github.com/mxro/infosys-question-data/blob/master/src/main/resources/common/types.txt): Data types required to define and query questions.
 
-[Data Types](https://github.com/mxro/infosys-question-data/blob/master/src/main/resources/common/types.txt)
-
-These data types are documented in more detail as part of the [110 project documentation](http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types).
 
 ## Data Initialization
 
-The question data defined in above mentioned files can be instantiated within a local database in both Java and JavaScript.
-
-This project contains examples how this data initialization can be performed.
+The question data defined in above mentioned files can be instantiated within a local database in both Java and JavaScript. The following points to the respective resources for each platform.
 
 ### Java
 
