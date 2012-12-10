@@ -34,6 +34,7 @@
     		$(".output").append("<p>Competitive Scope: "+competitiveScope.get().value()+"</p>");
     		$(".output").append("<p>Cost Strategy: "+costStrategy.get().value()+"</p>");
     		$(".output").append("<p>Hence, the correct strategy is "+correctStrategy.get().value()+".</p>");
+    		onSuccess();
     	});
     	
     };
@@ -48,9 +49,9 @@
                 $(".output").append("<p>Example data loaded.</p>");
                 
                 window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c1"), function() { 
-                	window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c1"), function() {
-                		session.close.get(function(success) {
-                			server.close.get(function(success) {
+                	window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c2"), function() {
+                		session.close().get(function(success) {
+                			server.shutdown().get(function(success) {
                 				$(".output").append("<p>All done.</p>");
                 			});
                 		});
