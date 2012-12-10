@@ -35,7 +35,7 @@ public class Types {
 
 	public Link correctValueChainActivites;
 
-	public Object valueChainJustification;
+	public Link valueChainJustification;
 
 	public Types(Session session) {
 		Types t = this;

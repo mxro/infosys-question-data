@@ -15,7 +15,7 @@ c.append(
 c.append("http://www.youtube.com/watch?v=JagNph-q9LU&feature=relmfu",
         "./brandVideo").append(t.brandVideo);
 c.append(
-        "To inspire and nurture the human spirit � one person, one cup and one neighborhood at a time.",
+        "To inspire and nurture the human spirit one person, one cup and one neighborhood at a time.",
         "./brandVision").append(t.vision);
 c.append("Cafe industry", "./industry").append(t.industry);
 

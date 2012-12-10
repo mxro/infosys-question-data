@@ -7,7 +7,7 @@ c.append(
 c.append("http://www.youtube.com/watch?v=JagNph-q9LU&feature=relmfu",
         "./brandVideo").append(t.brandVideo);
 c.append(
-        "To inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.",
+        "To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.",
         "./brandVision").append(t.vision);
 c.append("Cafe industry", "./industry").append(t.industry);
 
@@ -32,7 +32,7 @@ c.append("high:low:high:high:high", "./industryStructure").append(
         t.correctIndustryStructure);
 
 c.append(
-        "A substitute to the café industry is to prepare food and drink at home, or purchase from a supermarket.",
+        "A substitute to the cafe industry is to prepare food and drink at home, or purchase from a supermarket.",
         "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 
 c.append(
