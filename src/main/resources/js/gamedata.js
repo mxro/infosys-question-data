@@ -188,19 +188,24 @@
 	};
 	
 	window.gamedata.writeCaseData = function(session, node, onSuccess) {
-		var t = window.gamedata.createTypes(session);
 		
-		var case1 = node.append("c1", "./c1");
-		
-		priv.defineCase1Starbucks(t, case1);
-		
-		var case2 = node.append("c2", "./c2");
-		
-		priv.defineCase2Nike(t, case2);
-		
-		session.commit().get(function(success) {
-			onSuccess();
+		node.get(function(node) {
+			var t = window.gamedata.createTypes(session);
+			
+			var case1 = node.append("c1", "./c1");
+			
+			priv.defineCase1Starbucks(t, case1);
+			
+			var case2 = node.append("c2", "./c2");
+			
+			priv.defineCase2Nike(t, case2);
+			
+			session.commit().get(function(success) {
+			
+				onSuccess();
+			});
 		});
+		
 		
 	};
 	

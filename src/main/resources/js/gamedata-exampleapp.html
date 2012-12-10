@@ -26,7 +26,7 @@
     	var competitiveScope = caseNode.select(t.competitiveScope);
     	var costStrategy = caseNode.select(t.costStrategy);
     	
-    	session.getAll(brandName, brandImage, correctStrategy, competitveScope, costStrategy, function() {
+    	session.getAll(brandName, brandImage, correctStrategy, competitiveScope, costStrategy, function() {
     		$(".output").append("<p>Brand: "+brandName.get().value()+"</p>");
     		$(".output").append("<p>Image: "+brandImage.get().value()+"</p>");
     		$(".output").append("<p>Competitive Scope: "+competitiveScope.get().value()+"</p>");
@@ -45,8 +45,8 @@
                 // called back when default game data is written
                 $(".output").append("<p>Example data loaded.</p>");
                 
-                window.renderStrategyQuestion(session, session.node(cases.uri()+"/c1"), function() { 
-                	window.renderStrategyQuestion(session, session.node(cases.uri()+"/c1"), function() {
+                window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c1"), function() { 
+                	window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c1"), function() {
                 		session.close.get(function(success) {
                 			server.close.get(function(success) {
                 				$(".output").append("<p>All done.</p>");
