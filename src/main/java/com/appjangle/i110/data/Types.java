@@ -38,46 +38,47 @@ public class Types {
 	public Object valueChainJustification;
 
 	public Types(Session session) {
+		Types t = this;
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-types --> 
 		
 		// required data types
-		brandName = session
+		t.brandName = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Brand_Name");
-		vision = session
+		t.vision = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Vision");
-		brandImage = session
+		t.brandImage = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Brand_Image");
-		brandVideo = session
+		t.brandVideo = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Video_Link");
-		industry = session
+		t.industry = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Industry");
 
 		// game 1 types
-		correctStrategy = session
+		t.correctStrategy = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Correct_Strategy");
-		competitiveScope = session
+		t.competitiveScope = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Competitive_Scope");
-		costStrategy = session
+		t.costStrategy = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Cost_Strategy");
 
 		// game 2 types
-		correctIndustryStructure = session
+		t.correctIndustryStructure = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Industry_Structure");
-		threatOfSubsitutes = session
+		t.threatOfSubsitutes = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Threat_of_Substitutes");
-		supplierPower = session
+		t.supplierPower = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Supplier_Power");
-		rivarly = session
+		t.rivarly = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Rivalry_Among_Competitors");
-		buyerPower = session
+		t.buyerPower = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Buyer_Power");
-		newEntrants = session
+		t.newEntrants = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Threat_of_New_Entrants");
 
 		// game 3 types
-		correctValueChainActivites = session
+		t.correctValueChainActivites = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Value_Chain_Activites");
-		valueChainJustification = session
+		t.valueChainJustification = session
 				.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Activities_Justiciation");
 		// <!-- one.end -->
 	}

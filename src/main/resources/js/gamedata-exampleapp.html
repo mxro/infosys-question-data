@@ -1,3 +1,38 @@
 <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-gamedata-exampleapp -->
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>App</title>
+</head>
+<body>
+
+    <script
+        src="http://appjangle.com/js/v01/appjangle/appjangle.nocache.js"></script>
+
+    <script src="http://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-game-data.value.js"></script>
+
+    <script>
+        window.onNextwebOnedb = function() {
+            // your JS here, use Nextweb.io API!
+            var server= Nextweb.startServer(7661);
+            var session = Nextweb.createSession();
+            var cases = session.seed("local");
+            
+            window.gamedata.writeCaseData(session, , function() {
+            	// called back when default game data is written
+            	console.log("heyo!");
+            	
+            });
+        };
+    </script>
+</body>
+
+</html>
+
+
+
+</html>
+
+
 <!-- one.end -->
