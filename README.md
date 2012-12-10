@@ -18,7 +18,6 @@ There is also a file which lists all data types of relevance (These data types a
 
 [Data Types](https://github.com/mxro/infosys-question-data/blob/master/src/main/resources/common/types.txt): Data types required to define and query questions.
 
-
 ## Data Initialization
 
 The question data defined in above mentioned files can be instantiated within a local database in both Java and JavaScript. The following points to the respective resources for each platform.
