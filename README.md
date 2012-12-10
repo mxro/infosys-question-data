@@ -41,7 +41,8 @@ This class writes the question data for Nike to an arbitrary node. This class is
 [GameData.java](https://github.com/mxro/infosys-question-data/blob/master/src/main/java/com/appjangle/i110/data/GameData.java) 
 and uses the data definition in [case2-nike.txt](https://github.com/mxro/infosys-question-data/blob/master/src/main/resources/common/case2-nike.txt).
 
-[Types.java]
+[Types.java](https://github.com/mxro/infosys-question-data/blob/master/src/main/java/com/appjangle/i110/data/Types.java): 
+This class initializes the data types required to read and write question data.
 
 ### JavaScript
 
