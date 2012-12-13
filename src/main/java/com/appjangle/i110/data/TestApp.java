@@ -2,8 +2,8 @@ package com.appjangle.i110.data;
 
 import com.appjangle.i110.data.game1.LoadStrategicQuandrantQuestion;
 import com.appjangle.i110.data.game1.StrategicQuandrantQuestion;
-import com.appjangle.i110.data.game2.LoadValueChainQuestion;
-import com.appjangle.i110.data.game2.ValueChainQuestion;
+import com.appjangle.i110.data.game3.LoadValueChainQuestion;
+import com.appjangle.i110.data.game3.ValueChainQuestion;
 
 import io.nextweb.Node;
 import io.nextweb.Session;

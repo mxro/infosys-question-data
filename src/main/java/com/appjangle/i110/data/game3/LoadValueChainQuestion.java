@@ -1,4 +1,4 @@
-package com.appjangle.i110.data.game2;
+package com.appjangle.i110.data.game3;
 
 import io.nextweb.Link;
 import io.nextweb.Node;
