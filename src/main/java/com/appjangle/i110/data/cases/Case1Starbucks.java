@@ -69,7 +69,7 @@ c.append("procurement,makeProjectOrService,technologyDevelopment",
 
 c.append(
         "Procurement: Starbucks needs to get the best quality, certified fairtrade coffee beans.\n"
-                + "Make the product or service: Starbucks� strategy involves quality, and pleasing people � this is achieved through providing the best possible cup of coffee\n"
+                + "Make the product or service: Starbucks' strategy involves quality, and pleasing people - this is achieved through providing the best possible cup of coffee\n"
                 + "Research and Development: In order to differentiate their product, and compete with rivals,  Starbucks must continually produce new offerings. ",
         "./valueChainJustification").append(t.valueChainJustification);
 // <!-- one.end -->
