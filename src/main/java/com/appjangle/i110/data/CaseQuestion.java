@@ -1,4 +1,4 @@
-package com.appjangle.i110.data.game1;
+package com.appjangle.i110.data;
 
 public interface CaseQuestion {
 

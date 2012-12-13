@@ -1,4 +1,6 @@
-package com.appjangle.i110.data.game1;
+package com.appjangle.i110.data.game2;
+
+import com.appjangle.i110.data.CaseQuestion;
 
 public interface ValueChainQuestion extends CaseQuestion{
 
