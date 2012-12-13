@@ -4,15 +4,9 @@ package com.appjangle.i110.data.game1;
  * This interface wraps the data of a strategy quadrant questions.
  *
  */
-public interface StrategicQuandrantQuestion {
+public interface StrategicQuandrantQuestion extends CaseQuestion {
 
-	public String getBrandName();
-
-	public String getBrandImageLink();
-
-	public String getBrandVideoLink();
 	
-	public String getBrandVision();
 	
 	public String getCorrectStrategy();
 	
