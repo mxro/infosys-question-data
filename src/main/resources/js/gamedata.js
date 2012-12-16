@@ -138,6 +138,24 @@ c.append(
 			                + "Make the product or service: Nike has to ensure that its products are of the highest quality to ensure that it stands up to the image that it portrays in its marketing strategy.\n"
 			                + "Research and Development: In order to differentiate their product, and compete with rivals, Nike must continually produce new offerings. ",
 			        "./valueChainJustification").append(t.valueChainJustification);
+			
+			// Game 4, Business Process
+
+			c.append("Manifacturing Process").append(t.processName);
+			c.append(
+			        "The Manufacturing Process is important for Nike as they must ensure that their products are constantly of the highest standard available. This process therefore concerns the direct manufacturing of the product, but also the quality testing that needs to be done in order to ensure its products are of the highest quality.")
+			        .append(t.importantProcess);
+			c.append(
+			        "Receive Manufacturing Request:Collate Raw Materials:Make Product")
+			        .append(t.processSteps);
+
+			// Game 5, Systems and Org Units
+			c.append(
+			        "Inventory Management System:Product Specification System:Product Specification System")
+			        .append(t.systems);
+			c.append("Factory Clerk:Factory Labourer:Factory Labourer").append(
+			        t.orgUnits);
+			
 			// <!-- one.end -->
 	};
 	
@@ -183,6 +201,15 @@ t.correctValueChainActivites = session
         .node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Value_Chain_Activites");
 t.valueChainJustification = session
         .node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Activities_Justiciation");
+
+//game 4 types
+t.processName = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Business_Process_Question/Process_Name");
+t.importantProcess = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Business_Process_Question/Important_Process");
+t.processSteps = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Business_Process_Question/Steps");
+
+// game 5 types
+t.systems = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Systems_Question/Systems");
+t.orgUnits = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Systems_Question/Organizational_Units");
 // <!-- one.end -->
 		return t;
 	};
