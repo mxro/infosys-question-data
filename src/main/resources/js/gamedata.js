@@ -71,6 +71,25 @@ c.append(
                 + "Make the product or service: Starbucks� strategy involves quality, and pleasing people � this is achieved through providing the best possible cup of coffee\n"
                 + "Research and Development: In order to differentiate their product, and compete with rivals,  Starbucks must continually produce new offerings. ",
         "./valueChainJustification").append(t.valueChainJustification);
+
+//Game 4, Business Process
+
+
+c.append("Raw materials sourcing process.:").append(t.processName);
+c.append(
+		"The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee groud.")
+		.append(t.importantProcess);
+c.append(
+		"Obtain quotes from suppliers:Compare quotes:Select best supplier")
+		.append(t.processSteps);
+
+// Game 5, Systems and Org Units
+c.append(
+		"SCM:Accounting System:Accounting DSS System")
+		.append(t.systems);
+c.append("Manufacturing:Accounting:Manufacturing management").append(
+		t.orgUnits);
+
 // <!-- one.end -->
 	};
 	
@@ -93,11 +112,11 @@ c.append(
 			        t.correctStrategy);
 
 			c.append(
-			        "Broad market � Nike appeals to a wide range of diverse consumers at all ends of the spectrum.",
+			        "Broad market - Nike appeals to a wide range of diverse consumers at all ends of the spectrum.",
 			        "./competitveScope").append(t.competitiveScope);
 
 			c.append(
-			        "High cost � Nike sells high quality products and therefore can sell at inflated prices. It also attempts to use its brand name as a distinctive selling point.",
+			        "High cost - Nike sells high quality products and therefore can sell at inflated prices. It also attempts to use its brand name as a distinctive selling point.",
 			        "./costStrategy").append(t.costStrategy);
 
 			// Game 2, Porter's five forces

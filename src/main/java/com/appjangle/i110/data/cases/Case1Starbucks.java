@@ -73,6 +73,24 @@ c.append(
                 + "Research and Development: In order to differentiate their product, and compete with rivals,  Starbucks must continually produce new offerings. ",
         "./valueChainJustification").append(t.valueChainJustification);
 
+//Game 4, Business Process
+
+
+c.append("Raw materials sourcing process.:").append(t.processName);
+c.append(
+		"The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee groud.")
+		.append(t.importantProcess);
+c.append(
+		"Obtain quotes from suppliers:Compare quotes:Select best supplier")
+		.append(t.processSteps);
+
+//Game 5, Systems and Org Units
+c.append(
+		"SCM:Accounting System:Accounting DSS System")
+		.append(t.systems);
+c.append("Manufacturing:Accounting:Manufacturing management").append(
+		t.orgUnits);
+
 // <!-- one.end -->
 	}
 
