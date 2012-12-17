@@ -77,19 +77,19 @@ public class Case2Nike {
 
 		// Game 4, Business Process
 
-		c.append("Manifacturing Process").append(t.processName);
+		c.append("Manufacturing Process").append(t.processName);
 		c.append(
 				"The Manufacturing Process is important for Nike as they must ensure that their products are constantly of the highest standard available. This process therefore concerns the direct manufacturing of the product, but also the quality testing that needs to be done in order to ensure its products are of the highest quality.")
 				.append(t.importantProcess);
 		c.append(
-				"Receive Manufacturing Request:Collate Raw Materials:Make Product")
+				"Receive Manufacturing Request:Make Product:Test for Quality")
 				.append(t.processSteps);
 
 		// Game 5, Systems and Org Units
 		c.append(
-				"Inventory Management System:Product Specification System:Product Specification System")
+				"Inventory Management System:Product Specification System:Quality Control System")
 				.append(t.systems);
-		c.append("Factory Clerk:Factory Labourer:Factory Labourer").append(
+		c.append("Factory Clerk:Factory Labourer:Supervisor").append(
 				t.orgUnits);
 
 		// <!-- one.end -->
