@@ -69,7 +69,7 @@ c.append(
 //Game 4, Business Process
 
 
-c.append("Raw materials sourcing process.:").append(t.processName);
+c.append("Raw materials sourcing process").append(t.processName);
 c.append(
         "The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee groud.")
         .append(t.importantProcess);

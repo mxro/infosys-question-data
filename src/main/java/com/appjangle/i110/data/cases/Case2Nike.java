@@ -7,8 +7,7 @@ import com.appjangle.i110.data.Types;
 public class Case2Nike {
 
 	public static void defineCase2Nike(Types t, Query c) {
-		// <!-- one.download
-		// https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
 		// Common case data
 		c.append("Nike", "./brandName").append(t.brandName);
 		c.append("http://vince08.edublogs.org/files/2008/11/logonike.gif",

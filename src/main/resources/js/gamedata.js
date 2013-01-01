@@ -15,7 +15,7 @@ c.append(
 c.append("http://www.youtube.com/watch?v=JagNph-q9LU&feature=relmfu",
         "./brandVideo").append(t.brandVideo);
 c.append(
-        "To inspire and nurture the human spirit one person, one cup and one neighborhood at a time.",
+        "To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.",
         "./brandVision").append(t.vision);
 c.append("Cafe industry", "./industry").append(t.industry);
 
@@ -31,6 +31,7 @@ c.append(
 c.append(
         "Starbucks has a focus on high quality and customer service, indicative of a high cost strategy.",
         "./costStrategy").append(t.costStrategy);
+  
 
 // Game 2, Porter's five forces
 
@@ -40,7 +41,7 @@ c.append("high:low:high:high:high", "./industryStructure").append(
         t.correctIndustryStructure);
 
 c.append(
-        "A substitute to the caf� industry is to prepare food and drink at home, or purchase from a supermarket.",
+        "A substitute to the cafe industry is to prepare food and drink at home, or purchase from a supermarket.",
         "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 
 c.append(
@@ -71,25 +72,26 @@ c.append(
                 + "Make the product or service: Starbucks� strategy involves quality, and pleasing people � this is achieved through providing the best possible cup of coffee\n"
                 + "Research and Development: In order to differentiate their product, and compete with rivals,  Starbucks must continually produce new offerings. ",
         "./valueChainJustification").append(t.valueChainJustification);
-
+        
+        
 //Game 4, Business Process
 
 
-c.append("Raw materials sourcing process.:").append(t.processName);
+c.append("Raw materials sourcing process").append(t.processName);
 c.append(
-		"The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee groud.")
-		.append(t.importantProcess);
+        "The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee groud.")
+        .append(t.importantProcess);
 c.append(
-		"Obtain quotes from suppliers:Compare quotes:Select best supplier")
-		.append(t.processSteps);
+        "Obtain quotes from suppliers:Compare quotes:Select best supplier")
+        .append(t.processSteps);
 
 // Game 5, Systems and Org Units
 c.append(
-		"SCM:Accounting System:Accounting DSS System")
-		.append(t.systems);
+        "SCM:Accounting System:Accounting DSS System")
+        .append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management").append(
-		t.orgUnits);
-
+        t.orgUnits);
+        
 // <!-- one.end -->
 	};
 	
@@ -221,8 +223,8 @@ t.correctValueChainActivites = session
         .node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Value_Chain_Activites");
 t.valueChainJustification = session
         .node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Activities_Justiciation");
-
-//game 4 types
+        
+// game 4 types
 t.processName = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Business_Process_Question/Process_Name");
 t.importantProcess = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Business_Process_Question/Important_Process");
 t.processSteps = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Business_Process_Question/Steps");
