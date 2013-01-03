@@ -32,6 +32,7 @@ c.append(
 c.append(
         "Starbucks has a focus on high quality and customer service, indicative of a high cost strategy.",
         "./costStrategy").append(t.costStrategy);
+  
 
 // Game 2, Porter's five forces
 
@@ -69,28 +70,29 @@ c.append("procurement,makeProjectOrService,technologyDevelopment",
 
 c.append(
         "Procurement: Starbucks needs to get the best quality, certified fairtrade coffee beans.\n"
-                + "Make the product or service: Starbucks' strategy involves quality, and pleasing people - this is achieved through providing the best possible cup of coffee\n"
+                + "Make the product or service: Starbucks� strategy involves quality, and pleasing people � this is achieved through providing the best possible cup of coffee\n"
                 + "Research and Development: In order to differentiate their product, and compete with rivals,  Starbucks must continually produce new offerings. ",
         "./valueChainJustification").append(t.valueChainJustification);
-
+        
+        
 //Game 4, Business Process
 
 
-c.append("Raw materials sourcing process.:").append(t.processName);
+c.append("Raw materials sourcing process").append(t.processName);
 c.append(
-		"The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee groud.")
-		.append(t.importantProcess);
+        "The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee groud.")
+        .append(t.importantProcess);
 c.append(
-		"Obtain quotes from suppliers:Compare quotes:Select best supplier")
-		.append(t.processSteps);
+        "Obtain quotes from suppliers:Compare quotes:Select best supplier")
+        .append(t.processSteps);
 
-//Game 5, Systems and Org Units
+// Game 5, Systems and Org Units
 c.append(
-		"SCM:Accounting System:Accounting DSS System")
-		.append(t.systems);
+        "SCM:Accounting System:Accounting DSS System")
+        .append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management").append(
-		t.orgUnits);
-
+        t.orgUnits);
+        
 // <!-- one.end -->
 	}
 
