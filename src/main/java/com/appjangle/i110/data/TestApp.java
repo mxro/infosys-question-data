@@ -29,6 +29,7 @@ public class TestApp {
 				StrategicQuandrantQuestion case1game1 = LoadStrategicQuandrantQuestion
 						.getQuestionFromNode(session, session.node(cases.uri() + "/c1"));
 		
+			
 		System.out.println("Brand name: " + case1game1.getBrandName());
 		System.out.println("Brand image: " + case1game1.getBrandImageLink());
 		System.out.println("Brand vision: " + case1game1.getBrandVision());
