@@ -99,88 +99,88 @@ c.append("Manufacturing:Accounting:Manufacturing management").append(
 	
 	priv.defineCase2Nike = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
-			// Common case data
-			c.append("Nike", "./brandName").append(t.brandName);
-			c.append("http://vince08.edublogs.org/files/2008/11/logonike.gif",
-			        "./brandImage").append(t.brandImage);
-			c.append("http://www.youtube.com/watch?v=45mMioJ5szc",
-			        "./brandVideo").append(t.brandVideo);
-			c.append(
-			        "To bring inspiration and innovation to every athlete in the world.",
-			        "./brandVision").append(t.vision);
-			c.append("Sporting Apparel Footwear and Accessories", "./industry").append(t.industry);
+// Common case data
+c.append("Nike", "./brandName").append(t.brandName);
+c.append("http://vince08.edublogs.org/files/2008/11/logonike.gif",
+        "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=45mMioJ5szc",
+        "./brandVideo").append(t.brandVideo);
+c.append(
+        "To bring inspiration and innovation to every athlete in the world.",
+        "./brandVision").append(t.vision);
+c.append("Sporting Apparel Footwear and Accessories", "./industry").append(t.industry);
 
-			// Game 1, Strategy
+// Game 1, Strategy
 
-			c.append("differentiation", "./correctStrategy").append(
-			        t.correctStrategy);
+c.append("differentiation", "./correctStrategy").append(
+        t.correctStrategy);
 
-			c.append(
-			        "Broad market - Nike appeals to a wide range of diverse consumers at all ends of the spectrum.",
-			        "./competitveScope").append(t.competitiveScope);
+c.append(
+        "Broad market: Nike appeals to a wide range of diverse consumers at all ends of the spectrum.",
+        "./competitveScope").append(t.competitiveScope);
 
-			c.append(
-			        "High cost - Nike sells high quality products and therefore can sell at inflated prices. It also attempts to use its brand name as a distinctive selling point.",
-			        "./costStrategy").append(t.costStrategy);
+c.append(
+        "High cost: Nike sells high quality products and therefore can sell at inflated prices. It also attempts to use its brand name as a distinctive selling point.",
+        
+        "./costStrategy").append(t.costStrategy);
 
-			// Game 2, Porter's five forces
+// Game 2, Porter's five forces
 
-			// see
-			// http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Industry_Structure
-			c.append("low:low:high:high:high", "./industryStructure").append(
-			        t.correctIndustryStructure);
+// see
+// http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Industry_Structure
+c.append("low:low:high:high:high", "./industryStructure").append(
+        t.correctIndustryStructure);
 
-			c.append(
-			        "In this day and age where nearly everyone who engages in physical activity �must have� appropriate gear, there is no adequate substitute for sporting apparel footwear.",
-			        "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append(
+        "In this day and age where nearly everyone who engages in physical activity �must have� appropriate gear, there is no adequate substitute for sporting apparel footwear.",
+        "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 
-			c.append(
-			        "Most of the raw materials used in this industry are not difficult to procure, and are widely available.",
-			        "./supplierPower").append(t.supplierPower);
+c.append(
+        "Most of the raw materials used in this industry are not difficult to procure, and are widely available.",
+        "./supplierPower").append(t.supplierPower);
 
-			c.append(
-			        "There is a lot of competition between the already established companies as they have to distinguish between very similar products. Brand loyalty is very high and so competitors struggle to gain market share.",
-			        "./rivarly").append(t.rivarly);
+c.append(
+        "There is a lot of competition between the already established companies as they have to distinguish between very similar products. Brand loyalty is very high and so competitors struggle to gain market share.",
+        "./rivarly").append(t.rivarly);
 
-			c.append(
-			        "In this day and age there are many players in the industry that make what are traditionally similar products. However the players in the industry seek to reduce this by product innovation.",
-			        "./buyerPower").append(t.buyerPower);
+c.append(
+        "In this day and age there are many players in the industry that make what are traditionally similar products. However the players in the industry seek to reduce this by product innovation.",
+        "./buyerPower").append(t.buyerPower);
 
-			c.append(
-			        "The technology behind the apparel can be easily manufactured. However, the existing brand loyalty shown by customers will make it extremely hard for any new entrant to gain traction once in the market place.",
-			        "./newEntrants").append(t.newEntrants);
+c.append(
+        "The technology behind the apparel can be easily manufactured. However, the existing brand loyalty shown by customers will make it extremely hard for any new entrant to gain traction once in the market place.",
+        "./newEntrants").append(t.newEntrants);
 
-			// Game 3, Value chain
+// Game 3, Value chain
 
-			// see http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Value_Chain_Activites
-			c.append("marketing,makeProjectOrService,technologyDevelopment",
-			        "./valueChainActivites").append(t.correctValueChainActivites);
+// see http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8/n/Types/Value_Chain_Activites
+c.append("marketing,makeProjectOrService,technologyDevelopment",
+        "./valueChainActivites").append(t.correctValueChainActivites);
 
-			c.append(
-			        "Market and Sell the Product or Service: As shown in the video above, Nike relies on its marketing to enhance its famous brand image (which is its highest selling point). Nike focuses on the importance of self-belief and true effort in order to be the best, and attempts to show how their products can take you there.\n"
-			                + "Make the product or service: Nike has to ensure that its products are of the highest quality to ensure that it stands up to the image that it portrays in its marketing strategy.\n"
-			                + "Research and Development: In order to differentiate their product, and compete with rivals, Nike must continually produce new offerings. ",
-			        "./valueChainJustification").append(t.valueChainJustification);
-			
-			// Game 4, Business Process
+c.append(
+        "Market and Sell the Product or Service: As shown in the video above, Nike relies on its marketing to enhance its famous brand image (which is its highest selling point). Nike focuses on the importance of self-belief and true effort in order to be the best, and attempts to show how their products can take you there.\n"
+                + "Make the product or service: Nike has to ensure that its products are of the highest quality to ensure that it stands up to the image that it portrays in its marketing strategy.\n"
+                + "Research and Development: In order to differentiate their product, and compete with rivals, Nike must continually produce new offerings. ",
+        "./valueChainJustification").append(t.valueChainJustification);
+        
+// Game 4, Business Process
 
 
-			c.append("Manufacturing Process").append(t.processName);
-			c.append(
-					"The Manufacturing Process is important for Nike as they must ensure that their products are constantly of the highest standard available. This process therefore concerns the direct manufacturing of the product, but also the quality testing that needs to be done in order to ensure its products are of the highest quality.")
-					.append(t.importantProcess);
-			c.append(
-					"Receive Manufacturing Request:Make Product:Test for Quality")
-					.append(t.processSteps);
+c.append("Manufacturing Process").append(t.processName);
+c.append(
+        "The Manufacturing Process is important for Nike as they must ensure that their products are constantly of the highest standard available. This process therefore concerns the direct manufacturing of the product, but also the quality testing that needs to be done in order to ensure its products are of the highest quality.")
+        .append(t.importantProcess);
+c.append(
+        "Receive Manufacturing Request:Make Product:Test for Quality")
+        .append(t.processSteps);
 
-			// Game 5, Systems and Org Units
-			c.append(
-					"Inventory Management System:Product Specification System:Quality Control System")
-					.append(t.systems);
-			c.append("Factory Clerk:Factory Labourer:Supervisor").append(
-					t.orgUnits);
-			
-			// <!-- one.end -->
+// Game 5, Systems and Org Units
+c.append(
+        "Inventory Management System:Product Specification System:Quality Control System")
+        .append(t.systems);
+c.append("Factory Clerk:Factory Labourer:Supervisor").append(
+        t.orgUnits);
+// <!-- one.end -->
 	};
 
 	
@@ -225,104 +225,113 @@ c.append("Accounting:Accounting:Sales", "./orgUnits").append(t.orgUnits);
 	priv.defineCase4AucklandZoo =  function(t, c) { 
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo -->
 
-			c.append("Auckland Zoo", "./brandName").append(t.brandName);
-			c.append("A future where people value wildlife, and species are safe from extinction.", "./vision").append(t.vision);
-			c.append("http://www.isitemedia.co.nz/user_files/Sponsorship/zoologo.jpg", "./brandImage").append(t.brandImage);
-			c.append("http://www.youtube.com/watch?v=pVstbADVT_U ", "./brandVideo").append(t.brandVideo);
-			c.append("The Zoo Industry", "./industry").append(t.industry);
+c.append("Auckland Zoo", "./brandName").append(t.brandName);
+c.append("A future where people value wildlife, and species are safe from extinction.", "./vision").append(t.vision);
+c.append("http://www.isitemedia.co.nz/user_files/Sponsorship/zoologo.jpg", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=pVstbADVT_U", "./brandVideo").append(t.brandVideo);
+c.append("The Zoo Industry", "./industry").append(t.industry);
 
-			c.append("Differentiation", "./correctStrategy").append(t.correctStrategy);
-			c.append("Broad Market: The Zoo targets all customers in the industry, by having a borad range of animals on exhibition, and offering events such as Zoo music and hire for Corporate Functions.", "./competitiveScope").append(t.competitiveScope);
-			c.append("High Cost: As a non-profit organisation, Auckland Zoo depends on donations as well as income from visitors in order to cover costs. The strategy is differentiation, as the Zoo attempts to provide a unique point of difference to donors as well as visitors, from other organisations within their industry", "./costStrategy").append(t.costStrategy);
+c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad Market: The Zoo targets all customers in the industry, by having a borad range of animals on exhibition, and offering events such as Zoo music and hire for Corporate Functions.", "./competitiveScope").append(t.competitiveScope);
+c.append("High Cost: As a non-profit organisation, Auckland Zoo depends on donations as well as income from visitors in order to cover costs. The strategy is differentiation, as the Zoo attempts to provide a unique point of difference to donors as well as visitors, from other organisations within their industry", "./costStrategy").append(t.costStrategy);
 
-			c.append("high:high:low:low:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-			c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-			c.append("High", "./supplierPower").append(t.supplierPower);
-			c.append("Low", "./rivarly").append(t.rivarly);
-			c.append("Low", "./buyerPower").append(t.buyerPower);
-			c.append("Low", "./newEntrants").append(t.newEntrants);
+c.append("high:high:low:low:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("High", "./supplierPower").append(t.supplierPower);
+c.append("Low", "./rivarly").append(t.rivarly);
+c.append("Low", "./buyerPower").append(t.buyerPower);
+c.append("Low", "./newEntrants").append(t.newEntrants);
 
-			c.append("infrastructure,deliverTheService,serviceAfterTheSale", "./correctValueChainActivites").append(t.correctValueChainActivites);
-			c.append("Infrastructure: The zoo covers a wide land area, and houses many different creatures. The physical buildings and land give value by adding to the experience for the visitor � to see wildlife in what is close to their natural habitat, while feeling safe and secure. Deliver the service: Visitors attend the zoo to experience the animals in their natural habitat. Value is added when they are able to see them interaction (rather than sleeping or hiding), and hear from the keepers. Service after the Sale: The value for the zoo is in a return visit for the customer. Programs such as Friends of the Zoo and Adopt-an-animal help to ensure there is an engagement and repeat visit from their customers.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("infrastructure,deliverTheService,serviceAfterTheSale", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Infrastructure: The zoo covers a wide land area, and houses many different creatures. The physical buildings and land give value by adding to the experience for the visitor � to see wildlife in what is close to their natural habitat, while feeling safe and secure.\n"+
+"Deliver the service: Visitors attend the zoo to experience the animals in their natural habitat. Value is added when they are able to see them interaction (rather than sleeping or hiding), and hear from the keepers.\n"+
+"Service after the Sale: The value for the zoo is in a return visit for the customer. Programs such as Friends of the Zoo and Adopt-an-animal help to ensure there is an engagement and repeat visit from their customers.",
+ "./valueChainJustification").append(t.valueChainJustification);
 
-			c.append("Facility Maintenance Process", "./processName").append(t.processName);
-			c.append("All facilities and exhibits are regularly maintained so as to remain safe and tidy for both visitors and animals. This process involves regular scheduling and recording of maintenance work, and includes a method of notifying teams when maintenance is due to occur, or needs performing. Value is added as the zoo maintains a clean, tidy and safe appeal.", "./importantProcess").append(t.importantProcess);
-			c.append("Notify scheduled maintenance:Order maintenance materials:Record maintenance performed", "./processSteps").append(t.processSteps);
+c.append("Facility Maintenance Process", "./processName").append(t.processName);
+c.append("All facilities and exhibits are regularly maintained so as to remain safe and tidy for both visitors and animals. This process involves regular scheduling and recording of maintenance work, and includes a method of notifying teams when maintenance is due to occur, or needs performing. Value is added as the zoo maintains a clean, tidy and safe appeal.", "./importantProcess").append(t.importantProcess);
+c.append("Notify scheduled maintenance:Order maintenance materials:Record maintenance performed", "./processSteps").append(t.processSteps);
 
-			c.append("ERP System:Inventory Management System:ERP System", "./systems").append(t.systems);
-			c.append("Maintenance:Maintenance, Accounting, Warehouse:Maintenance", "./orgUnits").append(t.orgUnits);
+c.append("ERP System:Inventory Management System:ERP System", "./systems").append(t.systems);
+c.append("Maintenance:Maintenance, Accounting, Warehouse:Maintenance", "./orgUnits").append(t.orgUnits);
 
 
-			// <!-- one.end -->
+// <!-- one.end -->
 		
 	};
 	
 	priv.defineCase5Countdown = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case5-countdown -->
 
-			c.append("Countdown", "./brandName").append(t.brandName);
-			c.append("Shop Smarter. ", "./vision").append(t.vision);
-			c.append("http://www.nzsca.org.nz/upload/content/CD_MS_H_Pos_cmyk%20web.jpg", "./brandImage").append(t.brandImage);
-			c.append("http://www.youtube.com/watch?v=aSuaTaefvpg ", "./brandVideo").append(t.brandVideo);
-			c.append("Supermarket Industry", "./industry").append(t.industry);
+c.append("Countdown", "./brandName").append(t.brandName);
+c.append("Shop Smarter. ", "./vision").append(t.vision);
+c.append("http://www.nzsca.org.nz/upload/content/CD_MS_H_Pos_cmyk%20web.jpg", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=aSuaTaefvpg", "./brandVideo").append(t.brandVideo);
+c.append("Supermarket Industry", "./industry").append(t.industry);
 
-			c.append("Cost Leadership", "./correctStrategy").append(t.correctStrategy);
-			c.append("Broad market: Countdown targets all customers in the industry through the use of their advertising such as weekend windbacks (customers looking for bargains), Masterchef cooking demos (adventurous foodies), and the Colemans (the everyday New Zealand family)", "./competitiveScope").append(t.competitiveScope);
-			c.append("Low cost: As a large, multi-stored supermarket, Countdown uses its significant buying-power to offer customers the best price for their food.", "./costStrategy").append(t.costStrategy);
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad market: Countdown targets all customers in the industry through the use of their advertising such as weekend windbacks (customers looking for bargains), Masterchef cooking demos (adventurous foodies), and the Colemans (the everyday New Zealand family)", "./competitiveScope").append(t.competitiveScope);
+c.append("Low cost: As a large, multi-stored supermarket, Countdown uses its significant buying-power to offer customers the best price for their food.", "./costStrategy").append(t.costStrategy);
 
-			c.append("low:low:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-			c.append("Low", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-			c.append("Low", "./supplierPower").append(t.supplierPower);
-			c.append("High", "./rivarly").append(t.rivarly);
-			c.append("High", "./buyerPower").append(t.buyerPower);
-			c.append("Low", "./newEntrants").append(t.newEntrants);
+c.append("low:low:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("Low", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Low", "./supplierPower").append(t.supplierPower);
+c.append("High", "./rivarly").append(t.rivarly);
+c.append("High", "./buyerPower").append(t.buyerPower);
+c.append("Low", "./newEntrants").append(t.newEntrants);
 
-			c.append("procurement,infrastructure,marketAndSell", "./correctValueChainActivites").append(t.correctValueChainActivites);
-			c.append("Procurement: As competition is based on price and margins are narrow, it is essential that a supermarket can source and negotiate the best merchandise and ideal quanitity, at the best price. Infrastructure: Supermarkets provide convenience to consumers, and a good facility and location adds value. Market and sell: Supermarkets spend considerable amounts on print and television advertising in order to attract customers based on their specials.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("procurement,infrastructure,marketAndSell", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Procurement: As competition is based on price and margins are narrow, it is essential that a supermarket can source and negotiate the best merchandise and ideal quantity, at the best price.\n"
++"Infrastructure: Supermarkets provide convenience to consumers, and a good facility and location adds value.\n"+
+"Market and sell: Supermarkets spend considerable amounts on print and television advertising in order to attract customers based on their specials.", 
+"./valueChainJustification").append(t.valueChainJustification);
 
-			c.append("Inventory Order Process", "./processName").append(t.processName);
-			c.append("This process adds value for Countdown as it is imperative they are never out of stock of items. Inventory must be ordered at an appropriate time so as to not have too much in stock and it go off, and to have enough to meet the customers needs.", "./importantProcess").append(t.importantProcess);
-			c.append("Notify inventory is below re-order level:Place inventory order:Record arrival of inventory", "./processSteps").append(t.processSteps);
+c.append("Inventory Order Process", "./processName").append(t.processName);
+c.append("This process adds value for Countdown as it is imperative they are never out of stock of items. Inventory must be ordered at an appropriate time so as to not have too much in stock and it go off, and to have enough to meet the customers needs.", "./importantProcess").append(t.importantProcess);
+c.append("Notify inventory is below re-order level:Place inventory order:Record arrival of inventory", "./processSteps").append(t.processSteps);
 
-			c.append("Inventory Management System:SCM:Inventory Management System", "./systems").append(t.systems);
-			c.append("Purchasing:Purchasing:Warehouse/Inbound Logistics/Inwards Goods", "./orgUnits").append(t.orgUnits);
+c.append("Inventory Management System:SCM:Inventory Management System", "./systems").append(t.systems);
+c.append("Purchasing:Purchasing:Warehouse/Inbound Logistics/Inwards Goods", "./orgUnits").append(t.orgUnits);
 
 
-			// <!-- one.end -->
+// <!-- one.end -->
 	};
 	
 	priv.defineCase6RainbowsEnd = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end -->
 
-			c.append("Rainbows End", "./brandName").append(t.brandName);
-			c.append("New Zealand's premier theme park", "./vision").append(t.vision);
-			c.append("http://rainbowsend.co.nz/template/imgs/rainbows-end-logo.png", "./brandImage").append(t.brandImage);
-			c.append("http://www.youtube.com/watch?v=P3mMPh59ryU ", "./brandVideo").append(t.brandVideo);
-			c.append("Theme Park Industry", "./industry").append(t.industry);
+c.append("Rainbows End", "./brandName").append(t.brandName);
+c.append("New Zealand's premier theme park", "./vision").append(t.vision);
+c.append("http://rainbowsend.co.nz/template/imgs/rainbows-end-logo.png", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=P3mMPh59ryU", "./brandVideo").append(t.brandVideo);
+c.append("Theme Park Industry", "./industry").append(t.industry);
 
-			c.append("Differentiation", "./correctStrategy").append(t.correctStrategy);
-			c.append("Broad Market: Rainbows End appeals to all customers purchasing in the theme park industry.", "./competitiveScope").append(t.competitiveScope);
-			c.append("High cost. As the industry is very small in New Zealand, there is no apparent competition on price and Rainbows End can charge what they like.", "./costStrategy").append(t.costStrategy);
+c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad Market: Rainbows End appeals to all customers purchasing in the theme park industry.", "./competitiveScope").append(t.competitiveScope);
+c.append("High cost. As the industry is very small in New Zealand, there is no apparent competition on price and Rainbows End can charge what they like.", "./costStrategy").append(t.costStrategy);
 
-			c.append("high:high:low:low:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-			c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-			c.append("High", "./supplierPower").append(t.supplierPower);
-			c.append("Low", "./rivarly").append(t.rivarly);
-			c.append("Low", "./buyerPower").append(t.buyerPower);
-			c.append("Low", "./newEntrants").append(t.newEntrants);
+c.append("high:high:low:low:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("High", "./supplierPower").append(t.supplierPower);
+c.append("Low", "./rivarly").append(t.rivarly);
+c.append("Low", "./buyerPower").append(t.buyerPower);
+c.append("Low", "./newEntrants").append(t.newEntrants);
 
-			c.append("infrastructure,deliverTheService,marketAndSellTheService", "./correctValueChainActivites").append(t.correctValueChainActivites);
-			c.append("Infrastructure: Rides must be well-maintained and meet safety standards. They are the revenue and value-generating component of the business. Deliver the Service: Value is generated for Rainbows End by providing a quality and trustworthy service to the public. Market and Sell the Service: Customers are a vital component of Rainbows End's revenue generation and this activity adds value for Rainbows End as marketing e.g. promoting new rides or activities and selling Rainbows End's services means reaching more customers and therefore generating more revenue.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("infrastructure,deliverTheService,marketAndSellTheService", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Infrastructure: Rides must be well-maintained and meet safety standards. They are the revenue and value-generating component of the business.\n"
++"Deliver the Service: Value is generated for Rainbows End by providing a quality and trustworthy service to the public.\n"
++"Market and Sell the Service: Customers are a vital component of Rainbows End's revenue generation and this activity adds value for Rainbows End as marketing e.g. promoting new rides or activities and selling Rainbows End's services means reaching more customers and therefore generating more revenue.", 
+"./valueChainJustification").append(t.valueChainJustification);
 
-			c.append("Sales Analysis Process", "./processName").append(t.processName);
-			c.append("This process adds value for Rainbows End, as analysis of sales data can show whether they are meeting financial targets, and provide an indication of a need for a new marketing strategy, such as the recent �Night Rides�, to attract more customers.", "./importantProcess").append(t.importantProcess);
-			c.append("Receive daily sales printout:Analyse data against forecasts and trends:Use information for future financial planning", "./processSteps").append(t.processSteps);
+c.append("Sales Analysis Process", "./processName").append(t.processName);
+c.append("This process adds value for Rainbows End, as analysis of sales data can show whether they are meeting financial targets, and provide an indication of a need for a new marketing strategy, such as the recent 'Night Rides', to attract more customers.", "./importantProcess").append(t.importantProcess);
+c.append("Receive daily sales printout:Analyse data against forecasts and trends:Use information for future financial planning", "./processSteps").append(t.processSteps);
 
-			c.append("Accounting System:ERP System:DSS System (ERP)", "./systems").append(t.systems);
-			c.append("Accounting:Accounting:Board of Directors", "./orgUnits").append(t.orgUnits);
+c.append("Accounting System:ERP System:DSS System (ERP)", "./systems").append(t.systems);
+c.append("Accounting:Accounting:Board of Directors", "./orgUnits").append(t.orgUnits);
 
 
-			// <!-- one.end -->
+// <!-- one.end -->
 	};
 	
 	window.gamedata.createTypes = function(session) {
