@@ -17,7 +17,7 @@ c.append("High", "./rivarly").append(t.rivarly);
 c.append("High", "./buyerPower").append(t.buyerPower);
 c.append("Low", "./newEntrants").append(t.newEntrants);
 
-c.append("procurement,infrastructure,marketAndSell", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("procurement,firmInfrastructure,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Procurement: As competition is based on price and margins are narrow, it is essential that a supermarket can source and negotiate the best merchandise and ideal quantity, at the best price.\n"
 +"Infrastructure: Supermarkets provide convenience to consumers, and a good facility and location adds value.\n"+
 "Market and sell: Supermarkets spend considerable amounts on print and television advertising in order to attract customers based on their specials.", 

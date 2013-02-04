@@ -17,7 +17,7 @@ c.append("High", "./rivarly").append(t.rivarly);
 c.append("Low", "./buyerPower").append(t.buyerPower);
 c.append("High", "./newEntrants").append(t.newEntrants);
 
-c.append("procurement,marketAndSell,make", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("procurement,marketing,makeProjectOrService", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Procurement: As the market for precious gems is highly-controlled, MH must use their bulk-buying power to purchase the raw materials needed for jewellery production, at the best price in order to follow their cost leadership strategy.\n"+
  "Market and Sell: As MH wants to be people-focused, they need to deliver this message through their marketing in order to reach their target customer, then offer the people-based service through the sale process.\n"+
  "Make: As the fine jewellery industry has a perception of luxury, MH must create high quality pieces, while still maintaining costs. Customers expect quality that will last in their pieces.", 

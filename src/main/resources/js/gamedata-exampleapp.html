@@ -26,7 +26,9 @@
     	var competitiveScope = caseNode.select(t.competitiveScope);
     	var costStrategy = caseNode.select(t.costStrategy);
     	
-    	session.getAll(brandName, brandImage, correctStrategy, competitiveScope, costStrategy, function() {
+    	var valueChainJust = caseNode.select(t.valueChainJustification);
+    	
+    	session.getAll(brandName, brandImage, correctStrategy, competitiveScope, costStrategy, valueChainJust, function() {
     		$(".output").append("<p><b>Brand Data</b></p>");
     		$(".output").append("<p>Brand: "+brandName.get().value()+"</p>");
     		$(".output").append("<p>Image: <img width='70px' height='auto' src='"+brandImage.get().value()+"'></p>");
@@ -34,6 +36,8 @@
     		$(".output").append("<p>Competitive Scope: "+competitiveScope.get().value()+"</p>");
     		$(".output").append("<p>Cost Strategy: "+costStrategy.get().value()+"</p>");
     		$(".output").append("<p>Hence, the correct strategy is "+correctStrategy.get().value()+".</p>");
+    		
+    		$(".output").append("<p>And, did you know, there is a value chain justification, too: "+valueChainJust.get().value());
     		onSuccess();
     	});
     	

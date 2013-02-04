@@ -17,7 +17,7 @@ c.append("Low", "./rivarly").append(t.rivarly);
 c.append("Low", "./buyerPower").append(t.buyerPower);
 c.append("Low", "./newEntrants").append(t.newEntrants);
 
-c.append("infrastructure,deliverTheService,marketAndSellTheService", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("firmInfrastructure,delivery,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Infrastructure: Rides must be well-maintained and meet safety standards. They are the revenue and value-generating component of the business.\n"
 +"Deliver the Service: Value is generated for Rainbows End by providing a quality and trustworthy service to the public.\n"
 +"Market and Sell the Service: Customers are a vital component of Rainbows End's revenue generation and this activity adds value for Rainbows End as marketing e.g. promoting new rides or activities and selling Rainbows End's services means reaching more customers and therefore generating more revenue.", 
