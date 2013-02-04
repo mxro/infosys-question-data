@@ -181,6 +181,143 @@ c.append("Manufacturing:Accounting:Manufacturing management").append(
 			// <!-- one.end -->
 	};
 	
+	priv.defineCase3MichaelHill  = function(t, c) {
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case3-michael-hill -->
+
+			c.append("Michael Hill", "./brandName").to(t.brandName);
+			c.append("To be the most people focused Jeweller in the world. ", "./vision").to(t.vision);
+			c.append("http://static.ipaustralia.com.au/store3/11/64/1164788.1.high.jpg", "./brandImage").to(t.brandImage);
+			c.append("http://www.youtube.com/watch?v=c3PHwpeslxU ", "./brandVideo").to(t.brandVideo);
+			c.append("Retail Fine Jewellery Industry ", "./industry").to(t.industry);
+
+			c.append("Low Cost: Despite jewellery appearing expensive, in the retail fine jewellery industry Michael Hill is a cheaper brand. Costs are reduced by mass manufacturing in third world countries, rather than individual craftmanship in New Zealand. ", "./correctStrategy").to(t.correctStrategy);
+			c.append("Broad market: Michael Hill aims to make high-end jewellery accessible to every New Zealander, as evidenced by saturation marketing and high-profile stores in suburban malls. ", "./competitiveScope").to(t.competitiveScope);
+			c.append("Low Cost: Despite jewellery appearing expensive, in the retail fine jewellery industry Michael Hill is a cheaper brand. Costs are reduced by mass manufacturing in third world countries, rather than individual craftmanship in New Zealand. ", "./costStrategy").to(t.costStrategy);
+
+			c.append("high:high:high:low:high", "./correctIndustryStructure").to(t.correctIndustryStructure);
+			c.append("High", "./threatOfSubsitutes").to(t.threatOfSubsitutes);
+			c.append("High", "./supplierPower").to(t.supplierPower);
+			c.append("High", "./rivarly").to(t.rivarly);
+			c.append("Low", "./buyerPower").to(t.buyerPower);
+			c.append("High", "./newEntrants").to(t.newEntrants);
+
+			c.append("procurement,marketAndSell,make", "./correctValueChainActivites").to(t.correctValueChainActivites);
+			c.append("Procurement: As the market for precious gems is highly-controlled, MH must use their bulk-buying power to purchase the raw materials needed for jewellery production, at the best price in order to follow their cost leadership strategy. Market and Sell: As MH wants to be people-focused, they need to deliver this message through their marketing in order to reach their target customer, then offer the people-based service through the sale process. Make: As the fine jewellery industry has a perception of luxury, MH must create high quality pieces, while still maintaining costs. Customers expect quality that will last in their pieces.", "./valueChainJustification").to(t.valueChainJustification);
+
+			c.append("Pricing Process", "./processName").to(t.processName);
+			c.append("This process adds value for Michael Hill as the markup on items determines the profit margin the business will make.  There is a fine line between to little and too much, as Michael Hill needs to offer the bet prices, while still making a profit.", "./importantProcess").to(t.importantProcess);
+			c.append("Cost the Item:Add markup System:Record sales price of inventory", "./processSteps").to(t.processSteps);
+
+			c.append("Accounting System:Accounting System:Inventory management system", "./systems").to(t.systems);
+			c.append("Accounting:Accounting:Sales", "./orgUnits").to(t.orgUnits);
+
+
+			// <!-- one.end -->
+	};
+	
+	priv.defineCase4AucklandZoo =  function(t, c) { 
+		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo -->
+
+			c.append("Auckland Zoo", "./brandName").to(t.brandName);
+			c.append("A future where people value wildlife, and species are safe from extinction.", "./vision").to(t.vision);
+			c.append("http://www.isitemedia.co.nz/user_files/Sponsorship/zoologo.jpg", "./brandImage").to(t.brandImage);
+			c.append("http://www.youtube.com/watch?v=pVstbADVT_U ", "./brandVideo").to(t.brandVideo);
+			c.append("The Zoo Industry", "./industry").to(t.industry);
+
+			c.append("Differentiation", "./correctStrategy").to(t.correctStrategy);
+			c.append("Broad Market: The Zoo targets all customers in the industry, by having a borad range of animals on exhibition, and offering events such as Zoo music and hire for Corporate Functions.", "./competitiveScope").to(t.competitiveScope);
+			c.append("High Cost: As a non-profit organisation, Auckland Zoo depends on donations as well as income from visitors in order to cover costs. The strategy is differentiation, as the Zoo attempts to provide a unique point of difference to donors as well as visitors, from other organisations within their industry", "./costStrategy").to(t.costStrategy);
+
+			c.append("high:high:low:low:low", "./correctIndustryStructure").to(t.correctIndustryStructure);
+			c.append("High", "./threatOfSubsitutes").to(t.threatOfSubsitutes);
+			c.append("High", "./supplierPower").to(t.supplierPower);
+			c.append("Low", "./rivarly").to(t.rivarly);
+			c.append("Low", "./buyerPower").to(t.buyerPower);
+			c.append("Low", "./newEntrants").to(t.newEntrants);
+
+			c.append("infrastructure,deliverTheService,serviceAfterTheSale", "./correctValueChainActivites").to(t.correctValueChainActivites);
+			c.append("Infrastructure: The zoo covers a wide land area, and houses many different creatures. The physical buildings and land give value by adding to the experience for the visitor � to see wildlife in what is close to their natural habitat, while feeling safe and secure. Deliver the service: Visitors attend the zoo to experience the animals in their natural habitat. Value is added when they are able to see them interaction (rather than sleeping or hiding), and hear from the keepers. Service after the Sale: The value for the zoo is in a return visit for the customer. Programs such as Friends of the Zoo and Adopt-an-animal help to ensure there is an engagement and repeat visit from their customers.", "./valueChainJustification").to(t.valueChainJustification);
+
+			c.append("Facility Maintenance Process", "./processName").to(t.processName);
+			c.append("All facilities and exhibits are regularly maintained so as to remain safe and tidy for both visitors and animals. This process involves regular scheduling and recording of maintenance work, and includes a method of notifying teams when maintenance is due to occur, or needs performing. Value is added as the zoo maintains a clean, tidy and safe appeal.", "./importantProcess").to(t.importantProcess);
+			c.append("Notify scheduled maintenance:Order maintenance materials:Record maintenance performed", "./processSteps").to(t.processSteps);
+
+			c.append("ERP System:Inventory Management System:ERP System", "./systems").to(t.systems);
+			c.append("Maintenance:Maintenance, Accounting, Warehouse:Maintenance", "./orgUnits").to(t.orgUnits);
+
+
+			// <!-- one.end -->
+		
+	};
+	
+	priv.defineCase5Countdown = function(t, c) {
+		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case5-countdown -->
+
+			c.append("Countdown", "./brandName").to(t.brandName);
+			c.append("Shop Smarter. ", "./vision").to(t.vision);
+			c.append("http://www.nzsca.org.nz/upload/content/CD_MS_H_Pos_cmyk%20web.jpg", "./brandImage").to(t.brandImage);
+			c.append("http://www.youtube.com/watch?v=aSuaTaefvpg ", "./brandVideo").to(t.brandVideo);
+			c.append("Supermarket Industry", "./industry").to(t.industry);
+
+			c.append("Cost Leadership", "./correctStrategy").to(t.correctStrategy);
+			c.append("Broad market: Countdown targets all customers in the industry through the use of their advertising such as weekend windbacks (customers looking for bargains), Masterchef cooking demos (adventurous foodies), and the Colemans (the everyday New Zealand family)", "./competitiveScope").to(t.competitiveScope);
+			c.append("Low cost: As a large, multi-stored supermarket, Countdown uses its significant buying-power to offer customers the best price for their food.", "./costStrategy").to(t.costStrategy);
+
+			c.append("low:low:high:high:low", "./correctIndustryStructure").to(t.correctIndustryStructure);
+			c.append("Low", "./threatOfSubsitutes").to(t.threatOfSubsitutes);
+			c.append("Low", "./supplierPower").to(t.supplierPower);
+			c.append("High", "./rivarly").to(t.rivarly);
+			c.append("High", "./buyerPower").to(t.buyerPower);
+			c.append("Low", "./newEntrants").to(t.newEntrants);
+
+			c.append("procurement,infrastructure,marketAndSell", "./correctValueChainActivites").to(t.correctValueChainActivites);
+			c.append("Procurement: As competition is based on price and margins are narrow, it is essential that a supermarket can source and negotiate the best merchandise and ideal quanitity, at the best price. Infrastructure: Supermarkets provide convenience to consumers, and a good facility and location adds value. Market and sell: Supermarkets spend considerable amounts on print and television advertising in order to attract customers based on their specials.", "./valueChainJustification").to(t.valueChainJustification);
+
+			c.append("Inventory Order Process", "./processName").to(t.processName);
+			c.append("This process adds value for Countdown as it is imperative they are never out of stock of items. Inventory must be ordered at an appropriate time so as to not have too much in stock and it go off, and to have enough to meet the customers needs.", "./importantProcess").to(t.importantProcess);
+			c.append("Notify inventory is below re-order level:Place inventory order:Record arrival of inventory", "./processSteps").to(t.processSteps);
+
+			c.append("Inventory Management System:SCM:Inventory Management System", "./systems").to(t.systems);
+			c.append("Purchasing:Purchasing:Warehouse/Inbound Logistics/Inwards Goods", "./orgUnits").to(t.orgUnits);
+
+
+			// <!-- one.end -->
+	};
+	
+	priv.defineCase6RainbowsEnd = function(t, c) {
+		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end -->
+
+			c.append("Rainbows End", "./brandName").to(t.brandName);
+			c.append("New Zealand's premier theme park", "./vision").to(t.vision);
+			c.append("http://rainbowsend.co.nz/template/imgs/rainbows-end-logo.png", "./brandImage").to(t.brandImage);
+			c.append("http://www.youtube.com/watch?v=P3mMPh59ryU ", "./brandVideo").to(t.brandVideo);
+			c.append("Theme Park Industry", "./industry").to(t.industry);
+
+			c.append("Differentiation", "./correctStrategy").to(t.correctStrategy);
+			c.append("Broad Market: Rainbows End appeals to all customers purchasing in the theme park industry.", "./competitiveScope").to(t.competitiveScope);
+			c.append("High cost. As the industry is very small in New Zealand, there is no apparent competition on price and Rainbows End can charge what they like.", "./costStrategy").to(t.costStrategy);
+
+			c.append("high:high:low:low:low", "./correctIndustryStructure").to(t.correctIndustryStructure);
+			c.append("High", "./threatOfSubsitutes").to(t.threatOfSubsitutes);
+			c.append("High", "./supplierPower").to(t.supplierPower);
+			c.append("Low", "./rivarly").to(t.rivarly);
+			c.append("Low", "./buyerPower").to(t.buyerPower);
+			c.append("Low", "./newEntrants").to(t.newEntrants);
+
+			c.append("infrastructure,deliverTheService,marketAndSellTheService", "./correctValueChainActivites").to(t.correctValueChainActivites);
+			c.append("Infrastructure: Rides must be well-maintained and meet safety standards. They are the revenue and value-generating component of the business. Deliver the Service: Value is generated for Rainbows End by providing a quality and trustworthy service to the public. Market and Sell the Service: Customers are a vital component of Rainbows End's revenue generation and this activity adds value for Rainbows End as marketing e.g. promoting new rides or activities and selling Rainbows End's services means reaching more customers and therefore generating more revenue.", "./valueChainJustification").to(t.valueChainJustification);
+
+			c.append("Sales Analysis Process", "./processName").to(t.processName);
+			c.append("This process adds value for Rainbows End, as analysis of sales data can show whether they are meeting financial targets, and provide an indication of a need for a new marketing strategy, such as the recent �Night Rides�, to attract more customers.", "./importantProcess").to(t.importantProcess);
+			c.append("Receive daily sales printout:Analyse data against forecasts and trends:Use information for future financial planning", "./processSteps").to(t.processSteps);
+
+			c.append("Accounting System:ERP System:DSS System (ERP)", "./systems").to(t.systems);
+			c.append("Accounting:Accounting:Board of Directors", "./orgUnits").to(t.orgUnits);
+
+
+			// <!-- one.end -->
+	};
+	
 	window.gamedata.createTypes = function(session) {
 		var t = {};
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-types -->
@@ -248,6 +385,22 @@ t.orgUnits = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8
 			var case2 = node.append("c2", "./c2");
 			
 			priv.defineCase2Nike(t, case2);
+			
+			var case3 = node.append("c3". "./c3");
+			
+			priv.defineCase3MichaelHill(t, case3);
+			
+			var case4 = node.append("c4", "./c4");
+			
+			priv.defineCase4AucklandZoo(t, case4);
+			
+			var case5 = node.append("c5", "./c5");
+			
+			priv.defineCase5Countdown(t, case5);
+			
+			var case6 = node.append("c6", "./c6");
+			
+			priv.defineCase6RainbowsEnd(t, case6);
 			
 			session.commit().get(function(success) {
 			

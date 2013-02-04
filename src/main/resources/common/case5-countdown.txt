@@ -1,4 +1,4 @@
-<!-- one.createPublic case5-countdown -->
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case5-countdown -->
 
 c.append("Countdown", "./brandName").to(t.brandName);
 c.append("Shop Smarter. ", "./vision").to(t.vision);

@@ -1,4 +1,4 @@
-<!-- one.createPublic rainbows-end -->
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end -->
 
 c.append("Rainbows End", "./brandName").to(t.brandName);
 c.append("New Zealand's premier theme park", "./vision").to(t.vision);
@@ -21,7 +21,7 @@ c.append("infrastructure,deliverTheService,marketAndSellTheService", "./correctV
 c.append("Infrastructure: Rides must be well-maintained and meet safety standards. They are the revenue and value-generating component of the business. Deliver the Service: Value is generated for Rainbows End by providing a quality and trustworthy service to the public. Market and Sell the Service: Customers are a vital component of Rainbows End's revenue generation and this activity adds value for Rainbows End as marketing e.g. promoting new rides or activities and selling Rainbows End's services means reaching more customers and therefore generating more revenue.", "./valueChainJustification").to(t.valueChainJustification);
 
 c.append("Sales Analysis Process", "./processName").to(t.processName);
-c.append("This process adds value for Rainbows End, as analysis of sales data can show whether they are meeting financial targets, and provide an indication of a need for a new marketing strategy, such as the recent “Night Rides”, to attract more customers.", "./importantProcess").to(t.importantProcess);
+c.append("This process adds value for Rainbows End, as analysis of sales data can show whether they are meeting financial targets, and provide an indication of a need for a new marketing strategy, such as the recent ï¿½Night Ridesï¿½, to attract more customers.", "./importantProcess").to(t.importantProcess);
 c.append("Receive daily sales printout:Analyse data against forecasts and trends:Use information for future financial planning", "./processSteps").to(t.processSteps);
 
 c.append("Accounting System:ERP System:DSS System (ERP)", "./systems").to(t.systems);

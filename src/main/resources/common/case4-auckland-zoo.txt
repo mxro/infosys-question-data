@@ -1,4 +1,4 @@
-<!-- one.createPublic case4-auckland-zoo -->
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo -->
 
 c.append("Auckland Zoo", "./brandName").to(t.brandName);
 c.append("A future where people value wildlife, and species are safe from extinction.", "./vision").to(t.vision);
@@ -18,7 +18,7 @@ c.append("Low", "./buyerPower").to(t.buyerPower);
 c.append("Low", "./newEntrants").to(t.newEntrants);
 
 c.append("infrastructure,deliverTheService,serviceAfterTheSale", "./correctValueChainActivites").to(t.correctValueChainActivites);
-c.append("Infrastructure: The zoo covers a wide land area, and houses many different creatures. The physical buildings and land give value by adding to the experience for the visitor – to see wildlife in what is close to their natural habitat, while feeling safe and secure. Deliver the service: Visitors attend the zoo to experience the animals in their natural habitat. Value is added when they are able to see them interaction (rather than sleeping or hiding), and hear from the keepers. Service after the Sale: The value for the zoo is in a return visit for the customer. Programs such as Friends of the Zoo and Adopt-an-animal help to ensure there is an engagement and repeat visit from their customers.", "./valueChainJustification").to(t.valueChainJustification);
+c.append("Infrastructure: The zoo covers a wide land area, and houses many different creatures. The physical buildings and land give value by adding to the experience for the visitor ï¿½ to see wildlife in what is close to their natural habitat, while feeling safe and secure. Deliver the service: Visitors attend the zoo to experience the animals in their natural habitat. Value is added when they are able to see them interaction (rather than sleeping or hiding), and hear from the keepers. Service after the Sale: The value for the zoo is in a return visit for the customer. Programs such as Friends of the Zoo and Adopt-an-animal help to ensure there is an engagement and repeat visit from their customers.", "./valueChainJustification").to(t.valueChainJustification);
 
 c.append("Facility Maintenance Process", "./processName").to(t.processName);
 c.append("All facilities and exhibits are regularly maintained so as to remain safe and tidy for both visitors and animals. This process involves regular scheduling and recording of maintenance work, and includes a method of notifying teams when maintenance is due to occur, or needs performing. Value is added as the zoo maintains a clean, tidy and safe appeal.", "./importantProcess").to(t.importantProcess);
