@@ -204,7 +204,7 @@ c.append("High", "./rivarly").append(t.rivarly);
 c.append("Low", "./buyerPower").append(t.buyerPower);
 c.append("High", "./newEntrants").append(t.newEntrants);
 
-c.append("procurement,marketAndSell,make", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("procurement,marketing,makeProjectOrService", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Procurement: As the market for precious gems is highly-controlled, MH must use their bulk-buying power to purchase the raw materials needed for jewellery production, at the best price in order to follow their cost leadership strategy.\n"+
  "Market and Sell: As MH wants to be people-focused, they need to deliver this message through their marketing in order to reach their target customer, then offer the people-based service through the sale process.\n"+
  "Make: As the fine jewellery industry has a perception of luxury, MH must create high quality pieces, while still maintaining costs. Customers expect quality that will last in their pieces.", 
@@ -242,7 +242,7 @@ c.append("Low", "./rivarly").append(t.rivarly);
 c.append("Low", "./buyerPower").append(t.buyerPower);
 c.append("Low", "./newEntrants").append(t.newEntrants);
 
-c.append("infrastructure,deliverTheService,serviceAfterTheSale", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("firmInfrastructure,delivery,afterSales", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Infrastructure: The zoo covers a wide land area, and houses many different creatures. The physical buildings and land give value by adding to the experience for the visitor � to see wildlife in what is close to their natural habitat, while feeling safe and secure.\n"+
 "Deliver the service: Visitors attend the zoo to experience the animals in their natural habitat. Value is added when they are able to see them interaction (rather than sleeping or hiding), and hear from the keepers.\n"+
 "Service after the Sale: The value for the zoo is in a return visit for the customer. Programs such as Friends of the Zoo and Adopt-an-animal help to ensure there is an engagement and repeat visit from their customers.",
@@ -280,7 +280,7 @@ c.append("High", "./rivarly").append(t.rivarly);
 c.append("High", "./buyerPower").append(t.buyerPower);
 c.append("Low", "./newEntrants").append(t.newEntrants);
 
-c.append("procurement,infrastructure,marketAndSell", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("procurement,firmInfrastructure,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Procurement: As competition is based on price and margins are narrow, it is essential that a supermarket can source and negotiate the best merchandise and ideal quantity, at the best price.\n"
 +"Infrastructure: Supermarkets provide convenience to consumers, and a good facility and location adds value.\n"+
 "Market and sell: Supermarkets spend considerable amounts on print and television advertising in order to attract customers based on their specials.", 
@@ -317,7 +317,7 @@ c.append("Low", "./rivarly").append(t.rivarly);
 c.append("Low", "./buyerPower").append(t.buyerPower);
 c.append("Low", "./newEntrants").append(t.newEntrants);
 
-c.append("infrastructure,deliverTheService,marketAndSellTheService", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("firmInfrastructure,delivery,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Infrastructure: Rides must be well-maintained and meet safety standards. They are the revenue and value-generating component of the business.\n"
 +"Deliver the Service: Value is generated for Rainbows End by providing a quality and trustworthy service to the public.\n"
 +"Market and Sell the Service: Customers are a vital component of Rainbows End's revenue generation and this activity adds value for Rainbows End as marketing e.g. promoting new rides or activities and selling Rainbows End's services means reaching more customers and therefore generating more revenue.", 
