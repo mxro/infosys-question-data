@@ -1,0 +1,31 @@
+<!-- one.createPublic case5-countdown -->
+
+c.append("Countdown", "./brandName").to(t.brandName);
+c.append("Shop Smarter. ", "./vision").to(t.vision);
+c.append("http://www.nzsca.org.nz/upload/content/CD_MS_H_Pos_cmyk%20web.jpg", "./brandImage").to(t.brandImage);
+c.append("http://www.youtube.com/watch?v=aSuaTaefvpg ", "./brandVideo").to(t.brandVideo);
+c.append("Supermarket Industry", "./industry").to(t.industry);
+
+c.append("Cost Leadership", "./correctStrategy").to(t.correctStrategy);
+c.append("Broad market: Countdown targets all customers in the industry through the use of their advertising such as weekend windbacks (customers looking for bargains), Masterchef cooking demos (adventurous foodies), and the Colemans (the everyday New Zealand family)", "./competitiveScope").to(t.competitiveScope);
+c.append("Low cost: As a large, multi-stored supermarket, Countdown uses its significant buying-power to offer customers the best price for their food.", "./costStrategy").to(t.costStrategy);
+
+c.append("low:low:high:high:low", "./correctIndustryStructure").to(t.correctIndustryStructure);
+c.append("Low", "./threatOfSubsitutes").to(t.threatOfSubsitutes);
+c.append("Low", "./supplierPower").to(t.supplierPower);
+c.append("High", "./rivarly").to(t.rivarly);
+c.append("High", "./buyerPower").to(t.buyerPower);
+c.append("Low", "./newEntrants").to(t.newEntrants);
+
+c.append("procurement,infrastructure,marketAndSell", "./correctValueChainActivites").to(t.correctValueChainActivites);
+c.append("Procurement: As competition is based on price and margins are narrow, it is essential that a supermarket can source and negotiate the best merchandise and ideal quanitity, at the best price. Infrastructure: Supermarkets provide convenience to consumers, and a good facility and location adds value. Market and sell: Supermarkets spend considerable amounts on print and television advertising in order to attract customers based on their specials.", "./valueChainJustification").to(t.valueChainJustification);
+
+c.append("Inventory Order Process", "./processName").to(t.processName);
+c.append("This process adds value for Countdown as it is imperative they are never out of stock of items. Inventory must be ordered at an appropriate time so as to not have too much in stock and it go off, and to have enough to meet the customers needs.", "./importantProcess").to(t.importantProcess);
+c.append("Notify inventory is below re-order level:Place inventory order:Record arrival of inventory", "./processSteps").to(t.processSteps);
+
+c.append("Inventory Management System:SCM:Inventory Management System", "./systems").to(t.systems);
+c.append("Purchasing:Purchasing:Warehouse/Inbound Logistics/Inwards Goods", "./orgUnits").to(t.orgUnits);
+
+
+<!-- one.end -->
