@@ -50,10 +50,12 @@
                 
                 window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c1"), function() { 
                 	window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c2"), function() {
-                		session.close().get(function(success) {
-                			server.shutdown().get(function(success) {
-                				$(".output").append("<p>All done.</p>");
-                			});
+                		window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c3"), function() {
+                		    session.close().get(function(success) {
+                			    server.shutdown().get(function(success) {
+                				    $(".output").append("<p>All done.</p>");
+                			    });
+                		    });
                 		});
                 	});
                 });
