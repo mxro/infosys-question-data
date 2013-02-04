@@ -69,7 +69,7 @@ c.append("procurement,makeProjectOrService,technologyDevelopment",
 
 c.append(
         "Procurement: Starbucks needs to get the best quality, certified fairtrade coffee beans.\n"
-                + "Make the product or service: Starbucks� strategy involves quality, and pleasing people � this is achieved through providing the best possible cup of coffee\n"
+                + "Make the product or service: Starbucks' strategy involves quality, and pleasing people - this is achieved through providing the best possible cup of coffee\n"
                 + "Research and Development: In order to differentiate their product, and compete with rivals,  Starbucks must continually produce new offerings. ",
         "./valueChainJustification").append(t.valueChainJustification);
         
@@ -79,7 +79,7 @@ c.append(
 
 c.append("Raw materials sourcing process").append(t.processName);
 c.append(
-        "The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee groud.")
+        "The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee ground.")
         .append(t.importantProcess);
 c.append(
         "Obtain quotes from suppliers:Compare quotes:Select best supplier")
@@ -98,7 +98,7 @@ c.append("Manufacturing:Accounting:Manufacturing management").append(
 	
 	
 	priv.defineCase2Nike = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
 			// Common case data
 			c.append("Nike", "./brandName").append(t.brandName);
 			c.append("http://vince08.edublogs.org/files/2008/11/logonike.gif",
@@ -187,39 +187,43 @@ c.append("Manufacturing:Accounting:Manufacturing management").append(
 	priv.defineCase3 =  function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case3-michael-hill -->
 
-			c.append("Michael Hill", "./brandName").append(t.brandName);
-			c.append("To be the most people focused Jeweller in the world. ", "./vision").append(t.vision);
-			c.append("http://static.ipaustralia.com.au/store3/11/64/1164788.1.high.jpg", "./brandImage").append(t.brandImage);
-			c.append("http://www.youtube.com/watch?v=c3PHwpeslxU ", "./brandVideo").append(t.brandVideo);
-			c.append("Retail Fine Jewellery Industry ", "./industry").append(t.industry);
+c.append("Michael Hill", "./brandName").append(t.brandName);
+c.append("To be the most people focused Jeweller in the world. ", "./vision").append(t.vision);
+c.append("http://static.ipaustralia.com.au/store3/11/64/1164788.1.high.jpg", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=kiOT3dBTbZ8", "./brandVideo").append(t.brandVideo);
+c.append("Retail Fine Jewellery Industry ", "./industry").append(t.industry);
 
-			c.append("Low Cost: Despite jewellery appearing expensive, in the retail fine jewellery industry Michael Hill is a cheaper brand. Costs are reduced by mass manufacturing in third world countries, rather than individual craftmanship in New Zealand. ", "./correctStrategy").append(t.correctStrategy);
-			c.append("Broad market: Michael Hill aims to make high-end jewellery accessible to every New Zealander, as evidenced by saturation marketing and high-profile stores in suburban malls. ", "./competitiveScope").append(t.competitiveScope);
-			c.append("Low Cost: Despite jewellery appearing expensive, in the retail fine jewellery industry Michael Hill is a cheaper brand. Costs are reduced by mass manufacturing in third world countries, rather than individual craftmanship in New Zealand. ", "./costStrategy").append(t.costStrategy);
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad market: Michael Hill aims to make high-end jewellery accessible to every New Zealander, as evidenced by saturation marketing and high-profile stores in suburban malls. ", "./competitiveScope").append(t.competitiveScope);
+c.append("Low Cost: Despite jewellery appearing expensive, in the retail fine jewellery industry Michael Hill is a cheaper brand. Costs are reduced by mass manufacturing in third world countries, rather than individual craftmanship in New Zealand. ", "./costStrategy").append(t.costStrategy);
 
-			c.append("high:high:high:low:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
-			c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-			c.append("High", "./supplierPower").append(t.supplierPower);
-			c.append("High", "./rivarly").append(t.rivarly);
-			c.append("Low", "./buyerPower").append(t.buyerPower);
-			c.append("High", "./newEntrants").append(t.newEntrants);
+c.append("high:high:high:low:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("High", "./supplierPower").append(t.supplierPower);
+c.append("High", "./rivarly").append(t.rivarly);
+c.append("Low", "./buyerPower").append(t.buyerPower);
+c.append("High", "./newEntrants").append(t.newEntrants);
 
-			c.append("procurement,marketAndSell,make", "./correctValueChainActivites").append(t.correctValueChainActivites);
-			c.append("Procurement: As the market for precious gems is highly-controlled, MH must use their bulk-buying power to purchase the raw materials needed for jewellery production, at the best price in order to follow their cost leadership strategy. Market and Sell: As MH wants to be people-focused, they need to deliver this message through their marketing in order to reach their target customer, then offer the people-based service through the sale process. Make: As the fine jewellery industry has a perception of luxury, MH must create high quality pieces, while still maintaining costs. Customers expect quality that will last in their pieces.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("procurement,marketAndSell,make", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Procurement: As the market for precious gems is highly-controlled, MH must use their bulk-buying power to purchase the raw materials needed for jewellery production, at the best price in order to follow their cost leadership strategy.\n"+
+ "Market and Sell: As MH wants to be people-focused, they need to deliver this message through their marketing in order to reach their target customer, then offer the people-based service through the sale process.\n"+
+ "Make: As the fine jewellery industry has a perception of luxury, MH must create high quality pieces, while still maintaining costs. Customers expect quality that will last in their pieces.", 
+ "./valueChainJustification").append(t.valueChainJustification);
+ 
 
-			c.append("Pricing Process", "./processName").append(t.processName);
-			c.append("This process adds value for Michael Hill as the markup on items determines the profit margin the business will make.  There is a fine line between to little and too much, as Michael Hill needs to offer the bet prices, while still making a profit.", "./importantProcess").append(t.importantProcess);
-			c.append("Cost the Item:Add markup System:Record sales price of inventory", "./processSteps").append(t.processSteps);
+c.append("Pricing Process", "./processName").append(t.processName);
+c.append("This process adds value for Michael Hill as the markup on items determines the profit margin the business will make.  There is a fine line between to little and too much, as Michael Hill needs to offer the bet prices, while still making a profit.", "./importantProcess").append(t.importantProcess);
+c.append("Cost the Item:Add markup System:Record sales price of inventory", "./processSteps").append(t.processSteps);
 
-			c.append("Accounting System:Accounting System:Inventory management system", "./systems").append(t.systems);
-			c.append("Accounting:Accounting:Sales", "./orgUnits").append(t.orgUnits);
+c.append("Accounting System:Accounting System:Inventory management system", "./systems").append(t.systems);
+c.append("Accounting:Accounting:Sales", "./orgUnits").append(t.orgUnits);
 
 
-			// <!-- one.end -->
+// <!-- one.end -->
 	};
 	
 	priv.defineCase4AucklandZoo =  function(t, c) { 
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo -->
 
 			c.append("Auckland Zoo", "./brandName").append(t.brandName);
 			c.append("A future where people value wildlife, and species are safe from extinction.", "./vision").append(t.vision);
@@ -254,7 +258,7 @@ c.append("Manufacturing:Accounting:Manufacturing management").append(
 	};
 	
 	priv.defineCase5Countdown = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case5-countdown -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case5-countdown -->
 
 			c.append("Countdown", "./brandName").append(t.brandName);
 			c.append("Shop Smarter. ", "./vision").append(t.vision);
@@ -288,7 +292,7 @@ c.append("Manufacturing:Accounting:Manufacturing management").append(
 	};
 	
 	priv.defineCase6RainbowsEnd = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end -->
 
 			c.append("Rainbows End", "./brandName").append(t.brandName);
 			c.append("New Zealand's premier theme park", "./vision").append(t.vision);
