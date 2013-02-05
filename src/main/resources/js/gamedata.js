@@ -198,11 +198,11 @@ c.append("Broad market: Michael Hill aims to make high-end jewellery accessible 
 c.append("Low Cost: Despite jewellery appearing expensive, in the retail fine jewellery industry Michael Hill is a cheaper brand. Costs are reduced by mass manufacturing in third world countries, rather than individual craftmanship in New Zealand. ", "./costStrategy").append(t.costStrategy);
 
 c.append("high:high:high:low:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("High", "./supplierPower").append(t.supplierPower);
-c.append("High", "./rivarly").append(t.rivarly);
-c.append("Low", "./buyerPower").append(t.buyerPower);
-c.append("High", "./newEntrants").append(t.newEntrants);
+c.append("A substitute to fine jewellery is costume jewellery, or second-hand jewellery.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("DeBeers, one of the sellers of diamonds, has huge power and controls the flow of diamonds into the market. (http://www.photopla.net/wwp0503/supplier.php). They supply half the world�s diamonds by value and can name their price. (http://www.slideshare.net/ebayworld/blue-nile-paper). Gold is a commodity, however the price for this is set by world markets in which Michael Hill has very little influence.", "./supplierPower").append(t.supplierPower);
+c.append("There are no switching costs, and as each item of jewellery is different, product differentiation does not apply. The focus is on the retailer getting the customer in the door, and keeping them from visiting the competition. This is achieved through eye-catching window displays, repeat purchase lines, and advertising.", "./rivarly").append(t.rivarly);
+c.append("Customers are less price sensitive in this industry than others, as it can be hard to know a base price for a specific piece. Retailers mark up diamonds between 50 and 200 percent and 100 to 400 percent for gold. This industry is focused on service, and major players use slogans containing 'Trust' and 'people focused'", "./buyerPower").append(t.buyerPower);
+c.append("There are low start up costs for opening a retail fine jewellery store, other than purchase of inventory. This does not include the manufacture of jewellery, which is a different industry. ", "./newEntrants").append(t.newEntrants);
 
 c.append("procurement,marketing,makeProjectOrService", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Procurement: As the market for precious gems is highly-controlled, MH must use their bulk-buying power to purchase the raw materials needed for jewellery production, at the best price in order to follow their cost leadership strategy.\n"+
@@ -236,11 +236,11 @@ c.append("Broad Market: The Zoo targets all customers in the industry, by having
 c.append("High Cost: As a non-profit organisation, Auckland Zoo depends on donations as well as income from visitors in order to cover costs. The strategy is differentiation, as the Zoo attempts to provide a unique point of difference to donors as well as visitors, from other organisations within their industry", "./costStrategy").append(t.costStrategy);
 
 c.append("high:high:low:low:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("High", "./supplierPower").append(t.supplierPower);
-c.append("Low", "./rivarly").append(t.rivarly);
-c.append("Low", "./buyerPower").append(t.buyerPower);
-c.append("Low", "./newEntrants").append(t.newEntrants);
+c.append("A substitute to visiting a zoo would be to watch a nature documentary (easier), or visit the animals in their natural habitat (harder).", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Zoos are supplied with animals, which need to be appropriately bred and selected. There is often a focus on endangered animals and conservation, so finding endangered species to house is also difficult.", "./supplierPower").append(t.supplierPower);
+c.append("Each zoo is very different due to a different array of animals and exhibits. Some zoos have specific well-known animals that attract visitors.", "./rivarly").append(t.rivarly);
+c.append("In New Zealand there are few choices of zoos. Each zoo is very different, so consumers do not get the same experience at different venues, and even on different visits.", "./buyerPower").append(t.buyerPower);
+c.append("Because the supplier power is so high, as well as the infrastructure, training and resource costs, there is little chance of a large scale competitor entering the market. Smaller, native-species zoos pose a higher threat.", "./newEntrants").append(t.newEntrants);
 
 c.append("firmInfrastructure,delivery,afterSales", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Infrastructure: The zoo covers a wide land area, and houses many different creatures. The physical buildings and land give value by adding to the experience for the visitor - to see wildlife in what is close to their natural habitat, while feeling safe and secure.\n"+
@@ -274,11 +274,11 @@ c.append("Broad market: Countdown targets all customers in the industry through 
 c.append("Low cost: As a large, multi-stored supermarket, Countdown uses its significant buying-power to offer customers the best price for their food.", "./costStrategy").append(t.costStrategy);
 
 c.append("low:low:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("Low", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("Low", "./supplierPower").append(t.supplierPower);
-c.append("High", "./rivarly").append(t.rivarly);
-c.append("High", "./buyerPower").append(t.buyerPower);
-c.append("Low", "./newEntrants").append(t.newEntrants);
+c.append("A substitute to a supermarket would be a greengrocer, or a convenience store, but neither of these offer the range that a supermarket does.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Supermarkets buy in huge bulk quantities so are able to negotiate a good price with suppliers. Suppliers also often sell commodity products so supermarkets have many options to choose from.", "./supplierPower").append(t.supplierPower);
+c.append("The NZ industry is dominated by 4 major players.  As they mostly sell the same items, the focus becomes on advertising the latest specials and offering incentives to gain business.", "./rivarly").append(t.rivarly);
+c.append("Low switching costs. Companies sell the same products, so competition is based primarily on price and brand image.", "./buyerPower").append(t.buyerPower);
+c.append("There are minimal startup costs to establish a small grocery store. However as the industry is dominated by 4 large companies the ability to gain market share would be doubtful.", "./newEntrants").append(t.newEntrants);
 
 c.append("procurement,firmInfrastructure,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Procurement: As competition is based on price and margins are narrow, it is essential that a supermarket can source and negotiate the best merchandise and ideal quantity, at the best price.\n"
@@ -311,11 +311,11 @@ c.append("Broad Market: Rainbows End appeals to all customers purchasing in the 
 c.append("High cost. As the industry is very small in New Zealand, there is no apparent competition on price and Rainbows End can charge what they like.", "./costStrategy").append(t.costStrategy);
 
 c.append("high:high:low:low:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("High", "./supplierPower").append(t.supplierPower);
-c.append("Low", "./rivarly").append(t.rivarly);
-c.append("Low", "./buyerPower").append(t.buyerPower);
-c.append("Low", "./newEntrants").append(t.newEntrants);
+c.append("The theme park industry provides a thrilling experience. This can be substituted by the adventure tourism industry, in the form of extreme sports such as white water rafting, bungee jumping and sky-diving, which in New Zealand are in ready supply.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Rides are supplied by international manufacturing companies. As each ride is unique between manufacturers, theme parks have low purchasing power.", "./supplierPower").append(t.supplierPower);
+c.append("Competitors are separated geographically, and in New Zealand there are only two.", "./rivarly").append(t.rivarly);
+c.append("There are minimal parks to choose from, each offering completely different rides and attractions. Customers pay for an experience which is hard to place a definitive monetary value on.", "./buyerPower").append(t.buyerPower);
+c.append("A theme park needs resource consent, a large land area, and has huge initial capital investment costs.", "./newEntrants").append(t.newEntrants);
 
 c.append("firmInfrastructure,delivery,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Infrastructure: Rides must be well-maintained and meet safety standards. They are the revenue and value-generating component of the business.\n"
