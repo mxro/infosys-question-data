@@ -183,7 +183,6 @@ c.append("Factory Clerk:Factory Labourer:Supervisor").append(
 // <!-- one.end -->
 	};
 
-	
 	priv.defineCase3 =  function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case3-michael-hill -->
 
