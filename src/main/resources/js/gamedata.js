@@ -132,7 +132,7 @@ c.append("low:low:high:high:high", "./industryStructure").append(
         t.correctIndustryStructure);
 
 c.append(
-        "In this day and age where nearly everyone who engages in physical activity �must have� appropriate gear, there is no adequate substitute for sporting apparel footwear.",
+        "In this day and age where nearly everyone who engages in physical activity 'must have' appropriate gear, there is no adequate substitute for sporting apparel footwear.",
         "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 
 c.append(
@@ -190,7 +190,7 @@ c.append("Factory Clerk:Factory Labourer:Supervisor").append(
 c.append("Michael Hill", "./brandName").append(t.brandName);
 c.append("To be the most people focused Jeweller in the world. ", "./vision").append(t.vision);
 c.append("http://static.ipaustralia.com.au/store3/11/64/1164788.1.high.jpg", "./brandImage").append(t.brandImage);
-c.append("http://www.youtube.com/watch?v=kiOT3dBTbZ8", "./brandVideo").append(t.brandVideo);
+c.append("http://www.youtube.com/watch?v=x_9z4QSBGQo", "./brandVideo").append(t.brandVideo);
 c.append("Retail Fine Jewellery Industry ", "./industry").append(t.industry);
 
 c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);

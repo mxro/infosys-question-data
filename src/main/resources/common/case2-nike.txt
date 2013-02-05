@@ -32,7 +32,7 @@ c.append("low:low:high:high:high", "./industryStructure").append(
         t.correctIndustryStructure);
 
 c.append(
-        "In this day and age where nearly everyone who engages in physical activity ‘must have’ appropriate gear, there is no adequate substitute for sporting apparel footwear.",
+        "In this day and age where nearly everyone who engages in physical activity 'must have' appropriate gear, there is no adequate substitute for sporting apparel footwear.",
         "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 
 c.append(
