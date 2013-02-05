@@ -18,7 +18,7 @@ c.append("In New Zealand there are few choices of zoos. Each zoo is very differe
 c.append("Because the supplier power is so high, as well as the infrastructure, training and resource costs, there is little chance of a large scale competitor entering the market. Smaller, native-species zoos pose a higher threat.", "./newEntrants").append(t.newEntrants);
 
 c.append("firmInfrastructure,delivery,afterSales", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Infrastructure: The zoo covers a wide land area, and houses many different creatures. The physical buildings and land give value by adding to the experience for the visitor - to see wildlife in what is close to their natural habitat, while feeling safe and secure.\n"+
+c.append("Infrastructure: The zoo covers a wide land area, and houses many different creatures. The physical buildings and land give value by adding to the experience for the visitor: to see wildlife in what is close to their natural habitat, while feeling safe and secure.\n"+
 "Deliver the service: Visitors attend the zoo to experience the animals in their natural habitat. Value is added when they are able to see them interaction (rather than sleeping or hiding), and hear from the keepers.\n"+
 "Service after the Sale: The value for the zoo is in a return visit for the customer. Programs such as Friends of the Zoo and Adopt-an-animal help to ensure there is an engagement and repeat visit from their customers.",
  "./valueChainJustification").append(t.valueChainJustification);
