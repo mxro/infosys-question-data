@@ -183,6 +183,7 @@ c.append("Factory Clerk:Factory Labourer:Supervisor").append(
 // <!-- one.end -->
 	};
 
+	
 	priv.defineCase3 =  function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case3-michael-hill -->
 
@@ -198,7 +199,7 @@ c.append("Low Cost: Despite jewellery appearing expensive, in the retail fine je
 
 c.append("high:high:high:low:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
 c.append("A substitute to fine jewellery is costume jewellery, or second-hand jewellery.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("DeBeers, one of the sellers of diamonds, has huge power and controls the flow of diamonds into the market. (http://www.photopla.net/wwp0503/supplier.php). They supply half the world�s diamonds by value and can name their price. (http://www.slideshare.net/ebayworld/blue-nile-paper). Gold is a commodity, however the price for this is set by world markets in which Michael Hill has very little influence.", "./supplierPower").append(t.supplierPower);
+c.append("DeBeers, one of the sellers of diamonds, has huge power and controls the flow of diamonds into the market. (http://www.photopla.net/wwp0503/supplier.php). They supply half the world's diamonds by value and can name their price. (http://www.slideshare.net/ebayworld/blue-nile-paper). Gold is a commodity, however the price for this is set by world markets in which Michael Hill has very little influence.", "./supplierPower").append(t.supplierPower);
 c.append("There are no switching costs, and as each item of jewellery is different, product differentiation does not apply. The focus is on the retailer getting the customer in the door, and keeping them from visiting the competition. This is achieved through eye-catching window displays, repeat purchase lines, and advertising.", "./rivarly").append(t.rivarly);
 c.append("Customers are less price sensitive in this industry than others, as it can be hard to know a base price for a specific piece. Retailers mark up diamonds between 50 and 200 percent and 100 to 400 percent for gold. This industry is focused on service, and major players use slogans containing 'Trust' and 'people focused'", "./buyerPower").append(t.buyerPower);
 c.append("There are low start up costs for opening a retail fine jewellery store, other than purchase of inventory. This does not include the manufacture of jewellery, which is a different industry. ", "./newEntrants").append(t.newEntrants);
