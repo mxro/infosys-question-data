@@ -11,11 +11,11 @@ c.append("Broad Market: Rainbows End appeals to all customers purchasing in the 
 c.append("High cost. As the industry is very small in New Zealand, there is no apparent competition on price and Rainbows End can charge what they like.", "./costStrategy").append(t.costStrategy);
 
 c.append("high:high:low:low:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("High", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("High", "./supplierPower").append(t.supplierPower);
-c.append("Low", "./rivarly").append(t.rivarly);
-c.append("Low", "./buyerPower").append(t.buyerPower);
-c.append("Low", "./newEntrants").append(t.newEntrants);
+c.append("The theme park industry provides a thrilling experience. This can be substituted by the adventure tourism industry, in the form of extreme sports such as white water rafting, bungee jumping and sky-diving, which in New Zealand are in ready supply.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Rides are supplied by international manufacturing companies. As each ride is unique between manufacturers, theme parks have low purchasing power.", "./supplierPower").append(t.supplierPower);
+c.append("Competitors are separated geographically, and in New Zealand there are only two.", "./rivarly").append(t.rivarly);
+c.append("There are minimal parks to choose from, each offering completely different rides and attractions. Customers pay for an experience which is hard to place a definitive monetary value on.", "./buyerPower").append(t.buyerPower);
+c.append("A theme park needs resource consent, a large land area, and has huge initial capital investment costs.", "./newEntrants").append(t.newEntrants);
 
 c.append("firmInfrastructure,delivery,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Infrastructure: Rides must be well-maintained and meet safety standards. They are the revenue and value-generating component of the business.\n"
