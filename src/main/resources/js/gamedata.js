@@ -337,6 +337,11 @@ c.append("Accounting:Accounting:Board of Directors", "./orgUnits").append(t.orgU
 	priv.defineCase7Coke = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case7-coke -->
 
+		c.append("Coca Cola Enterprises (CCE)", "./brandName").append(t.brandName);
+		c.append("To refresh the world - in mind, body and spirit", "./vision").append(t.vision);
+		c.append("http://www.picgifs.com/wallpapers/wallpapers/coca-cola/Coca_Cola03.jpg", "./brandImage").append(t.brandImage);
+
+		
 c.append("http://www.youtube.com/watch?v=WVRT16-dNsw", "./brandVideo").append(t.brandVideo);
 c.append("Soft drink industry", "./industry").append(t.industry);
 

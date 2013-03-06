@@ -55,8 +55,10 @@
                 window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c1"), function() { 
                 	window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c2"), function() {
                 		window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c3"), function() {
-                			window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c9"), function() {
-	                			session.close().get(function(success) {
+                			
+                			window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c7"), function() {
+                				$(".output").append("<p>Rendered last question.</p>");
+                				session.close().get(function(success) {
 	                			    server.shutdown().get(function(success) {
 	                				    $(".output").append("<p>All done.</p>");
 	                			    });
