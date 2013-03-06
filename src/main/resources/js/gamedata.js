@@ -345,16 +345,16 @@ c.append("Broad Market. CCE target everybody, everywhere!", "./competitiveScope"
 c.append("High Cost.  Coke uses it brand loyalty and market dominance to charge a premium price for it's products.  ", "./costStrategy").append(t.costStrategy);
 
 c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("High. People don't have to purchase soft drinks and can switch to water, tea, coffee etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("Low. Suppliers provide mainly commodity products, such as sugar, cocoa, aluminium, where there are plenty of alternative suppliers for cafes to choose from.", "./supplierPower").append(t.supplierPower);
-c.append("High. There are many participants in this industry, even though the industry is dominated by two major players (Coca Cola Enterprises and PepsiCo).", "./rivalry").append(t.rivarly);
-c.append("High. Customers can get similar products from many sellers with little or no switching costs. Buyer power can be reduced through brand loyalty programmes.", "./buyerPower").append(t.buyerPower);
-c.append("High. There are low start-up costs required to enter the soft drink industry although significant distribution challenges would need to be overcome.", "./newEntrants").append(t.newEntrants);
+c.append("People don't have to purchase soft drinks and can switch to water, tea, coffee etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Suppliers provide mainly commodity products, such as sugar, cocoa, aluminium, where there are plenty of alternative suppliers for cafes to choose from.", "./supplierPower").append(t.supplierPower);
+c.append("There are many participants in this industry, even though the industry is dominated by two major players (Coca Cola Enterprises and PepsiCo).", "./rivalry").append(t.rivarly);
+c.append("Customers can get similar products from many sellers with little or no switching costs. Buyer power can be reduced through brand loyalty programmes.", "./buyerPower").append(t.buyerPower);
+c.append("There are low start-up costs required to enter the soft drink industry although significant distribution challenges would need to be overcome.", "./newEntrants").append(t.newEntrants);
 
 c.append("afterSales,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Market and Sell:   Coke is all about brand loyalty so marketing is of the utmost importance."+
-		"Make the product or service:  Coke has huge product manufacturing facilities that have to churn out perfect product 24/7 in order to keep up with demand."+
-		"Deliver the product:  Coke is sold everywhere so the logistics of delivering the product to all the resellers is of vital importance.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Market and Sell: Coke is all about brand loyalty so marketing is of the utmost importance.\n"+
+		"Make the product or service:  Coke has huge product manufacturing facilities that have to churn out perfect product 24/7 in order to keep up with demand.\n"+
+		"Deliver the product: Coke is sold everywhere so the logistics of delivering the product to all the resellers is of vital importance.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Create Marketing Campaign", "./processName").append(t.processName);
 c.append("Coke is in a fierce battle with it's rivals and has to saturate the market with advertising to maintain it's dominance.", "./importantProcess").append(t.importantProcess);
@@ -387,7 +387,7 @@ c.append("Buyers can very easily switch to a rival provider.  Pandora attempts t
 c.append("There are no major impediments to starting up an online radio business.", "./newEntrants").append(t.newEntrants);
 
 c.append("afterSales,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Service After The Sale is critical to Pandora as they need to continually provide only the music that listeners love.  Make the Product or Service is important as they need to deliver the music that listeners love when they want it.  Technology Development is vital in that they use their music selection algorithm as their key competitive advantage over their competitors. ", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Service After The Sale is critical to Pandora to continually provide only the music that listeners love.\nMake the Product or Service is important as they need to deliver the music that listeners love when they want it.\nTechnology Development is vital in that they use their music selection algorithm as their key competitive advantage over their competitors. ", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Acquire new music process", "./processName").append(t.processName);
 c.append("Pandora has to continually add new and existing songs to it's music database for analysis and distribution to listeners.", "./importantProcess").append(t.importantProcess);
@@ -420,7 +420,7 @@ c.append("High. There are many other sources of adventure tourism such as hot ai
 c.append("High. In tourism, new entrants always get the attention of travellers, as they have a tendency of exploring fresh destinations.", "./newEntrants").append(t.newEntrants);
 
 c.append("makeProjectOrService:marketing:delivery", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Make the product or service:  Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things. Market and Sell:   The adventure tourism industry has many players so marketing is vital. Deliver the product:  Safety and an awesome experience are at the heart of AJ Hackett's operations.  ", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Make the product or service: Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things.\nMarket and Sell: The adventure tourism industry has many players so marketing is vital.\nDeliver the product:  Safety and an awesome experience are at the heart of AJ Hackett's operations.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Create New Product", "./processName").append(t.processName);
 c.append("Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things. ", "./importantProcess").append(t.importantProcess);
