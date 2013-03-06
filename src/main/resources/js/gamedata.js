@@ -347,12 +347,14 @@ c.append("High Cost.  Coke uses it brand loyalty and market dominance to charge 
 c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
 c.append("High. People don't have to purchase soft drinks and can switch to water, tea, coffee etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 c.append("Low. Suppliers provide mainly commodity products, such as sugar, cocoa, aluminium, where there are plenty of alternative suppliers for cafes to choose from.", "./supplierPower").append(t.supplierPower);
-c.append("High. There are many participants in this industry, even though the industry is dominated by two major players (Coca Cola Enterprises and PepsiCo).", "./rivalry").append(t.rivalry);
+c.append("High. There are many participants in this industry, even though the industry is dominated by two major players (Coca Cola Enterprises and PepsiCo).", "./rivalry").append(t.rivarly);
 c.append("High. Customers can get similar products from many sellers with little or no switching costs. Buyer power can be reduced through brand loyalty programmes.", "./buyerPower").append(t.buyerPower);
 c.append("High. There are low start-up costs required to enter the soft drink industry although significant distribution challenges would need to be overcome.", "./newEntrants").append(t.newEntrants);
 
 c.append("afterSales,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Market and Sell:   Coke is all about brand loyalty so marketing is of the utmost importance.  Make the product or service:  Coke has huge product manufacturing facilities that have to churn out perfect product 24/7 in order to keep up with demand. Deliver the product:  Coke is sold everywhere so the logistics of delivering the product to all the resellers is of vital importance.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Market and Sell:   Coke is all about brand loyalty so marketing is of the utmost importance."+
+		"Make the product or service:  Coke has huge product manufacturing facilities that have to churn out perfect product 24/7 in order to keep up with demand."+
+		"Deliver the product:  Coke is sold everywhere so the logistics of delivering the product to all the resellers is of vital importance.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Create Marketing Campaign", "./processName").append(t.processName);
 c.append("Coke is in a fierce battle with it's rivals and has to saturate the market with advertising to maintain it's dominance.", "./importantProcess").append(t.importantProcess);
@@ -380,7 +382,7 @@ c.append("Pandora offers their service for free", "./costStrategy").append(t.cos
 c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
 c.append("There are lots of alternatives to listening to music such as watching TV, Movies, browsing the web etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 c.append("The music labels have attempted to shut down Pandora and failed so I would suggest their power is low.  The Internet infrastructure suppliers have little power as there are many of them in the market.", "./supplierPower").append(t.supplierPower);
-c.append("There are quite a few companies in the Internet radio space and they all offer their core service for free.", "./rivalry").append(t.rivalry);
+c.append("There are quite a few companies in the Internet radio space and they all offer their core service for free.", "./rivalry").append(t.rivarly);
 c.append("Buyers can very easily switch to a rival provider.  Pandora attempts to reduce their power by using IT to make sure that customers only get music they love.", "./buyerPower").append(t.buyerPower);
 c.append("There are no major impediments to starting up an online radio business.", "./newEntrants").append(t.newEntrants);
 
@@ -413,7 +415,7 @@ c.append("High Cost. AJ Hackett offers adventure in spectacular spots.  Customer
 c.append("high:high:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
 c.append("High. Although people tend to crave excitement the could get this from other entertainment such as movies etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 c.append("High. Adventure tourism is usually linked to a specific spot and owners of these spots have huge power.", "./supplierPower").append(t.supplierPower);
-c.append("High. There are many participants in this industry such as hot air ballooning companies, guided hiking companies, skiing companies etc.", "./rivalry").append(t.rivalry);
+c.append("High. There are many participants in this industry such as hot air ballooning companies, guided hiking companies, skiing companies etc.", "./rivalry").append(t.rivarly);
 c.append("High. There are many other sources of adventure tourism such as hot air ballooning, hiking, skiing etc.", "./buyerPower").append(t.buyerPower);
 c.append("High. In tourism, new entrants always get the attention of travellers, as they have a tendency of exploring fresh destinations.", "./newEntrants").append(t.newEntrants);
 
@@ -504,10 +506,6 @@ t.orgUnits = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8
 			
 			priv.defineCase3(t, case3);
 			
-			//var case3MH = node.append("c3". "./c3");
-			
-			//priv.defineCase3MichaelHill(t, case3MH);
-			
 			var case4 = node.append("c4", "./c4");
 			
 			priv.defineCase4AucklandZoo(t, case4);
@@ -523,14 +521,14 @@ t.orgUnits = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8
 			var case7 = node.append("c7", "./c7");
 			
 			priv.defineCase7Coke(t, case7);
-//			
-//			var case8 = node.append("c8", "./c8");
-//			
-//			priv.defineCase8Pandora(t, case8);
-//			
-//			var case9 = node.append("c9", "./c9");
-//			
-//			priv.defineCase9Bungy(t, case9);
+			
+			var case8 = node.append("c8", "./c8");
+			
+			priv.defineCase8Pandora(t, case8);
+			
+			var case9 = node.append("c9", "./c9");
+			
+			priv.defineCase9Bungy(t, case9);
 			
 			session.commit().get(function(success) {
 			

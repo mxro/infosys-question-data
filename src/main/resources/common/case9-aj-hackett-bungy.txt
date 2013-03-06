@@ -13,7 +13,7 @@ c.append("High Cost. AJ Hackett offers adventure in spectacular spots.  Customer
 c.append("high:high:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
 c.append("High. Although people tend to crave excitement the could get this from other entertainment such as movies etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 c.append("High. Adventure tourism is usually linked to a specific spot and owners of these spots have huge power.", "./supplierPower").append(t.supplierPower);
-c.append("High. There are many participants in this industry such as hot air ballooning companies, guided hiking companies, skiing companies etc.", "./rivalry").append(t.rivalry);
+c.append("High. There are many participants in this industry such as hot air ballooning companies, guided hiking companies, skiing companies etc.", "./rivalry").append(t.rivarly);
 c.append("High. There are many other sources of adventure tourism such as hot air ballooning, hiking, skiing etc.", "./buyerPower").append(t.buyerPower);
 c.append("High. In tourism, new entrants always get the attention of travellers, as they have a tendency of exploring fresh destinations.", "./newEntrants").append(t.newEntrants);
 

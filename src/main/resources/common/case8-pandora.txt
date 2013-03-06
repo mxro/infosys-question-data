@@ -13,7 +13,7 @@ c.append("Pandora offers their service for free", "./costStrategy").append(t.cos
 c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
 c.append("There are lots of alternatives to listening to music such as watching TV, Movies, browsing the web etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
 c.append("The music labels have attempted to shut down Pandora and failed so I would suggest their power is low.  The Internet infrastructure suppliers have little power as there are many of them in the market.", "./supplierPower").append(t.supplierPower);
-c.append("There are quite a few companies in the Internet radio space and they all offer their core service for free.", "./rivalry").append(t.rivalry);
+c.append("There are quite a few companies in the Internet radio space and they all offer their core service for free.", "./rivalry").append(t.rivarly);
 c.append("Buyers can very easily switch to a rival provider.  Pandora attempts to reduce their power by using IT to make sure that customers only get music they love.", "./buyerPower").append(t.buyerPower);
 c.append("There are no major impediments to starting up an online radio business.", "./newEntrants").append(t.newEntrants);
 
