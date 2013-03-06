@@ -17,15 +17,15 @@ c.append("There are quite a few companies in the Internet radio space and they a
 c.append("Buyers can very easily switch to a rival provider.  Pandora attempts to reduce their power by using IT to make sure that customers only get music they love.", "./buyerPower").append(t.buyerPower);
 c.append("There are no major impediments to starting up an online radio business.", "./newEntrants").append(t.newEntrants);
 
-c.append("serviceAfterTheSale,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("afterSales,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Service After The Sale is critical to Pandora as they need to continually provide only the music that listeners love.  Make the Product or Service is important as they need to deliver the music that listeners love when they want it.  Technology Development is vital in that they use their music selection algorithm as their key competitive advantage over their competitors. ", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Acquire new music process", "./processName").append(t.processName);
 c.append("Pandora has to continually add new and existing songs to it's music database for analysis and distribution to listeners.", "./importantProcess").append(t.importantProcess);
 c.append("Add songs to database:Analyse songs:Generate song profiles", "./processSteps").append(t.processSteps);
 
-c.append("", "./systems").append(t.systems);
-c.append("", "./orgUnits").append(t.orgUnits);
+c.append("S1:S2:S3", "./systems").append(t.systems);
+c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 
 
 <!-- one.end -->

@@ -334,6 +334,102 @@ c.append("Accounting:Accounting:Board of Directors", "./orgUnits").append(t.orgU
 // <!-- one.end -->
 	};
 	
+	priv.defineCase7Coke = function(t, c) {
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case7-coke -->
+
+c.append("http://www.youtube.com/watch?v=WVRT16-dNsw", "./brandVideo").append(t.brandVideo);
+c.append("Soft drink industry", "./industry").append(t.industry);
+
+c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad Market. CCE target everybody, everywhere!", "./competitiveScope").append(t.competitiveScope);
+c.append("High Cost.  Coke uses it brand loyalty and market dominance to charge a premium price for it's products.  ", "./costStrategy").append(t.costStrategy);
+
+c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("High. People don't have to purchase soft drinks and can switch to water, tea, coffee etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Low. Suppliers provide mainly commodity products, such as sugar, cocoa, aluminium, where there are plenty of alternative suppliers for cafes to choose from.", "./supplierPower").append(t.supplierPower);
+c.append("High. There are many participants in this industry, even though the industry is dominated by two major players (Coca Cola Enterprises and PepsiCo).", "./rivalry").append(t.rivalry);
+c.append("High. Customers can get similar products from many sellers with little or no switching costs. Buyer power can be reduced through brand loyalty programmes.", "./buyerPower").append(t.buyerPower);
+c.append("High. There are low start-up costs required to enter the soft drink industry although significant distribution challenges would need to be overcome.", "./newEntrants").append(t.newEntrants);
+
+c.append("afterSales,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Market and Sell:   Coke is all about brand loyalty so marketing is of the utmost importance.  Make the product or service:  Coke has huge product manufacturing facilities that have to churn out perfect product 24/7 in order to keep up with demand. Deliver the product:  Coke is sold everywhere so the logistics of delivering the product to all the resellers is of vital importance.", "./valueChainJustification").append(t.valueChainJustification);
+
+c.append("Create Marketing Campaign", "./processName").append(t.processName);
+c.append("Coke is in a fierce battle with it's rivals and has to saturate the market with advertising to maintain it's dominance.", "./importantProcess").append(t.importantProcess);
+c.append("Create creative content:Create customer segment:Create web activity:Monitor campaigns", "./processSteps").append(t.processSteps);
+
+c.append("S1:S2:S3", "./systems").append(t.systems);
+c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
+
+// <!-- one.end -->
+	};
+	
+	priv.defineCase8Pandora = function(t,c) {
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case8-pandora -->
+
+c.append("Pandora", "./brandName").append(t.brandName);
+c.append("To play only music people will love", "./vision").append(t.vision);
+c.append("http://cdn.thetechjournal.com/wp-content/uploads/2012/10/pandora.jpg", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=NVYHq3M1ByI", "./brandVideo").append(t.brandVideo);
+c.append("Internet Radio", "./industry").append(t.industry);
+
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
+c.append("Pandora targets everyone who listens to music", "./competitiveScope").append(t.competitiveScope);
+c.append("Pandora offers their service for free", "./costStrategy").append(t.costStrategy);
+
+c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("There are lots of alternatives to listening to music such as watching TV, Movies, browsing the web etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("The music labels have attempted to shut down Pandora and failed so I would suggest their power is low.  The Internet infrastructure suppliers have little power as there are many of them in the market.", "./supplierPower").append(t.supplierPower);
+c.append("There are quite a few companies in the Internet radio space and they all offer their core service for free.", "./rivalry").append(t.rivalry);
+c.append("Buyers can very easily switch to a rival provider.  Pandora attempts to reduce their power by using IT to make sure that customers only get music they love.", "./buyerPower").append(t.buyerPower);
+c.append("There are no major impediments to starting up an online radio business.", "./newEntrants").append(t.newEntrants);
+
+c.append("afterSales,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Service After The Sale is critical to Pandora as they need to continually provide only the music that listeners love.  Make the Product or Service is important as they need to deliver the music that listeners love when they want it.  Technology Development is vital in that they use their music selection algorithm as their key competitive advantage over their competitors. ", "./valueChainJustification").append(t.valueChainJustification);
+
+c.append("Acquire new music process", "./processName").append(t.processName);
+c.append("Pandora has to continually add new and existing songs to it's music database for analysis and distribution to listeners.", "./importantProcess").append(t.importantProcess);
+c.append("Add songs to database:Analyse songs:Generate song profiles", "./processSteps").append(t.processSteps);
+
+c.append("S1:S2:S3", "./systems").append(t.systems);
+c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
+
+// <!-- one.end -->
+	};
+	
+	priv.defineCase9Bungy = function(t,c) {
+		//<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case9-aj-hackett-bungy -->
+
+c.append("AJ Hackett Bungy", "./brandName").append(t.brandName);
+c.append("Challenge drives our professional organisation.", "./vision").append(t.vision);
+c.append("http://www.conventionsnz.co.nz/pics/3713,4,1,6,4,0/aj-hackett-bungy-new-zealand.jpeg", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?feature=player_embedded&v=mmrVJq4uJ0E", "./brandVideo").append(t.brandVideo);
+c.append("Adventure tourism industry", "./industry").append(t.industry);
+
+c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad Market. AJ Hackett targets all adventure tourists.", "./competitiveScope").append(t.competitiveScope);
+c.append("High Cost. AJ Hackett offers adventure in spectacular spots.  Customers pay a premium for access to these spots.  ", "./costStrategy").append(t.costStrategy);
+
+c.append("high:high:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("High. Although people tend to crave excitement the could get this from other entertainment such as movies etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("High. Adventure tourism is usually linked to a specific spot and owners of these spots have huge power.", "./supplierPower").append(t.supplierPower);
+c.append("High. There are many participants in this industry such as hot air ballooning companies, guided hiking companies, skiing companies etc.", "./rivalry").append(t.rivalry);
+c.append("High. There are many other sources of adventure tourism such as hot air ballooning, hiking, skiing etc.", "./buyerPower").append(t.buyerPower);
+c.append("High. In tourism, new entrants always get the attention of travellers, as they have a tendency of exploring fresh destinations.", "./newEntrants").append(t.newEntrants);
+
+c.append("makeProjectOrService:marketing:delivery", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Make the product or service:  Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things. Market and Sell:   The adventure tourism industry has many players so marketing is vital. Deliver the product:  Safety and an awesome experience are at the heart of AJ Hackett's operations.  ", "./valueChainJustification").append(t.valueChainJustification);
+
+c.append("Create New Product", "./processName").append(t.processName);
+c.append("Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things. ", "./importantProcess").append(t.importantProcess);
+c.append("Conceptualize:Product/Service Definition:Product Concept Feasibility:Development & Design Verification:Transfer to production", "./processSteps").append(t.processSteps);
+
+c.append("S1:S2:S3", "./systems").append(t.systems);
+c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
+
+// <!-- one.end -->
+	};
+	
 	window.gamedata.createTypes = function(session) {
 		var t = {};
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-types -->
@@ -389,6 +485,8 @@ t.orgUnits = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8
 		return t;
 	};
 	
+	
+	
 	window.gamedata.writeCaseData = function(session, node, onSuccess) {
 		
 		node.get(function(node) {
@@ -397,9 +495,7 @@ t.orgUnits = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8
 			var case1 = node.append("c1", "./c1");
 			
 			priv.defineCase1Starbucks(t, case1);
-			
 
-			
 			var case2 = node.append("c2", "./c2");
 			
 			priv.defineCase2Nike(t, case2);
@@ -423,6 +519,18 @@ t.orgUnits = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8
 			var case6 = node.append("c6", "./c6");
 			
 			priv.defineCase6RainbowsEnd(t, case6);
+			
+			var case7 = node.append("c7", "./c7");
+			
+			priv.defineCase7Coke(t, case7);
+//			
+//			var case8 = node.append("c8", "./c8");
+//			
+//			priv.defineCase8Pandora(t, case8);
+//			
+//			var case9 = node.append("c9", "./c9");
+//			
+//			priv.defineCase9Bungy(t, case9);
 			
 			session.commit().get(function(success) {
 			
