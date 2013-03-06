@@ -1,0 +1,25 @@
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case7-coke -->
+
+c.append("http://www.youtube.com/watch?v=WVRT16-dNsw", "./brandVideo").append(t.brandVideo);
+c.append("Soft drink industry", "./industry").append(t.industry);
+
+c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad Market. CCE target everybody, everywhere!", "./competitiveScope").append(t.competitiveScope);
+c.append("High Cost.  Coke uses it brand loyalty and market dominance to charge a premium price for it's products.  ", "./costStrategy").append(t.costStrategy);
+
+c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("High. People don't have to purchase soft drinks and can switch to water, tea, coffee etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Low. Suppliers provide mainly commodity products, such as sugar, cocoa, aluminium, where there are plenty of alternative suppliers for cafes to choose from.", "./supplierPower").append(t.supplierPower);
+c.append("High. There are many participants in this industry, even though the industry is dominated by two major players (Coca Cola Enterprises and PepsiCo).", "./rivalry").append(t.rivalry);
+c.append("High. Customers can get similar products from many sellers with little or no switching costs. Buyer power can be reduced through brand loyalty programmes.", "./buyerPower").append(t.buyerPower);
+c.append("High. There are low start-up costs required to enter the soft drink industry although significant distribution challenges would need to be overcome.", "./newEntrants").append(t.newEntrants);
+
+c.append("serviceAfterTheSale,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Market and Sell:   Coke is all about brand loyalty so marketing is of the utmost importance.  Make the product or service:  Coke has huge product manufacturing facilities that have to churn out perfect product 24/7 in order to keep up with demand. Deliver the product:  Coke is sold everywhere so the logistics of delivering the product to all the resellers is of vital importance.", "./valueChainJustification").append(t.valueChainJustification);
+
+c.append("Create Marketing Campaign", "./processName").append(t.processName);
+c.append("Coke is in a fierce battle with it's rivals and has to saturate the market with advertising to maintain it's dominance.", "./importantProcess").append(t.importantProcess);
+c.append("Create creative content:Create customer segment:Create web activity:Monitor campaigns", "./processSteps").append(t.processSteps);
+
+
+<!-- one.end -->
