@@ -6,7 +6,7 @@ c.append("http://www.designworks.co.nz/uploads/images/case-studies/kiwibank/kiwi
 c.append("https://www.youtube.com/watch?v=AOmC0NIGfRE&list=PL36471AF1A649489A", "./brandVideo").append(t.brandVideo);
 c.append("New Zealand Banking Industry", "./industry").append(t.industry);
 
-c.append("Cost Leadership.", "./correctStrategy").append(t.correctStrategy);
+c.append("costLeadership.", "./correctStrategy").append(t.correctStrategy);
 c.append("Broad scope:  Aimed at everyone in New Zealand.  ", "./competitiveScope").append(t.competitiveScope);
 c.append("Low Cost:  They aim at delivering value for money", "./costStrategy").append(t.costStrategy);
 
@@ -17,7 +17,7 @@ c.append("Banking has been around for hundreds of years, and just about everyone
 c.append("Banks often have relatively high switching costs. If a person has one bank that services their banking needs, mortgage, savings, checking, etc, it can be a huge hassle for that person to switch to another bank. However, some smart banks are using technology to make this process painless thus reducing the switching costs.", "./buyerPower").append(t.buyerPower);
 c.append("Banking requires a great deal of trust and there are very stringent legal and financial requirements.", "./newEntrants").append(t.newEntrants);
 
-c.append("technologyDevelopment, customerService, firmInfrastructure", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("technologyDevelopment,afterSales,firmInfrastructure", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("KiwiBank prides itself on customer service and uses technology to give better service at a cheaper cost.  As such, both technology development and customer service are vital value chain activities.  Marketing is also hugely important due to the intense rivalry in the banking industry.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Customer support", "./processName").append(t.processName);

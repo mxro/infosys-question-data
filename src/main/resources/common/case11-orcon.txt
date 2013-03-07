@@ -6,7 +6,7 @@ c.append("http://topnews.net.nz/data/imagecache/bigthumb/sites/default/files/orc
 c.append("http://www.youtube.com/watch?v=kxl3yAXHryY", "./brandVideo").append(t.brandVideo);
 c.append("NZ Internet Service Provider Industry", "./industry").append(t.industry);
 
-c.append("Cost Leadership", "./correctStrategy").append(t.correctStrategy);
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
 c.append("Broad scope:  Aimed at everyone in New Zealand", "./competitiveScope").append(t.competitiveScope);
 c.append("Low cost:  Aims to provide a low cost package", "./costStrategy").append(t.costStrategy);
 
@@ -17,7 +17,7 @@ c.append("There is a lot of competition in the NZ ISP market.", "./rivarly").app
 c.append("Consumers want the best price and switching costs are low.  However, the ISPS try to mitigate this via annual contracts.", "./buyerPower").append(t.buyerPower);
 c.append("It is very easy to set up an ISP and a number of companies such as SKYTV who are not traditional ISPs are looking at entering into this space.", "./newEntrants").append(t.newEntrants);
 
-c.append("Marketing: CustomerService: TechnologyDevelopment: MakeTheProduct", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("marketing,afterSales,technologyDevelopment,makeProjectOrService", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Marketing is vital as this is a very crowded market with plenty of substitutes all competing on price and service.\nMaking sure the product works as advertised is also vital.\nAnd technology development is also essential as ISPs are continually having to come up with new products using new technologies.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Fault diagnosis process", "./processName").append(t.processName);

@@ -6,7 +6,7 @@ c.append("http://www.republicreport.org/wp-content/uploads/2012/04/amazonlogo.jp
 c.append("http://www.youtube.com/watch?v=Ec4kWhEuhYE", "./brandVideo").append(t.brandVideo);
 c.append("Global online shopping industry ", "./industry").append(t.industry);
 
-c.append("Cost Leadership", "./correctStrategy").append(t.correctStrategy);
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
 c.append("Broad Market:  Amazon sells everything to everyone.  Their vision is about being 'the earth's' company.", "./competitiveScope").append(t.competitiveScope);
 c.append("Low Cost: They have no physical stores so can significantly undercut traditional brick and mortar stores.", "./costStrategy").append(t.costStrategy);
 
@@ -17,7 +17,7 @@ c.append("There are a multitude of companies competing in the global online shop
 c.append("Buyers have a wide variety of companies to choose from in the global online shopping industry .", "./buyerPower").append(t.buyerPower);
 c.append("Competitors are entering every segment of the global online shopping industry  all the time.", "./newEntrants").append(t.newEntrants);
 
-c.append("procurement,delivery,customerService", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("procurement,delivery,afterSales", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Procurement: Amazon needs to source all of it's products hence procurement is important.\nCustomer Service is obviously important as being customer centric is part of their vision.\nDelivery is vital as Amazon doesn't have physical stores so actually getting the goods to the customer in one piece quickly is vital.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Recommend Items to Customer Process", "./processName").append(t.processName);
