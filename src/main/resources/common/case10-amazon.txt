@@ -1,10 +1,10 @@
 <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case10-amazon -->
 
 c.append("Amazon", "./brandName").append(t.brandName);
-c.append("To be earth's most customer centric company; to build a place where people can come to find and discover anything they might want to buy online ", "./vision").append(t.vision);
+c.append("To be earth's most customer centric company.", "./vision").append(t.vision);
 c.append("http://www.republicreport.org/wp-content/uploads/2012/04/amazonlogo.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=Ec4kWhEuhYE", "./brandVideo").append(t.brandVideo);
-c.append("Global online shopping industry ", "./industry").append(t.industry);
+c.append("Global online shopping industry", "./industry").append(t.industry);
 
 c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
 c.append("Broad Market:  Amazon sells everything to everyone.  Their vision is about being 'the earth's' company.", "./competitiveScope").append(t.competitiveScope);
