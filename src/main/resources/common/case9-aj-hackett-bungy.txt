@@ -23,7 +23,7 @@ c.append("Make the product or service: Coming up with new attractions is vital i
 
 c.append("Create New Product", "./processName").append(t.processName);
 c.append("Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things. ", "./importantProcess").append(t.importantProcess);
-c.append("Conceptualize:Product/Service Definition:Product Concept Feasibility:Development & Design Verification:Transfer to production", "./processSteps").append(t.processSteps);
+c.append("Conceptualise New Product:Product/Service Definition:Product Concept Feasibility", "./processSteps").append(t.processSteps);
 
 c.append("S1:S2:S3", "./systems").append(t.systems);
 c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);

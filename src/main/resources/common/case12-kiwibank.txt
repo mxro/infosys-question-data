@@ -22,7 +22,7 @@ c.append("KiwiBank prides itself on customer service and uses technology to give
 
 c.append("Customer support", "./processName").append(t.processName);
 c.append("When a customer has a query it is vital that Kiwibank gives them the correct answer as quickly as possible.  This is especially true as they pride themselves on their customer service.", "./importantProcess").append(t.importantProcess);
-c.append("Receive query:Evaluate Answers: Answer query", "./processSteps").append(t.processSteps);
+c.append("Receive query:Evaluate answers:Answer query", "./processSteps").append(t.processSteps);
 
 c.append("S1:S2:S3", "./systems").append(t.systems);
 c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
