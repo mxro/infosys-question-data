@@ -7,7 +7,7 @@ c.append("http://www.youtube.com/watch?v=Ec4kWhEuhYE", "./brandVideo").append(t.
 c.append("Global online shopping industry ", "./industry").append(t.industry);
 
 c.append("Cost Leadership", "./correctStrategy").append(t.correctStrategy);
-c.append("Broad Market:  Amazon sells everything to everyone.  Their vision is about being "the earth's" company.", "./competitiveScope").append(t.competitiveScope);
+c.append("Broad Market:  Amazon sells everything to everyone.  Their vision is about being 'the earth's' company.", "./competitiveScope").append(t.competitiveScope);
 c.append("Low Cost: They have no physical stores so can significantly undercut traditional brick and mortar stores.", "./costStrategy").append(t.costStrategy);
 
 c.append("low:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);

@@ -26,7 +26,7 @@ c.append("Market and Sell: Coke is all about brand loyalty so marketing is of th
 
 c.append("Create Marketing Campaign", "./processName").append(t.processName);
 c.append("Coke is in a fierce battle with it's rivals and has to saturate the market with advertising to maintain it's dominance.", "./importantProcess").append(t.importantProcess);
-c.append("Analyse customer segment: Create creative content: Monitor campaigns", "./processSteps").append(t.processSteps);
+c.append("Analyse customer segment:Create creative content:Monitor campaigns", "./processSteps").append(t.processSteps);
 
 c.append("S1:S2:S3", "./systems").append(t.systems);
 c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
