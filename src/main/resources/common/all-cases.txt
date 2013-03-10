@@ -1,0 +1,52 @@
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/all-cases -->
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case1-starbucks") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case3-michael-hill") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case5-countdown") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case7-coke") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case8-pandora") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case9-aj-hackett-bungy") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case10-amazon") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case11-orcon") --> 
+</script>
+
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-kiwibank") --> 
+</script>
+
+
+<!-- one.end -->
