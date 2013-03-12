@@ -1,13 +1,14 @@
 <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
 // Common case data
 c.append("Nike", "./brandName").append(t.brandName);
+c.append(
+        "To bring inspiration and innovation to every athlete in the world.",
+        "./brandVision").append(t.vision);
 c.append("http://vince08.edublogs.org/files/2008/11/logonike.gif",
         "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=45mMioJ5szc",
         "./brandVideo").append(t.brandVideo);
-c.append(
-        "To bring inspiration and innovation to every athlete in the world.",
-        "./brandVision").append(t.vision);
+
 c.append("Sporting Apparel Footwear and Accessories", "./industry").append(t.industry);
 
 // Game 1, Strategy
