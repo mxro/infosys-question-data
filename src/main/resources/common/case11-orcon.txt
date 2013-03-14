@@ -18,7 +18,9 @@ c.append("Consumers want the best price and switching costs are low.  However, t
 c.append("It is very easy to set up an ISP and a number of companies such as SKYTV who are not traditional ISPs are looking at entering into this space.", "./newEntrants").append(t.newEntrants);
 
 c.append("marketing,afterSales,technologyDevelopment,makeProjectOrService", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Marketing is vital as this is a very crowded market with plenty of substitutes all competing on price and service.\nMaking sure the product works as advertised is also vital.\nAnd technology development is also essential as ISPs are continually having to come up with new products using new technologies.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Marketing: Marketing is vital as this is a very crowded market with plenty of substitutes all competing on price and service.\n"+
+"After Salves Service: Making sure the product works as advertised is also vital.\n"+
+"Technology Development: Technology development is essential as ISPs are continually having to come up with new products using new technologies.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Fault diagnosis process", "./processName").append(t.processName);
 c.append("If the service that the ISP delivers is unreliable then customers will switch to another ISP pretty quickly.  Hence faults need to be tracked and resolved quickly.", "./importantProcess").append(t.importantProcess);

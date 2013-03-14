@@ -19,7 +19,9 @@ c.append("High. There are many other sources of adventure tourism such as hot ai
 c.append("High. In tourism, new entrants always get the attention of travellers, as they have a tendency of exploring fresh destinations.", "./newEntrants").append(t.newEntrants);
 
 c.append("makeProjectOrService:marketing:delivery", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Make the product or service: Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things.\nMarket and Sell: The adventure tourism industry has many players so marketing is vital.\nDeliver the product:  Safety and an awesome experience are at the heart of AJ Hackett's operations.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Make the product or service: Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things.\n"+
+"Market and Sell: The adventure tourism industry has many players so marketing is vital.\n"+
+"Deliver the product:  Safety and an awesome experience are at the heart of AJ Hackett's operations.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Create New Product", "./processName").append(t.processName);
 c.append("Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things. ", "./importantProcess").append(t.importantProcess);

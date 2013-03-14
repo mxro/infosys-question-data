@@ -18,7 +18,9 @@ c.append("Buyers can very easily switch to a rival provider.  Pandora attempts t
 c.append("There are no major impediments to starting up an online radio business.", "./newEntrants").append(t.newEntrants);
 
 c.append("afterSales,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Service After The Sale is critical to Pandora to continually provide only the music that listeners love.\nMake the Product or Service is important as they need to deliver the music that listeners love when they want it.\nTechnology Development is vital in that they use their music selection algorithm as their key competitive advantage over their competitors. ", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Service After The Sale is critical to Pandora to continually provide only the music that listeners love.\n"+
+"Make the Product or Service is important as they need to deliver the music that listeners love when they want it.\n"+
+"Technology Development is vital in that they use their music selection algorithm as their key competitive advantage over their competitors. ", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Acquire new music process", "./processName").append(t.processName);
 c.append("Pandora has to continually add new and existing songs to it's music database for analysis and distribution to listeners.", "./importantProcess").append(t.importantProcess);

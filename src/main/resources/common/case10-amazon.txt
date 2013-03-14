@@ -18,7 +18,9 @@ c.append("Buyers have a wide variety of companies to choose from in the global o
 c.append("Competitors are entering every segment of the global online shopping industry  all the time.", "./newEntrants").append(t.newEntrants);
 
 c.append("procurement,delivery,afterSales", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Procurement: Amazon needs to source all of it's products hence procurement is important.\nCustomer Service is obviously important as being customer centric is part of their vision.\nDelivery is vital as Amazon doesn't have physical stores so actually getting the goods to the customer in one piece quickly is vital.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Procurement: Amazon needs to source all of it's products hence procurement is important.\n"+
+"Customer Service is obviously important as being customer centric is part of their vision.\n"+
+"Delivery is vital as Amazon doesn't have physical stores so actually getting the goods to the customer in one piece quickly is vital.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Recommend Items to Customer Process", "./processName").append(t.processName);
 c.append("Amazon prides itself on being customer centric and part of this is being able to suggest items to customers that they might like based on past sales data.", "./importantProcess").append(t.importantProcess);
