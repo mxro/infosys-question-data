@@ -18,7 +18,7 @@ c.append("Banks often have relatively high switching costs. If a person has one 
 c.append("Banking requires a great deal of trust and there are very stringent legal and financial requirements.", "./newEntrants").append(t.newEntrants);
 
 c.append("technologyDevelopment,afterSales,firmInfrastructure", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Customer Service: KiwiBank prides itself on customer service. Thus,  is a vital value chain activity.\n"+
+c.append("Customer Service: KiwiBank prides itself on customer service.\n"+
 "Technology Development: KiwiBank uses technology to give better service at a cheaper cost.\n"+
 "Marketing: Marketing is important due to the intense rivalry in the banking industry.", "./valueChainJustification").append(t.valueChainJustification);
 
