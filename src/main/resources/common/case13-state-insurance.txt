@@ -8,7 +8,7 @@ c.append("Insurance industry", "./industry").append(t.industry);
 
 c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
 c.append("Broad Market:  State manages over a million policies for more than 460,000 Kiwis.", "./competitiveScope").append(t.competitiveScope);
-c.append("High Cost:  State offers a premium insurance experience, and putting the customer at the centre of everything. They "try to set themselves apart" by doing so.", "./costStrategy").append(t.costStrategy);
+c.append("High Cost:  State offers a premium insurance experience, and putting the customer at the centre of everything. They 'try to set themselves apart' by doing so.", "./costStrategy").append(t.costStrategy);
 
 c.append("low:high:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
 c.append("The only substitute to insurance is paying for the costs of the incident yourself.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
