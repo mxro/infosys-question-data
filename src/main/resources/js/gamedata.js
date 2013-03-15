@@ -10,13 +10,13 @@
 // Common case data
 c.append("Starbucks", "./brandName").append(t.brandName);
 c.append(
+        "To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.",
+        "./brandVision").append(t.vision);
+c.append(
         "http://hollywoodandswine.com/wp-content/uploads/2012/03/Starbucks-2.jpg",
         "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=JagNph-q9LU&feature=relmfu",
         "./brandVideo").append(t.brandVideo);
-c.append(
-        "To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.",
-        "./brandVision").append(t.vision);
 c.append("Cafe industry", "./industry").append(t.industry);
 
 // Game 1, Strategy
@@ -101,13 +101,14 @@ c.append("Manufacturing:Accounting:Manufacturing management").append(
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
 // Common case data
 c.append("Nike", "./brandName").append(t.brandName);
+c.append(
+        "To bring inspiration and innovation to every athlete in the world.",
+        "./brandVision").append(t.vision);
 c.append("http://vince08.edublogs.org/files/2008/11/logonike.gif",
         "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=45mMioJ5szc",
         "./brandVideo").append(t.brandVideo);
-c.append(
-        "To bring inspiration and innovation to every athlete in the world.",
-        "./brandVision").append(t.vision);
+
 c.append("Sporting Apparel Footwear and Accessories", "./industry").append(t.industry);
 
 // Game 1, Strategy
@@ -391,7 +392,9 @@ c.append("Buyers can very easily switch to a rival provider.  Pandora attempts t
 c.append("There are no major impediments to starting up an online radio business.", "./newEntrants").append(t.newEntrants);
 
 c.append("afterSales,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Service After The Sale is critical to Pandora to continually provide only the music that listeners love.\nMake the Product or Service is important as they need to deliver the music that listeners love when they want it.\nTechnology Development is vital in that they use their music selection algorithm as their key competitive advantage over their competitors. ", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Service After The Sale is critical to Pandora to continually provide only the music that listeners love.\n"+
+"Make the Product or Service is important as they need to deliver the music that listeners love when they want it.\n"+
+"Technology Development is vital in that they use their music selection algorithm as their key competitive advantage over their competitors. ", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Acquire new music process", "./processName").append(t.processName);
 c.append("Pandora has to continually add new and existing songs to it's music database for analysis and distribution to listeners.", "./importantProcess").append(t.importantProcess);
@@ -426,7 +429,9 @@ c.append("High. There are many other sources of adventure tourism such as hot ai
 c.append("High. In tourism, new entrants always get the attention of travellers, as they have a tendency of exploring fresh destinations.", "./newEntrants").append(t.newEntrants);
 
 c.append("makeProjectOrService:marketing:delivery", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Make the product or service: Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things.\nMarket and Sell: The adventure tourism industry has many players so marketing is vital.\nDeliver the product:  Safety and an awesome experience are at the heart of AJ Hackett's operations.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Make the product or service: Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things.\n"+
+"Market and Sell: The adventure tourism industry has many players so marketing is vital.\n"+
+"Deliver the product:  Safety and an awesome experience are at the heart of AJ Hackett's operations.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Create New Product", "./processName").append(t.processName);
 c.append("Coming up with new attractions is vital in the adventure tourism industry as tourists tend to want to try new things. ", "./importantProcess").append(t.importantProcess);
@@ -441,32 +446,34 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	priv.defineCase10Amazon = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case10-amazon -->
 
-		c.append("Amazon", "./brandName").append(t.brandName);
-		c.append("To be earth's most customer centric company.", "./vision").append(t.vision);
-		c.append("http://www.republicreport.org/wp-content/uploads/2012/04/amazonlogo.jpg", "./brandImage").append(t.brandImage);
-		c.append("http://www.youtube.com/watch?v=Ec4kWhEuhYE", "./brandVideo").append(t.brandVideo);
-		c.append("Global online shopping industry", "./industry").append(t.industry);
+c.append("Amazon", "./brandName").append(t.brandName);
+c.append("To be earth's most customer centric company.", "./vision").append(t.vision);
+c.append("http://www.republicreport.org/wp-content/uploads/2012/04/amazonlogo.jpg", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=Ec4kWhEuhYE", "./brandVideo").append(t.brandVideo);
+c.append("Global online shopping industry", "./industry").append(t.industry);
 
-		c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
-		c.append("Broad Market:  Amazon sells everything to everyone.  Their vision is about being 'the earth's' company.", "./competitiveScope").append(t.competitiveScope);
-		c.append("Low Cost: They have no physical stores so can significantly undercut traditional brick and mortar stores.", "./costStrategy").append(t.costStrategy);
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad Market:  Amazon sells everything to everyone.  Their vision is about being 'the earth's' company.", "./competitiveScope").append(t.competitiveScope);
+c.append("Low Cost: They have no physical stores so can significantly undercut traditional brick and mortar stores.", "./costStrategy").append(t.costStrategy);
 
-		c.append("low:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
-		c.append("Consumer retail is such a broad industry that all substitutes are likely to be included.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-		c.append("There are a multitude of suppliers to the global online shopping industry ", "./supplierPower").append(t.supplierPower);
-		c.append("There are a multitude of companies competing in the global online shopping industry .", "./rivarly").append(t.rivarly);
-		c.append("Buyers have a wide variety of companies to choose from in the global online shopping industry .", "./buyerPower").append(t.buyerPower);
-		c.append("Competitors are entering every segment of the global online shopping industry  all the time.", "./newEntrants").append(t.newEntrants);
+c.append("low:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("Consumer retail is such a broad industry that all substitutes are likely to be included.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("There are a multitude of suppliers to the global online shopping industry ", "./supplierPower").append(t.supplierPower);
+c.append("There are a multitude of companies competing in the global online shopping industry .", "./rivarly").append(t.rivarly);
+c.append("Buyers have a wide variety of companies to choose from in the global online shopping industry .", "./buyerPower").append(t.buyerPower);
+c.append("Competitors are entering every segment of the global online shopping industry  all the time.", "./newEntrants").append(t.newEntrants);
 
-		c.append("procurement,delivery,afterSales", "./correctValueChainActivites").append(t.correctValueChainActivites);
-		c.append("Procurement: Amazon needs to source all of it's products hence procurement is important.\nCustomer Service is obviously important as being customer centric is part of their vision.\nDelivery is vital as Amazon doesn't have physical stores so actually getting the goods to the customer in one piece quickly is vital.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("procurement,delivery,afterSales", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Procurement: Amazon needs to source all of it's products hence procurement is important.\n"+
+"Customer Service is obviously important as being customer centric is part of their vision.\n"+
+"Delivery is vital as Amazon doesn't have physical stores so actually getting the goods to the customer in one piece quickly is vital.", "./valueChainJustification").append(t.valueChainJustification);
 
-		c.append("Recommend Items to Customer Process", "./processName").append(t.processName);
-		c.append("Amazon prides itself on being customer centric and part of this is being able to suggest items to customers that they might like based on past sales data.", "./importantProcess").append(t.importantProcess);
-		c.append("Get Customer Data:Analyze Sales Patterns:Make Purchase Recommendation", "./processSteps").append(t.processSteps);
+c.append("Recommend Items to Customer Process", "./processName").append(t.processName);
+c.append("Amazon prides itself on being customer centric and part of this is being able to suggest items to customers that they might like based on past sales data.", "./importantProcess").append(t.importantProcess);
+c.append("Get Customer Data:Analyze Sales Patterns:Make Purchase Recommendation", "./processSteps").append(t.processSteps);
 
-		c.append("S1:S2:S3", "./systems").append(t.systems);
-		c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
+c.append("S1:S2:S3", "./systems").append(t.systems);
+c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 
 
 // <!-- one.end -->
@@ -475,33 +482,34 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	priv.defineCase11Orcon = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case11-orcon -->
 
-		c.append("Orcon", "./brandName").append(t.brandName);
-		c.append("To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.", "./vision").append(t.vision);
-		c.append("http://topnews.net.nz/data/imagecache/bigthumb/sites/default/files/orcon1.jpg", "./brandImage").append(t.brandImage);
-		c.append("http://www.youtube.com/watch?v=kxl3yAXHryY", "./brandVideo").append(t.brandVideo);
-		c.append("NZ Internet Service Provider Industry", "./industry").append(t.industry);
+c.append("Orcon", "./brandName").append(t.brandName);
+c.append("To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.", "./vision").append(t.vision);
+c.append("http://topnews.net.nz/data/imagecache/bigthumb/sites/default/files/orcon1.jpg", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=kxl3yAXHryY", "./brandVideo").append(t.brandVideo);
+c.append("NZ Internet Service Provider Industry", "./industry").append(t.industry);
 
-		c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
-		c.append("Broad scope:  Aimed at everyone in New Zealand", "./competitiveScope").append(t.competitiveScope);
-		c.append("Low cost:  Aims to provide a low cost package", "./costStrategy").append(t.costStrategy);
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad scope:  Aimed at everyone in New Zealand", "./competitiveScope").append(t.competitiveScope);
+c.append("Low cost:  Aims to provide a low cost package", "./costStrategy").append(t.costStrategy);
 
-		c.append("low:high:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
-		c.append("There is not really a substitute for internet access.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-		c.append("In the NZ context there is only one international backbone provider and they have significant supplier power.", "./supplierPower").append(t.supplierPower);
-		c.append("There is a lot of competition in the NZ ISP market.", "./rivarly").append(t.rivarly);
-		c.append("Consumers want the best price and switching costs are low.  However, the ISPS try to mitigate this via annual contracts.", "./buyerPower").append(t.buyerPower);
-		c.append("It is very easy to set up an ISP and a number of companies such as SKYTV who are not traditional ISPs are looking at entering into this space.", "./newEntrants").append(t.newEntrants);
+c.append("low:high:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("There is not really a substitute for internet access.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("In the NZ context there is only one international backbone provider and they have significant supplier power.", "./supplierPower").append(t.supplierPower);
+c.append("There is a lot of competition in the NZ ISP market.", "./rivarly").append(t.rivarly);
+c.append("Consumers want the best price and switching costs are low.  However, the ISPS try to mitigate this via annual contracts.", "./buyerPower").append(t.buyerPower);
+c.append("It is very easy to set up an ISP and a number of companies such as SKYTV who are not traditional ISPs are looking at entering into this space.", "./newEntrants").append(t.newEntrants);
 
-		c.append("marketing,afterSales,technologyDevelopment,makeProjectOrService", "./correctValueChainActivites").append(t.correctValueChainActivites);
-		c.append("Marketing is vital as this is a very crowded market with plenty of substitutes all competing on price and service.\nMaking sure the product works as advertised is also vital.\nAnd technology development is also essential as ISPs are continually having to come up with new products using new technologies.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("marketing,afterSales,technologyDevelopment,makeProjectOrService", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Marketing: Marketing is vital as this is a very crowded market with plenty of substitutes all competing on price and service.\n"+
+"After Salves Service: Making sure the product works as advertised is also vital.\n"+
+"Technology Development: Technology development is essential as ISPs are continually having to come up with new products using new technologies.", "./valueChainJustification").append(t.valueChainJustification);
 
-		c.append("Fault diagnosis process", "./processName").append(t.processName);
-		c.append("If the service that the ISP delivers is unreliable then customers will switch to another ISP pretty quickly.  Hence faults need to be tracked and resolved quickly.", "./importantProcess").append(t.importantProcess);
-		c.append("Receive fault report: Diagnose Fault: Fix Fault", "./processSteps").append(t.processSteps);
+c.append("Fault diagnosis process", "./processName").append(t.processName);
+c.append("If the service that the ISP delivers is unreliable then customers will switch to another ISP pretty quickly.  Hence faults need to be tracked and resolved quickly.", "./importantProcess").append(t.importantProcess);
+c.append("Receive fault report: Diagnose Fault: Fix Fault", "./processSteps").append(t.processSteps);
 
-		c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
-		c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
-
+c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 
 // <!-- one.end -->
@@ -510,32 +518,70 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	priv.defineCase12Kiwibank = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-kiwibank -->
 
-		c.append("KiwiBank", "./brandName").append(t.brandName);
-		c.append("Giving Kiwis better value banking.", "./vision").append(t.vision);
-		c.append("http://www.designworks.co.nz/uploads/images/case-studies/kiwibank/kiwibank.jpg", "./brandImage").append(t.brandImage);
-		c.append("https://www.youtube.com/watch?v=AOmC0NIGfRE&list=PL36471AF1A649489A", "./brandVideo").append(t.brandVideo);
-		c.append("New Zealand Banking Industry", "./industry").append(t.industry);
+c.append("KiwiBank", "./brandName").append(t.brandName);
+c.append("Giving Kiwis better value banking.", "./vision").append(t.vision);
+c.append("http://www.designworks.co.nz/uploads/images/case-studies/kiwibank/kiwibank.jpg", "./brandImage").append(t.brandImage);
+c.append("https://www.youtube.com/watch?v=AOmC0NIGfRE&list=PL36471AF1A649489A", "./brandVideo").append(t.brandVideo);
+c.append("New Zealand Banking Industry", "./industry").append(t.industry);
 
-		c.append("costLeadership.", "./correctStrategy").append(t.correctStrategy);
-		c.append("Broad scope:  Aimed at everyone in New Zealand.  ", "./competitiveScope").append(t.competitiveScope);
-		c.append("Low Cost:  They aim at delivering value for money", "./costStrategy").append(t.costStrategy);
+c.append("costLeadership.", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad scope:  Aimed at everyone in New Zealand.  ", "./competitiveScope").append(t.competitiveScope);
+c.append("Low Cost:  They aim at delivering value for money", "./costStrategy").append(t.costStrategy);
 
-		c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
-		c.append("It is hard to imagine living in a modern society without a bank.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-		c.append("Capital is the primary resource of any bank and in a NZ context the power of the market dictates that supplier power is likely to be high.", "./supplierPower").append(t.supplierPower);
-		c.append("Banking has been around for hundreds of years, and just about everyone who need a bank already has one. Because of this, banks must attempt to lure clients away from competitor banks. They do this by offering lower financing, higher rates, investment services, and greater conveniences than their rivals. ", "./rivarly").append(t.rivarly);
-		c.append("Banks often have relatively high switching costs. If a person has one bank that services their banking needs, mortgage, savings, checking, etc, it can be a huge hassle for that person to switch to another bank. However, some smart banks are using technology to make this process painless thus reducing the switching costs.", "./buyerPower").append(t.buyerPower);
-		c.append("Banking requires a great deal of trust and there are very stringent legal and financial requirements.", "./newEntrants").append(t.newEntrants);
+c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("It is hard to imagine living in a modern society without a bank.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Capital is the primary resource of any bank and in a NZ context the power of the market dictates that supplier power is likely to be high.", "./supplierPower").append(t.supplierPower);
+c.append("Banking has been around for hundreds of years, and just about everyone who need a bank already has one. Because of this, banks must attempt to lure clients away from competitor banks. They do this by offering lower financing, higher rates, investment services, and greater conveniences than their rivals. ", "./rivarly").append(t.rivarly);
+c.append("Banks often have relatively high switching costs. If a person has one bank that services their banking needs, mortgage, savings, checking, etc, it can be a huge hassle for that person to switch to another bank. However, some smart banks are using technology to make this process painless thus reducing the switching costs.", "./buyerPower").append(t.buyerPower);
+c.append("Banking requires a great deal of trust and there are very stringent legal and financial requirements.", "./newEntrants").append(t.newEntrants);
 
-		c.append("technologyDevelopment,afterSales,firmInfrastructure", "./correctValueChainActivites").append(t.correctValueChainActivites);
-		c.append("KiwiBank prides itself on customer service and uses technology to give better service at a cheaper cost.  As such, both technology development and customer service are vital value chain activities.  Marketing is also hugely important due to the intense rivalry in the banking industry.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("technologyDevelopment,afterSales,firmInfrastructure", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Customer Service: KiwiBank prides itself on customer service. Thus,  is a vital value chain activity.\n"+
+"Technology Development: KiwiBank uses technology to give better service at a cheaper cost.\n"+
+"Marketing: Marketing is important due to the intense rivalry in the banking industry.", "./valueChainJustification").append(t.valueChainJustification);
 
-		c.append("Customer support", "./processName").append(t.processName);
-		c.append("When a customer has a query it is vital that Kiwibank gives them the correct answer as quickly as possible.  This is especially true as they pride themselves on their customer service.", "./importantProcess").append(t.importantProcess);
-		c.append("Receive query:Evaluate answers:Answer query", "./processSteps").append(t.processSteps);
+c.append("Customer support", "./processName").append(t.processName);
+c.append("When a customer has a query it is vital that Kiwibank gives them the correct answer as quickly as possible.  This is especially true as they pride themselves on their customer service.", "./importantProcess").append(t.importantProcess);
+c.append("Receive query:Evaluate answers:Answer query", "./processSteps").append(t.processSteps);
 
-		c.append("S1:S2:S3", "./systems").append(t.systems);
-		c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
+c.append("S1:S2:S3", "./systems").append(t.systems);
+c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
+
+// <!-- one.end -->
+	};
+	
+	priv.defineCase13StateInsurance = function(t, c) {
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-state-insurance -->
+
+c.append("State Insurance", "./brandName").append(t.brandName);
+c.append("Keep New Zealanders moving forward by offering a premium insurance experience.", "./vision").append(t.vision);
+c.append("http://www.state.co.nz/Style%20Library/statewebsite/images/state-logo.png", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=NBTcNMwmm2E", "./brandVideo").append(t.brandVideo);
+c.append("Insurance industry", "./industry").append(t.industry);
+
+c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad Market:  State manages over a million policies for more than 460,000 Kiwis.", "./competitiveScope").append(t.competitiveScope);
+c.append("High Cost:  State offers a premium insurance experience, and putting the customer at the centre of everything. They "try to set themselves apart" by doing so.", "./costStrategy").append(t.costStrategy);
+
+c.append("low:high:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("The only substitute to insurance is paying for the costs of the incident yourself.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Suppliers for the NZ insurance industry are the large insurance corporations overseas.", "./supplierPower").append(t.supplierPower);
+c.append("There are many  insurance companies in NZ: State, AA, Tower, AMI, FinTel who are in intense competition.", "./rivarly").append(t.rivarly);
+c.append("Buyer power is high as the buyers have many insurance companies to choose from. However, most insurance companies provide some distinct benefits and loyalty programmes in association with other organisations. For example, State insurance earns customers Flybuy points.  They are attempting to limit the buyers power through these programmes.", "./buyerPower").append(t.buyerPower);
+c.append("Insurance companies tend to have high set up costs, and most companies in the NZ market have spent several years establishing themselves. For example, State has been serving customers for 100 years!", "./newEntrants").append(t.newEntrants);
+
+c.append("delivery,afterSales,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Deliver the service: State insurance aim to excel in their ability to pay claims.\n"+
+"Service after Sale: It is important for them to ensure that customers are happy with the whole claims process.\n"+
+"Marketing: Marketing is important because State insurance targets a broad market, always looking to expand both their personal and business customer base.", "./valueChainJustification").append(t.valueChainJustification);
+
+c.append("Claims process", "./processName").append(t.processName);
+c.append("Processing claims efficiently, and to the satisfaction of the customers is of utmost importance to State.", "./importantProcess").append(t.importantProcess);
+c.append("Receive claim:Analyse claim:Reject or accept claim", "./processSteps").append(t.processSteps);
+
+c.append("Claims processing system:TPS and DSS", "./systems").append(t.systems);
+c.append("Service (claims):Customer service", "./orgUnits").append(t.orgUnits);
+
 
 // <!-- one.end -->
 	};
@@ -649,6 +695,10 @@ t.orgUnits = session.node("http://slicnet.com/mxrogm/mxrogm/apps/nodejump/docs/8
 			var case12 = node.append("c12", "./c12");
 			
 			priv.defineCase12Kiwibank(t, case12);
+			
+			var case13 = node.append("c13", "./c13");
+			
+			priv.defineCase13StateInsurance(t, case13);
 			
 			session.commit().get(function(success) {
 			
