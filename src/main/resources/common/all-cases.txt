@@ -48,5 +48,8 @@
 <!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-kiwibank") --> 
 </script>
 
+<script>
+<!-- one.embedText("https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-state-insurance") --> 
+</script>
 
 <!-- one.end -->
