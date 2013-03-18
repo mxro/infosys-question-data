@@ -1,5 +1,6 @@
 <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-kiwibank -->
 
+
 c.append("KiwiBank", "./brandName").append(t.brandName);
 c.append("Giving Kiwis better value banking.", "./vision").append(t.vision);
 c.append("http://www.designworks.co.nz/uploads/images/case-studies/kiwibank/kiwibank.jpg", "./brandImage").append(t.brandImage);

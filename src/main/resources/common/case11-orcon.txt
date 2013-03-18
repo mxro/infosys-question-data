@@ -1,5 +1,6 @@
 <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case11-orcon -->
 
+
 c.append("Orcon", "./brandName").append(t.brandName);
 c.append("To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.", "./vision").append(t.vision);
 c.append("http://topnews.net.nz/data/imagecache/bigthumb/sites/default/files/orcon1.jpg", "./brandImage").append(t.brandImage);

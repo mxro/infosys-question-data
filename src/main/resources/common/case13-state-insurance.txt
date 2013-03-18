@@ -1,5 +1,6 @@
 <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-state-insurance -->
 
+
 c.append("State Insurance", "./brandName").append(t.brandName);
 c.append("Keep New Zealanders moving forward by offering a premium insurance experience.", "./vision").append(t.vision);
 c.append("http://www.state.co.nz/Style%20Library/statewebsite/images/state-logo.png", "./brandImage").append(t.brandImage);
