@@ -524,7 +524,7 @@ c.append("http://www.designworks.co.nz/uploads/images/case-studies/kiwibank/kiwi
 c.append("https://www.youtube.com/watch?v=AOmC0NIGfRE&list=PL36471AF1A649489A", "./brandVideo").append(t.brandVideo);
 c.append("New Zealand Banking Industry", "./industry").append(t.industry);
 
-c.append("costLeadership.", "./correctStrategy").append(t.correctStrategy);
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
 c.append("Broad scope:  Aimed at everyone in New Zealand.  ", "./competitiveScope").append(t.competitiveScope);
 c.append("Low Cost:  They aim at delivering value for money", "./costStrategy").append(t.costStrategy);
 
