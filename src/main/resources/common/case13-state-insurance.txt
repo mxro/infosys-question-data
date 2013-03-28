@@ -27,8 +27,8 @@ c.append("Claims process", "./processName").append(t.processName);
 c.append("Processing claims efficiently, and to the satisfaction of the customers is of utmost importance to State.", "./importantProcess").append(t.importantProcess);
 c.append("Receive claim:Analyse claim:Reject or accept claim", "./processSteps").append(t.processSteps);
 
-c.append("Claims processing system:TPS and DSS", "./systems").append(t.systems);
-c.append("Service (claims):Customer service", "./orgUnits").append(t.orgUnits);
+c.append("Online claims processing system: Claims analysis system: Claims processing system (DSS)", "./systems").append(t.systems);
+c.append("Customer service:Customer service:Customer service", "./orgUnits").append(t.orgUnits);
 
 
 <!-- one.end -->

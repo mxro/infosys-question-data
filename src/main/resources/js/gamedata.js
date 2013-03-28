@@ -482,6 +482,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	priv.defineCase11Orcon = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case11-orcon -->
 
+
 c.append("Orcon", "./brandName").append(t.brandName);
 c.append("To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.", "./vision").append(t.vision);
 c.append("http://topnews.net.nz/data/imagecache/bigthumb/sites/default/files/orcon1.jpg", "./brandImage").append(t.brandImage);
@@ -518,6 +519,7 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 	priv.defineCase12Kiwibank = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-kiwibank -->
 
+
 c.append("KiwiBank", "./brandName").append(t.brandName);
 c.append("Giving Kiwis better value banking.", "./vision").append(t.vision);
 c.append("http://www.designworks.co.nz/uploads/images/case-studies/kiwibank/kiwibank.jpg", "./brandImage").append(t.brandImage);
@@ -536,7 +538,7 @@ c.append("Banks often have relatively high switching costs. If a person has one 
 c.append("Banking requires a great deal of trust and there are very stringent legal and financial requirements.", "./newEntrants").append(t.newEntrants);
 
 c.append("technologyDevelopment,afterSales,firmInfrastructure", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Customer Service: KiwiBank prides itself on customer service. Thus,  is a vital value chain activity.\n"+
+c.append("Customer Service: KiwiBank prides itself on customer service.\n"+
 "Technology Development: KiwiBank uses technology to give better service at a cheaper cost.\n"+
 "Marketing: Marketing is important due to the intense rivalry in the banking industry.", "./valueChainJustification").append(t.valueChainJustification);
 
@@ -552,6 +554,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	
 	priv.defineCase13StateInsurance = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-state-insurance -->
+
 
 c.append("State Insurance", "./brandName").append(t.brandName);
 c.append("Keep New Zealanders moving forward by offering a premium insurance experience.", "./vision").append(t.vision);
@@ -579,8 +582,8 @@ c.append("Claims process", "./processName").append(t.processName);
 c.append("Processing claims efficiently, and to the satisfaction of the customers is of utmost importance to State.", "./importantProcess").append(t.importantProcess);
 c.append("Receive claim:Analyse claim:Reject or accept claim", "./processSteps").append(t.processSteps);
 
-c.append("Claims processing system:TPS and DSS", "./systems").append(t.systems);
-c.append("Service (claims):Customer service", "./orgUnits").append(t.orgUnits);
+c.append("Online claims processing system: Claims analysis system: Claims processing system (DSS)", "./systems").append(t.systems);
+c.append("Customer service:Customer service:Customer service", "./orgUnits").append(t.orgUnits);
 
 
 // <!-- one.end -->
