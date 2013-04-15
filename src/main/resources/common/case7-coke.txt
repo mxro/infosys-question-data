@@ -19,7 +19,7 @@ c.append("There are many participants in this industry, even though the industry
 c.append("Customers can get similar products from many sellers with little or no switching costs. Buyer power can be reduced through brand loyalty programmes.", "./buyerPower").append(t.buyerPower);
 c.append("There are low start-up costs required to enter the soft drink industry although significant distribution challenges would need to be overcome.", "./newEntrants").append(t.newEntrants);
 
-c.append("afterSales,makeProjectOrService,technologyDevelopment", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("marketing,makeProjectOrService,delivery", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Market and Sell: Coke is all about brand loyalty so marketing is of the utmost importance.\n"+
         "Make the product or service:  Coke has huge product manufacturing facilities that have to churn out perfect product 24/7 in order to keep up with demand.\n"+
         "Deliver the product: Coke is sold everywhere so the logistics of delivering the product to all the resellers is of vital importance.", "./valueChainJustification").append(t.valueChainJustification);
