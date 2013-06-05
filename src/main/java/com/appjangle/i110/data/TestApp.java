@@ -24,12 +24,11 @@ public class TestApp {
 
 		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
 		System.out.println("Loading data for game type 1 from case 1 ....");
-		
+
 		// the 'c1' at the end indicates that we select case 1!
-				StrategicQuandrantQuestion case1game1 = LoadStrategicQuandrantQuestion
-						.getQuestionFromNode(session, session.node(cases.uri() + "/c1"));
-		
-			
+		StrategicQuandrantQuestion case1game1 = LoadStrategicQuandrantQuestion
+				.getQuestionFromNode(session, session.node(cases.uri() + "/c11"));
+
 		System.out.println("Brand name: " + case1game1.getBrandName());
 		System.out.println("Brand image: " + case1game1.getBrandImageLink());
 		System.out.println("Brand vision: " + case1game1.getBrandVision());
@@ -45,18 +44,19 @@ public class TestApp {
 
 		System.out.println("---------------------------");
 		System.out.println("Loading data for game type 3 from case 1 ....");
-		
-		ValueChainQuestion case1game3 = LoadValueChainQuestion.getQuestionFromNode(session, session.node(cases.uri()+"/c1"));
-		
+
+		ValueChainQuestion case1game3 = LoadValueChainQuestion
+				.getQuestionFromNode(session, session.node(cases.uri() + "/c1"));
+
 		System.out.println("Brand name: " + case1game3.getBrandName());
 		System.out.println("Brand image: " + case1game3.getBrandImageLink());
 		System.out.println("Brand vision: " + case1game3.getBrandVision());
 		System.out.println("Key activites: "
 				+ case1game3.getCorrectValueChainActivites());
 		System.out.println("Justification:");
-		
+
 		System.out.println(case1game3.getValueChainJustification());
-		
+
 		// the 'c2' at the end indicates that we select case 2!
 		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
 		StrategicQuandrantQuestion case2game1 = LoadStrategicQuandrantQuestion

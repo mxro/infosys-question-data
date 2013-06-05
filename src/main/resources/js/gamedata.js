@@ -484,7 +484,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 
 
 c.append("Orcon", "./brandName").append(t.brandName);
-c.append("To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.", "./vision").append(t.vision);
+c.append("The Internet is Everything.", "./vision").append(t.vision);
 c.append("http://topnews.net.nz/data/imagecache/bigthumb/sites/default/files/orcon1.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=kxl3yAXHryY", "./brandVideo").append(t.brandVideo);
 c.append("NZ Internet Service Provider Industry", "./industry").append(t.industry);
