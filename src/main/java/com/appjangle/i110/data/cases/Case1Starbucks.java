@@ -11,13 +11,13 @@ public class Case1Starbucks {
 // Common case data
 c.append("Starbucks", "./brandName").append(t.brandName);
 c.append(
+        "To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.",
+        "./brandVision").append(t.vision);
+c.append(
         "http://hollywoodandswine.com/wp-content/uploads/2012/03/Starbucks-2.jpg",
         "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=JagNph-q9LU&feature=relmfu",
         "./brandVideo").append(t.brandVideo);
-c.append(
-        "To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.",
-        "./brandVision").append(t.vision);
 c.append("Cafe industry", "./industry").append(t.industry);
 
 // Game 1, Strategy
@@ -70,7 +70,7 @@ c.append("procurement,makeProjectOrService,technologyDevelopment",
 
 c.append(
         "Procurement: Starbucks needs to get the best quality, certified fairtrade coffee beans.\n"
-                + "Make the product or service: Starbucks� strategy involves quality, and pleasing people � this is achieved through providing the best possible cup of coffee\n"
+                + "Make the product or service: Starbucks' strategy involves quality, and pleasing people - this is achieved through providing the best possible cup of coffee\n"
                 + "Research and Development: In order to differentiate their product, and compete with rivals,  Starbucks must continually produce new offerings. ",
         "./valueChainJustification").append(t.valueChainJustification);
         
@@ -80,7 +80,7 @@ c.append(
 
 c.append("Raw materials sourcing process").append(t.processName);
 c.append(
-        "The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee groud.")
+        "The quality of coffee beans is very important for Starbucks. They need to select the hightest quality suppliers in order to be able to produce the best coffee ground.")
         .append(t.importantProcess);
 c.append(
         "Obtain quotes from suppliers:Compare quotes:Select best supplier")
