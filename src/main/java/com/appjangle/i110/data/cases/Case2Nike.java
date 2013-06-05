@@ -6,7 +6,7 @@ import com.appjangle.i110.data.Types;
 
 public class Case2Nike {
 
-	public static void defineCase2Nike(Types t, Query c) {
+	public static void injectData(Types t, Query c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
 // Common case data
 c.append("Nike", "./brandName").append(t.brandName);

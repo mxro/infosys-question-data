@@ -18,14 +18,14 @@ public class GameData {
 
 		Query case1 = node.append("c1", "./c1");
 
-		Case1Starbucks.defineCase1Starbucks(t, case1);
+		Case1Starbucks.injectData(t, case1);
 
 		// ---------
 		// CASE 2 NIKE
 
 		Query case2 = node.append("c2", "./c2");
 
-		Case2Nike.defineCase2Nike(t, case2);
+		Case2Nike.injectData(t, case2);
 
 		session.commit().get();
 

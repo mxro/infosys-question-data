@@ -6,7 +6,7 @@ import com.appjangle.i110.data.Types;
 
 public class Case1Starbucks {
 
-	public static void defineCase1Starbucks(Types t, Query c) {
+	public static void injectData(Types t, Query c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case1-starbucks -->
 // Common case data
 c.append("Starbucks", "./brandName").append(t.brandName);
