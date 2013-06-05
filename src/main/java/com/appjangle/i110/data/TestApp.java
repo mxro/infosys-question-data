@@ -42,27 +42,15 @@ public class TestApp {
 		System.out.println(" Therefore, the correct strategy is: "
 				+ case1game1.getCorrectStrategy());
 
-		System.out.println("---------------------------");
-		System.out.println("Loading data for game type 3 from case 1 ....");
 
-		ValueChainQuestion case1game3 = LoadValueChainQuestion
-				.getQuestionFromNode(session, session.node(cases.uri() + "/c1"));
-
-		System.out.println("Brand name: " + case1game3.getBrandName());
-		System.out.println("Brand image: " + case1game3.getBrandImageLink());
-		System.out.println("Brand vision: " + case1game3.getBrandVision());
-		System.out.println("Key activites: "
-				+ case1game3.getCorrectValueChainActivites());
-		System.out.println("Justification:");
-
-		System.out.println(case1game3.getValueChainJustification());
-
-		// the 'c2' at the end indicates that we select case 2!
+		
 		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
+		System.out.println("Loading data for game type 1 from case 2 ....");
+		
+		// the 'c2' at the end indicates that we select case 2!
 		StrategicQuandrantQuestion case2game1 = LoadStrategicQuandrantQuestion
 				.getQuestionFromNode(session, session.node(cases.uri() + "/c2"));
 
-		System.out.println("Loading data for game type 1 from case 2 ....");
 		System.out.println("Brand name: " + case2game1.getBrandName());
 		System.out.println("Brand image: " + case2game1.getBrandImageLink());
 		System.out.println("Brand vision: " + case2game1.getBrandVision());
@@ -76,6 +64,23 @@ public class TestApp {
 		System.out.println(" Therefore, the correct strategy is: "
 				+ case2game1.getCorrectStrategy());
 
+		
+		
+		System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
+		System.out.println("Loading data for game type 3 from case 1 ....");
+
+		ValueChainQuestion case1game3 = LoadValueChainQuestion
+				.getQuestionFromNode(session, session.node(cases.uri() + "/c1"));
+
+		System.out.println("Brand name: " + case1game3.getBrandName());
+		System.out.println("Brand image: " + case1game3.getBrandImageLink());
+		System.out.println("Brand vision: " + case1game3.getBrandVision());
+		System.out.println("Key activites: "
+				+ case1game3.getCorrectValueChainActivites());
+		System.out.println("Justification:");
+
+		System.out.println(case1game3.getValueChainJustification());
+		
 		session.close().get();
 		server.shutdown().get();
 		System.out.println("Example completed.");
