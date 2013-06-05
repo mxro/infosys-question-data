@@ -27,7 +27,7 @@ public class TestApp {
 
 		// the 'c1' at the end indicates that we select case 1!
 		StrategicQuandrantQuestion case1game1 = LoadStrategicQuandrantQuestion
-				.getQuestionFromNode(session, session.node(cases.uri() + "/c11"));
+				.getQuestionFromNode(session, session.node(cases.uri() + "/c1"));
 
 		System.out.println("Brand name: " + case1game1.getBrandName());
 		System.out.println("Brand image: " + case1game1.getBrandImageLink());
