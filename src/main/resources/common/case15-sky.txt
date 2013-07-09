@@ -1,4 +1,4 @@
-<!-- one.createPublic case15-sky -->
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case15-sky -->
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudGM2NWlzTVNfaHJJSkpKbFdUWW1IZUE
 c.append("Sky TV", "./brandName").append(t.brandName);
 c.append("To be the pre-eminent pay television broadcasting service in New Zealand", "./vision").append(t.vision);
