@@ -591,36 +591,35 @@ c.append("Customer service:Customer service:Customer service", "./orgUnits").app
 	
 	priv.defineCase14Listerine = function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case14-listerine -->
-
-
-c.append("State Insurance", "./brandName").append(t.brandName);
-c.append("Keep New Zealanders moving forward by offering a premium insurance experience.", "./vision").append(t.vision);
-c.append("http://www.state.co.nz/Style%20Library/statewebsite/images/state-logo.png", "./brandImage").append(t.brandImage);
-c.append("http://www.youtube.com/watch?v=NBTcNMwmm2E", "./brandVideo").append(t.brandVideo);
-c.append("Insurance industry", "./industry").append(t.industry);
+// https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudE9xWmlHS2ZHMmJjbW9iWXEwWFV3X2c
+c.append("Listerine", "./brandName").append(t.brandName);
+c.append("Jumpstart to a healthier mouth.", "./vision").append(t.vision);
+c.append("http://www.listerine.com/sites/default/files/products/products-totalcare-fresh-mint_0.jpg", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=wiflxvRl04M", "./brandVideo").append(t.brandVideo);
+c.append("Dental mouthwash industry", "./industry").append(t.industry);
 
 c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
-c.append("Broad Market:  State manages over a million policies for more than 460,000 Kiwis.", "./competitiveScope").append(t.competitiveScope);
-c.append("High Cost:  State offers a premium insurance experience, and putting the customer at the centre of everything. They 'try to set themselves apart' by doing so.", "./costStrategy").append(t.costStrategy);
+c.append("Broad: Listerine aims at everyone who cares about oral health.", "./competitiveScope").append(t.competitiveScope);
+c.append("High: Listerine promotes itself as scientifically proven to produce results and charges a premium for this.", "./costStrategy").append(t.costStrategy);
 
-c.append("low:high:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("The only substitute to insurance is paying for the costs of the incident yourself.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("Suppliers for the NZ insurance industry are the large insurance corporations overseas.", "./supplierPower").append(t.supplierPower);
-c.append("There are many  insurance companies in NZ: State, AA, Tower, AMI, FinTel who are in intense competition.", "./rivarly").append(t.rivarly);
-c.append("Buyer power is high as the buyers have many insurance companies to choose from. However, most insurance companies provide some distinct benefits and loyalty programmes in association with other organisations. For example, State insurance earns customers Flybuy points.  They are attempting to limit the buyers power through these programmes.", "./buyerPower").append(t.buyerPower);
-c.append("Insurance companies tend to have high set up costs, and most companies in the NZ market have spent several years establishing themselves. For example, State has been serving customers for 100 years!", "./newEntrants").append(t.newEntrants);
+c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("Toothpaste, gum, mouth spray are all substitutes to mouthwash.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("The chemical compounds that Listerine is made from are cheap and plentiful although they are sourced from hundreds of different places around the world.", "./supplierPower").append(t.supplierPower);
+c.append("There are a number of companies in the mouthwash space and they compete quite intensely.", "./rivarly").append(t.rivarly);
+c.append("There are a wide variety of mouthwashes and alternative dental health products available for the consumer to choose from.", "./buyerPower").append(t.buyerPower);
+c.append("Any of the major toothpaste brands (as well as others) could probably find it easy to create a mouthwash.", "./newEntrants").append(t.newEntrants);
 
-c.append("delivery,afterSales,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Deliver the service: State insurance aim to excel in their ability to pay claims.\n"+
-"Service after Sale: It is important for them to ensure that customers are happy with the whole claims process.\n"+
-"Marketing: Marketing is important because State insurance targets a broad market, always looking to expand both their personal and business customer base.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("procurement,makeProjectOrService,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Procurement is important as Listerine has to source multiple ingredients from multiple sources around the world.\n"+
+"Make the product is also important as the product has to be made perfectly to the formula each and every time.\n"+
+"Marketing is also important as the rivalry amongst existing competitors is intense.", "./valueChainJustification").append(t.valueChainJustification);
 
-c.append("Claims process", "./processName").append(t.processName);
-c.append("Processing claims efficiently, and to the satisfaction of the customers is of utmost importance to State.", "./importantProcess").append(t.importantProcess);
-c.append("Receive claim:Analyse claim:Reject or accept claim", "./processSteps").append(t.processSteps);
+c.append("Manufacturing process", "./processName").append(t.processName);
+c.append("It is very important that Listerine makes the product perfectly right each and every time.", "./importantProcess").append(t.importantProcess);
+c.append("Select Mouthwash to Manufacture:Manufacture Mouthwash:Bottle Product", "./processSteps").append(t.processSteps);
 
-c.append("Online claims processing system: Claims analysis system: Claims processing system (DSS)", "./systems").append(t.systems);
-c.append("Customer service:Customer service:Customer service", "./orgUnits").append(t.orgUnits);
+c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 
 // <!-- one.end -->
@@ -628,37 +627,33 @@ c.append("Customer service:Customer service:Customer service", "./orgUnits").app
 	
 	priv.defineCase15Sky= function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case15-sky -->
+// https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudGM2NWlzTVNfaHJJSkpKbFdUWW1IZUE
+c.append("Sky TV", "./brandName").append(t.brandName);
+c.append("To be the pre-eminent pay television broadcasting service in New Zealand", "./vision").append(t.vision);
+c.append("http://www.skytv.co.nz/Portals/0/skyhappylogo.gif", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=kxl3yAXHryY", "./brandVideo").append(t.brandVideo);
+c.append("NZ Pay Television Industry", "./industry").append(t.industry);
 
+c.append("Differentiation:", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad scope:  Aimed at everyone in New Zealand.  Over half of NZ households have Sky.", "./competitiveScope").append(t.competitiveScope);
+c.append("High cost:  Sky TV offers a premium service and charges accordingly.", "./costStrategy").append(t.costStrategy);
 
-c.append("State Insurance", "./brandName").append(t.brandName);
-c.append("Keep New Zealanders moving forward by offering a premium insurance experience.", "./vision").append(t.vision);
-c.append("http://www.state.co.nz/Style%20Library/statewebsite/images/state-logo.png", "./brandImage").append(t.brandImage);
-c.append("http://www.youtube.com/watch?v=NBTcNMwmm2E", "./brandVideo").append(t.brandVideo);
-c.append("Insurance industry", "./industry").append(t.industry);
+c.append("high: high: low: low: low", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("High:  There are many other entertainment sources.  Online streaming of events is a major potential disruptor of the pay tv industry.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("High:  PayTV has to source premium content - primarily sport and movies.  The provider of these can and do charge a premium for access.", "./supplierPower").append(t.supplierPower);
+c.append("Low:  There are a few pay TV providers in NZ but the market is so dominated by Sky TV that there is relatively little competition.", "./rivarly").append(t.rivarly);
+c.append("Low:  Buyer power is currently low as there are no alternatives if you want access to pay content such as sports but the internet has the potential to change this.", "./buyerPower").append(t.buyerPower);
+c.append("Low:  Sky's dominance of the market and deep pockets make the chances of success of a new entrant minimal.", "./newEntrants").append(t.newEntrants);
 
-c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
-c.append("Broad Market:  State manages over a million policies for more than 460,000 Kiwis.", "./competitiveScope").append(t.competitiveScope);
-c.append("High Cost:  State offers a premium insurance experience, and putting the customer at the centre of everything. They 'try to set themselves apart' by doing so.", "./costStrategy").append(t.costStrategy);
+c.append("procurement,makeProjectOrService, delivery", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Procurement: SkyTV needs to get access to premium shows and sports content.  Make the product or service: SkyTV has to package the shows that they have into coherent content streams. Delivery:  SkyTV has to ensure that the shows screen on time especially live sports.  ", "./valueChainJustification").append(t.valueChainJustification);
 
-c.append("low:high:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("The only substitute to insurance is paying for the costs of the incident yourself.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("Suppliers for the NZ insurance industry are the large insurance corporations overseas.", "./supplierPower").append(t.supplierPower);
-c.append("There are many  insurance companies in NZ: State, AA, Tower, AMI, FinTel who are in intense competition.", "./rivarly").append(t.rivarly);
-c.append("Buyer power is high as the buyers have many insurance companies to choose from. However, most insurance companies provide some distinct benefits and loyalty programmes in association with other organisations. For example, State insurance earns customers Flybuy points.  They are attempting to limit the buyers power through these programmes.", "./buyerPower").append(t.buyerPower);
-c.append("Insurance companies tend to have high set up costs, and most companies in the NZ market have spent several years establishing themselves. For example, State has been serving customers for 100 years!", "./newEntrants").append(t.newEntrants);
+c.append("Create Daily Program", "./processName").append(t.processName);
+c.append("SkyTV has to package the shows that they have into coherent content streams", "./importantProcess").append(t.importantProcess);
+c.append("Select Shows to be shown: Schedule Shows: Publish content stream", "./processSteps").append(t.processSteps);
 
-c.append("delivery,afterSales,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Deliver the service: State insurance aim to excel in their ability to pay claims.\n"+
-"Service after Sale: It is important for them to ensure that customers are happy with the whole claims process.\n"+
-"Marketing: Marketing is important because State insurance targets a broad market, always looking to expand both their personal and business customer base.", "./valueChainJustification").append(t.valueChainJustification);
-
-c.append("Claims process", "./processName").append(t.processName);
-c.append("Processing claims efficiently, and to the satisfaction of the customers is of utmost importance to State.", "./importantProcess").append(t.importantProcess);
-c.append("Receive claim:Analyse claim:Reject or accept claim", "./processSteps").append(t.processSteps);
-
-c.append("Online claims processing system: Claims analysis system: Claims processing system (DSS)", "./systems").append(t.systems);
-c.append("Customer service:Customer service:Customer service", "./orgUnits").append(t.orgUnits);
-
+c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 // <!-- one.end -->
 	};
@@ -666,73 +661,71 @@ c.append("Customer service:Customer service:Customer service", "./orgUnits").app
 	priv.defineCase16Domino= function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case16-domino -->
 
+// https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudHdlWFhZeE1QZWU4RFIxSm9LSEcyS2c
 
-c.append("State Insurance", "./brandName").append(t.brandName);
-c.append("Keep New Zealanders moving forward by offering a premium insurance experience.", "./vision").append(t.vision);
-c.append("http://www.state.co.nz/Style%20Library/statewebsite/images/state-logo.png", "./brandImage").append(t.brandImage);
-c.append("http://www.youtube.com/watch?v=NBTcNMwmm2E", "./brandVideo").append(t.brandVideo);
-c.append("Insurance industry", "./industry").append(t.industry);
+c.append("Domino's Pizza", "./brandName").append(t.brandName);
+c.append("LESS THAN 80 characters", "./vision").append(t.vision);
+c.append("http://www.dominospizza.co.nz/media/48/logomainnew.png", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=YyZNNmgAAtA", "./brandVideo").append(t.brandVideo);
+c.append("Fast food industry", "./industry").append(t.industry);
 
-c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
-c.append("Broad Market:  State manages over a million policies for more than 460,000 Kiwis.", "./competitiveScope").append(t.competitiveScope);
-c.append("High Cost:  State offers a premium insurance experience, and putting the customer at the centre of everything. They 'try to set themselves apart' by doing so.", "./costStrategy").append(t.costStrategy);
+c.append("Cost Leadership", "./correctStrategy").append(t.correctStrategy);
+c.append("Domino's would like to to sell pizzas to everyone in the fast food market.", "./competitiveScope").append(t.competitiveScope);
+c.append("Domino's markets itself as a low cost pizza option.", "./costStrategy").append(t.costStrategy);
 
-c.append("low:high:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("The only substitute to insurance is paying for the costs of the incident yourself.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("Suppliers for the NZ insurance industry are the large insurance corporations overseas.", "./supplierPower").append(t.supplierPower);
-c.append("There are many  insurance companies in NZ: State, AA, Tower, AMI, FinTel who are in intense competition.", "./rivarly").append(t.rivarly);
-c.append("Buyer power is high as the buyers have many insurance companies to choose from. However, most insurance companies provide some distinct benefits and loyalty programmes in association with other organisations. For example, State insurance earns customers Flybuy points.  They are attempting to limit the buyers power through these programmes.", "./buyerPower").append(t.buyerPower);
-c.append("Insurance companies tend to have high set up costs, and most companies in the NZ market have spent several years establishing themselves. For example, State has been serving customers for 100 years!", "./newEntrants").append(t.newEntrants);
+c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("There are many substitutes to fast food.  Any home cooked meal or higher end restaurant meal would count.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("The ingredients for fast food are typicall easily sourced and widely available.", "./supplierPower").append(t.supplierPower);
+c.append("Rivalry is intense in the fast food industy as there are a huge amount of players in the market.", "./rivarly").append(t.rivarly);
+c.append("Buyer power is high as buyers have a huge number of choices to choose from.", "./buyerPower").append(t.buyerPower);
+c.append("It is very easy to enter the fast food market as little capital or specialised knowledge is required.", "./newEntrants").append(t.newEntrants);
 
-c.append("delivery,afterSales,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Deliver the service: State insurance aim to excel in their ability to pay claims.\n"+
-"Service after Sale: It is important for them to ensure that customers are happy with the whole claims process.\n"+
-"Marketing: Marketing is important because State insurance targets a broad market, always looking to expand both their personal and business customer base.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("marketing, procurement, makeProjectOrService", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Domino's is in an intensely competitive environment so marketing it's products is vital.  It also has to source low cost yet high quality ingredients so procurement is very important.  Customers also expect their pizza to be perfect so making the product is important.", "./valueChainJustification").append(t.valueChainJustification);
 
-c.append("Claims process", "./processName").append(t.processName);
-c.append("Processing claims efficiently, and to the satisfaction of the customers is of utmost importance to State.", "./importantProcess").append(t.importantProcess);
-c.append("Receive claim:Analyse claim:Reject or accept claim", "./processSteps").append(t.processSteps);
+c.append("Raw materials sourcing process", "./processName").append(t.processName);
+c.append("The quality and cost of raw ingredients is vital to Domino's as they need to source low cost yet high quality ingredients.", "./importantProcess").append(t.importantProcess);
+c.append("Obtain quotes from suppliers:Compare quotes:Select best supplier", "./processSteps").append(t.processSteps);
 
-c.append("Online claims processing system: Claims analysis system: Claims processing system (DSS)", "./systems").append(t.systems);
-c.append("Customer service:Customer service:Customer service", "./orgUnits").append(t.orgUnits);
-
+c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 // <!-- one.end -->
 	};
 	
 	priv.defineCase17Dell= function(t, c) {
 		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case17-dell -->
+// https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudHNKcHpqeDJ6VFpwSEhMZ0NGZVhyS2c
 
+c.append("Dell", "./brandName").append(t.brandName);
+c.append("The power to do more.", "./vision").append(t.vision);
+c.append("http://i.dell.com/images/global/brand/ui/logo-wt-bl.png", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=yS5rHgGheHk", "./brandVideo").append(t.brandVideo);
+c.append("Computer Hardware Retail and Manufacturing", "./industry").append(t.industry);
 
-c.append("State Insurance", "./brandName").append(t.brandName);
-c.append("Keep New Zealanders moving forward by offering a premium insurance experience.", "./vision").append(t.vision);
-c.append("http://www.state.co.nz/Style%20Library/statewebsite/images/state-logo.png", "./brandImage").append(t.brandImage);
-c.append("http://www.youtube.com/watch?v=NBTcNMwmm2E", "./brandVideo").append(t.brandVideo);
-c.append("Insurance industry", "./industry").append(t.industry);
+c.append("Cost Leadership", "./correctStrategy").append(t.correctStrategy);
+c.append("Broad market as Dell targets both home and business buyers.", "./competitiveScope").append(t.competitiveScope);
+c.append("Low as Dell aims to provide low cost computers through the power of it's supply chain efficiencies.", "./costStrategy").append(t.costStrategy);
 
-c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
-c.append("Broad Market:  State manages over a million policies for more than 460,000 Kiwis.", "./competitiveScope").append(t.competitiveScope);
-c.append("High Cost:  State offers a premium insurance experience, and putting the customer at the centre of everything. They 'try to set themselves apart' by doing so.", "./costStrategy").append(t.costStrategy);
+c.append("high:low:high:high:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("Computing devices have become ubiquitous and there are no real substitutes available.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("Overall low as there are a wide variety of manufacturers making computer components.", "./supplierPower").append(t.supplierPower);
+c.append("There are many participants in this industry, all doing similar things. Rivalry can be reduced through innovation and differentiation.", "./rivarly").append(t.rivarly);
+c.append("Buyers have a wide variety of manufacturers that they can purchase from.", "./buyerPower").append(t.buyerPower);
+c.append("It is relatively easy to get into the computer retail and manufacturing business as anyone can source components and put them together for resale.", "./newEntrants").append(t.newEntrants);
 
-c.append("low:high:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
-c.append("The only substitute to insurance is paying for the costs of the incident yourself.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
-c.append("Suppliers for the NZ insurance industry are the large insurance corporations overseas.", "./supplierPower").append(t.supplierPower);
-c.append("There are many  insurance companies in NZ: State, AA, Tower, AMI, FinTel who are in intense competition.", "./rivarly").append(t.rivarly);
-c.append("Buyer power is high as the buyers have many insurance companies to choose from. However, most insurance companies provide some distinct benefits and loyalty programmes in association with other organisations. For example, State insurance earns customers Flybuy points.  They are attempting to limit the buyers power through these programmes.", "./buyerPower").append(t.buyerPower);
-c.append("Insurance companies tend to have high set up costs, and most companies in the NZ market have spent several years establishing themselves. For example, State has been serving customers for 100 years!", "./newEntrants").append(t.newEntrants);
+c.append("procurement,technologyDevelopment,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Procurement is vital as Dell needs to source components so that it can make the computing devices.\n"+
+"Research and Technology Development is also vital as Dell needs to come up with new devices in order to attract customers.\n"+
+"Marketing is vital as there are a lot of players in the industry and Dell needs to compete for market share."
+, "./valueChainJustification").append(t.valueChainJustification);
 
-c.append("delivery,afterSales,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
-c.append("Deliver the service: State insurance aim to excel in their ability to pay claims.\n"+
-"Service after Sale: It is important for them to ensure that customers are happy with the whole claims process.\n"+
-"Marketing: Marketing is important because State insurance targets a broad market, always looking to expand both their personal and business customer base.", "./valueChainJustification").append(t.valueChainJustification);
+c.append("Custom Manufacturing Process", "./processName").append(t.processName);
+c.append("This process is important to Dell as they custom manufacture each computer for their clients.", "./importantProcess").append(t.importantProcess);
+c.append("Customer phones in order:Dell manufactures computing device:The computing device is delivered.", "./processSteps").append(t.processSteps);
 
-c.append("Claims process", "./processName").append(t.processName);
-c.append("Processing claims efficiently, and to the satisfaction of the customers is of utmost importance to State.", "./importantProcess").append(t.importantProcess);
-c.append("Receive claim:Analyse claim:Reject or accept claim", "./processSteps").append(t.processSteps);
-
-c.append("Online claims processing system: Claims analysis system: Claims processing system (DSS)", "./systems").append(t.systems);
-c.append("Customer service:Customer service:Customer service", "./orgUnits").append(t.orgUnits);
-
+c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 // <!-- one.end -->
 	};
