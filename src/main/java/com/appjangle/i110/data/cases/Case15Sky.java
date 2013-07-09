@@ -30,9 +30,9 @@ c.append("Procurement: SkyTV needs to get access to premium shows and sports con
 
 c.append("Create Daily Program", "./processName").append(t.processName);
 c.append("SkyTV has to package the shows that they have into coherent content streams", "./importantProcess").append(t.importantProcess);
-c.append("Select Shows to be shown: Schedule Shows: Publish content stream", "./processSteps").append(t.processSteps);
+c.append("Select Shows to be shown:Schedule Shows:Publish content stream", "./processSteps").append(t.processSteps);
 
-c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Scheduling DSS System:Scheduling Processing System:Scheduling Publishing System", "./systems").append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 // <!-- one.end -->

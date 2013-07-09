@@ -618,7 +618,7 @@ c.append("Manufacturing process", "./processName").append(t.processName);
 c.append("It is very important that Listerine makes the product perfectly right each and every time.", "./importantProcess").append(t.importantProcess);
 c.append("Select Mouthwash to Manufacture:Manufacture Mouthwash:Bottle Product", "./processSteps").append(t.processSteps);
 
-c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Manufacturing Decision System:Manufacturing Management System:Bottling Management System", "./systems").append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 
@@ -650,9 +650,9 @@ c.append("Procurement: SkyTV needs to get access to premium shows and sports con
 
 c.append("Create Daily Program", "./processName").append(t.processName);
 c.append("SkyTV has to package the shows that they have into coherent content streams", "./importantProcess").append(t.importantProcess);
-c.append("Select Shows to be shown: Schedule Shows: Publish content stream", "./processSteps").append(t.processSteps);
+c.append("Select Shows to be shown:Schedule Shows:Publish content stream", "./processSteps").append(t.processSteps);
 
-c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Scheduling DSS System:Scheduling Processing System:Scheduling Publishing System", "./systems").append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 // <!-- one.end -->
@@ -688,7 +688,7 @@ c.append("Raw materials sourcing process", "./processName").append(t.processName
 c.append("The quality and cost of raw ingredients is vital to Domino's as they need to source low cost yet high quality ingredients.", "./importantProcess").append(t.importantProcess);
 c.append("Obtain quotes from suppliers:Compare quotes:Select best supplier", "./processSteps").append(t.processSteps);
 
-c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Supply Chain Management System:Supplier Analysis System:Supplier Analysis System", "./systems").append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 // <!-- one.end -->
@@ -725,7 +725,7 @@ c.append("Custom Manufacturing Process", "./processName").append(t.processName);
 c.append("This process is important to Dell as they custom manufacture each computer for their clients.", "./importantProcess").append(t.importantProcess);
 c.append("Customer phones in order:Dell manufactures computing device:The computing device is delivered.", "./processSteps").append(t.processSteps);
 
-c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Order Processing System:Manufacturing Scheduling System:Logistics Management System", "./systems").append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 // <!-- one.end -->

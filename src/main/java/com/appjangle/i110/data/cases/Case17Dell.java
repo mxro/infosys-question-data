@@ -36,7 +36,7 @@ c.append("Custom Manufacturing Process", "./processName").append(t.processName);
 c.append("This process is important to Dell as they custom manufacture each computer for their clients.", "./importantProcess").append(t.importantProcess);
 c.append("Customer phones in order:Dell manufactures computing device:The computing device is delivered.", "./processSteps").append(t.processSteps);
 
-c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Order Processing System:Manufacturing Scheduling System:Logistics Management System", "./systems").append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 // <!-- one.end -->
