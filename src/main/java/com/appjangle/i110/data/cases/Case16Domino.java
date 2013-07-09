@@ -1,4 +1,12 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case16-domino -->
+package com.appjangle.i110.data.cases;
+
+import io.nextweb.Query;
+
+import com.appjangle.i110.data.Types;
+
+public class Case16Domino {
+	public static void injectData(Types t, Query c) {
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case16-domino -->
 
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudHdlWFhZeE1QZWU4RFIxSm9LSEcyS2c
 
@@ -29,4 +37,6 @@ c.append("Obtain quotes from suppliers:Compare quotes:Select best supplier", "./
 c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
-<!-- one.end -->
+// <!-- one.end -->
+	}
+}
