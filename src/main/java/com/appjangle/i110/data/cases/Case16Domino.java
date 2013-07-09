@@ -11,7 +11,7 @@ public class Case16Domino {
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudHdlWFhZeE1QZWU4RFIxSm9LSEcyS2c
 
 c.append("Domino's Pizza", "./brandName").append(t.brandName);
-c.append("LESS THAN 80 characters", "./vision").append(t.vision);
+c.append("Sell more Pizza, have more fun!", "./vision").append(t.vision);
 c.append("http://www.dominospizza.co.nz/media/48/logomainnew.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=YyZNNmgAAtA", "./brandVideo").append(t.brandVideo);
 c.append("Fast food industry", "./industry").append(t.industry);
