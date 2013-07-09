@@ -1,9 +1,17 @@
 package com.appjangle.i110.data;
 
+import io.nextweb.Node;
+import io.nextweb.Query;
+import io.nextweb.Session;
+
 import com.appjangle.i110.data.cases.Case10Amazon;
 import com.appjangle.i110.data.cases.Case11Orcon;
 import com.appjangle.i110.data.cases.Case12Kiwibank;
 import com.appjangle.i110.data.cases.Case13StateInsurance;
+import com.appjangle.i110.data.cases.Case14Listerine;
+import com.appjangle.i110.data.cases.Case15Sky;
+import com.appjangle.i110.data.cases.Case16Domino;
+import com.appjangle.i110.data.cases.Case17Dell;
 import com.appjangle.i110.data.cases.Case1Starbucks;
 import com.appjangle.i110.data.cases.Case2Nike;
 import com.appjangle.i110.data.cases.Case3MichaelHill;
@@ -13,10 +21,6 @@ import com.appjangle.i110.data.cases.Case6RainbowsEnd;
 import com.appjangle.i110.data.cases.Case7Coke;
 import com.appjangle.i110.data.cases.Case8Pandora;
 import com.appjangle.i110.data.cases.Case9AjHackettBungy;
-
-import io.nextweb.Node;
-import io.nextweb.Query;
-import io.nextweb.Session;
 
 public class GameData {
 
@@ -62,6 +66,18 @@ public class GameData {
 		
 		Query case13 = node.append("c13", "./c13");
 		Case13StateInsurance.injectData(t, case13);
+		
+		Query case14 = node.append("c14", "./c14");
+		Case14Listerine.injectData(t, case14);
+		
+		Query case15 = node.append("c15", "./c15");
+		Case15Sky.injectData(t, case15);
+		
+		Query case16 = node.append("c16", "./c16");
+		Case16Domino.injectData(t, case16);
+		
+		Query case17 = node.append("c17", "./c17");
+		Case17Dell.injectData(t, case17);
 		
 		session.commit().get();
 
