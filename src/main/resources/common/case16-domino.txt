@@ -26,7 +26,7 @@ c.append("Raw materials sourcing process", "./processName").append(t.processName
 c.append("The quality and cost of raw ingredients is vital to Domino's as they need to source low cost yet high quality ingredients.", "./importantProcess").append(t.importantProcess);
 c.append("Obtain quotes from suppliers:Compare quotes:Select best supplier", "./processSteps").append(t.processSteps);
 
-c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Supply Chain Management System:Supplier Analysis System:Supplier Analysis System", "./systems").append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 <!-- one.end -->

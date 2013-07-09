@@ -26,7 +26,7 @@ c.append("Manufacturing process", "./processName").append(t.processName);
 c.append("It is very important that Listerine makes the product perfectly right each and every time.", "./importantProcess").append(t.importantProcess);
 c.append("Select Mouthwash to Manufacture:Manufacture Mouthwash:Bottle Product", "./processSteps").append(t.processSteps);
 
-c.append("SCM:Accounting System:Accounting DSS System", "./systems").append(t.systems);
+c.append("Manufacturing Decision System:Manufacturing Management System:Bottling Management System", "./systems").append(t.systems);
 c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").append(t.orgUnits);
 
 
