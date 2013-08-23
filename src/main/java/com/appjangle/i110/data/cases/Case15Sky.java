@@ -14,7 +14,7 @@ c.append("http://www.skytv.co.nz/Portals/0/skyhappylogo.gif", "./brandImage").ap
 c.append("http://www.youtube.com/watch?v=kxl3yAXHryY", "./brandVideo").append(t.brandVideo);
 c.append("NZ Pay Television Industry", "./industry").append(t.industry);
 
-c.append("Differentiation:", "./correctStrategy").append(t.correctStrategy);
+c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
 c.append("Broad scope:  Aimed at everyone in New Zealand.  Over half of NZ households have Sky.", "./competitiveScope").append(t.competitiveScope);
 c.append("High cost:  Sky TV offers a premium service and charges accordingly.", "./costStrategy").append(t.costStrategy);
 
