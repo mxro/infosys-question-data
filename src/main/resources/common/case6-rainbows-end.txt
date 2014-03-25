@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end -->
 
 c.append("Rainbows End", "./brandName").append(t.brandName);
 c.append("New Zealand's premier theme park", "./vision").append(t.vision);

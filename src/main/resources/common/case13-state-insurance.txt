@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-state-insurance -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-state-insurance -->
 
 
 c.append("State Insurance", "./brandName").append(t.brandName);

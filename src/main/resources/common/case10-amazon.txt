@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case10-amazon -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case10-amazon -->
 
 c.append("Amazon", "./brandName").append(t.brandName);
 c.append("To be earth's most customer centric company.", "./vision").append(t.vision);

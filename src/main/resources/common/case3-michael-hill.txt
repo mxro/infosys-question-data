@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case3-michael-hill -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case3-michael-hill -->
 
 c.append("Michael Hill", "./brandName").append(t.brandName);
 c.append("To be the most people focused Jeweller in the world. ", "./vision").append(t.vision);

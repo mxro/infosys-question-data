@@ -6,7 +6,7 @@
 	
 	
 	priv.defineCase1Starbucks = function (t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case1-starbucks -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case1-starbucks -->
 // Common case data
 c.append("Starbucks", "./brandName").append(t.brandName);
 c.append(
@@ -98,7 +98,7 @@ c.append("Manufacturing:Accounting:Manufacturing management").append(
 	
 	
 	priv.defineCase2Nike = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
 // Common case data
 c.append("Nike", "./brandName").append(t.brandName);
 c.append(
@@ -186,7 +186,7 @@ c.append("Factory Clerk:Factory Labourer:Supervisor").append(
 
 	
 	priv.defineCase3 =  function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case3-michael-hill -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case3-michael-hill -->
 
 c.append("Michael Hill", "./brandName").append(t.brandName);
 c.append("To be the most people focused Jeweller in the world. ", "./vision").append(t.vision);
@@ -224,7 +224,7 @@ c.append("Accounting:Accounting:Sales", "./orgUnits").append(t.orgUnits);
 	};
 	
 	priv.defineCase4AucklandZoo =  function(t, c) { 
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo -->
 
 c.append("Auckland Zoo", "./brandName").append(t.brandName);
 c.append("A future where people value wildlife, and species are safe from extinction.", "./vision").append(t.vision);
@@ -262,7 +262,7 @@ c.append("Maintenance:Maintenance, Accounting, Warehouse:Maintenance", "./orgUni
 	};
 	
 	priv.defineCase5Countdown = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case5-countdown -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case5-countdown -->
 
 c.append("Countdown", "./brandName").append(t.brandName);
 c.append("Shop Smarter. ", "./vision").append(t.vision);
@@ -299,7 +299,7 @@ c.append("Purchasing:Purchasing:Warehouse/Inbound Logistics/Inwards Goods", "./o
 	};
 	
 	priv.defineCase6RainbowsEnd = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/rainbows-end -->
 
 c.append("Rainbows End", "./brandName").append(t.brandName);
 c.append("New Zealand's premier theme park", "./vision").append(t.vision);
@@ -336,7 +336,7 @@ c.append("Accounting:Accounting:Board of Directors", "./orgUnits").append(t.orgU
 	};
 	
 	priv.defineCase7Coke = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case7-coke -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case7-coke -->
 
 c.append("Coca Cola Enterprises (CCE)", "./brandName").append(t.brandName);
 c.append("To refresh the world - in mind, body and spirit", "./vision").append(t.vision);
@@ -372,7 +372,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	};
 	
 	priv.defineCase8Pandora = function(t,c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case8-pandora -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case8-pandora -->
 
 c.append("Pandora", "./brandName").append(t.brandName);
 c.append("To play only music people will love", "./vision").append(t.vision);
@@ -408,7 +408,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	};
 	
 	priv.defineCase9Bungy = function(t,c) {
-		//<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case9-aj-hackett-bungy -->
+		//<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case9-aj-hackett-bungy -->
 
 
 c.append("AJ Hackett Bungy", "./brandName").append(t.brandName);
@@ -444,7 +444,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	};
 	
 	priv.defineCase10Amazon = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case10-amazon -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case10-amazon -->
 
 c.append("Amazon", "./brandName").append(t.brandName);
 c.append("To be earth's most customer centric company.", "./vision").append(t.vision);
@@ -480,7 +480,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	};
 	
 	priv.defineCase11Orcon = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case11-orcon -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case11-orcon -->
 
 
 c.append("Orcon", "./brandName").append(t.brandName);
@@ -517,7 +517,7 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 	};
 	
 	priv.defineCase12Kiwibank = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-kiwibank -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-kiwibank -->
 
 
 c.append("KiwiBank", "./brandName").append(t.brandName);
@@ -553,7 +553,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 	};
 	
 	priv.defineCase13StateInsurance = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-state-insurance -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case12-state-insurance -->
 
 
 c.append("State Insurance", "./brandName").append(t.brandName);
@@ -590,7 +590,7 @@ c.append("Customer service:Customer service:Customer service", "./orgUnits").app
 	};
 	
 	priv.defineCase14Listerine = function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case14-listerine -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case14-listerine -->
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudE9xWmlHS2ZHMmJjbW9iWXEwWFV3X2c
 c.append("Listerine", "./brandName").append(t.brandName);
 c.append("Jumpstart to a healthier mouth.", "./vision").append(t.vision);
@@ -626,7 +626,7 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 	};
 	
 	priv.defineCase15Sky= function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case15-sky -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case15-sky -->
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudGM2NWlzTVNfaHJJSkpKbFdUWW1IZUE
 c.append("Sky TV", "./brandName").append(t.brandName);
 c.append("To be the pre-eminent pay television broadcasting service in New Zealand", "./vision").append(t.vision);
@@ -660,7 +660,7 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 	
 	
 	priv.defineCase16Domino= function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case16-domino -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case16-domino -->
 
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudHdlWFhZeE1QZWU4RFIxSm9LSEcyS2c
 
@@ -695,7 +695,7 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 	};
 	
 	priv.defineCase17Dell= function(t, c) {
-		// <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case17-dell -->
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case17-dell -->
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudHNKcHpqeDJ6VFpwSEhMZ0NGZVhyS2c
 
 c.append("Dell", "./brandName").append(t.brandName);

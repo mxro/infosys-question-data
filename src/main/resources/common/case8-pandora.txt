@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case8-pandora -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case8-pandora -->
 
 c.append("Pandora", "./brandName").append(t.brandName);
 c.append("To play only music people will love", "./vision").append(t.vision);

@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case7-coke -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case7-coke -->
 
 c.append("Coca Cola Enterprises (CCE)", "./brandName").append(t.brandName);
 c.append("To refresh the world - in mind, body and spirit", "./vision").append(t.vision);

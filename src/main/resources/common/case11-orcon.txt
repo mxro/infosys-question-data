@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case11-orcon -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case11-orcon -->
 
 
 c.append("Orcon", "./brandName").append(t.brandName);

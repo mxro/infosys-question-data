@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case2-nike -->
 // Common case data
 c.append("Nike", "./brandName").append(t.brandName);
 c.append(

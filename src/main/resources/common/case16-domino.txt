@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case16-domino -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case16-domino -->
 
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudHdlWFhZeE1QZWU4RFIxSm9LSEcyS2c
 

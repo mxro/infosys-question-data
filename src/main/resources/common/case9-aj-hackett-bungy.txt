@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case9-aj-hackett-bungy -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case9-aj-hackett-bungy -->
 
 
 c.append("AJ Hackett Bungy", "./brandName").append(t.brandName);

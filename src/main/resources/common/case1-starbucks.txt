@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case1-starbucks -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/case1-starbucks -->
 // Common case data
 c.append("Starbucks", "./brandName").append(t.brandName);
 c.append(

@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case4-auckland-zoo -->
 
 c.append("Auckland Zoo", "./brandName").append(t.brandName);
 c.append("A future where people value wildlife, and species are safe from extinction.", "./vision").append(t.vision);

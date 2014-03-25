@@ -1,4 +1,4 @@
-<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case17-dell -->
+<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case17-dell -->
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudHNKcHpqeDJ6VFpwSEhMZ0NGZVhyS2c
 
 c.append("Dell", "./brandName").append(t.brandName);
