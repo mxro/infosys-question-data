@@ -1,11 +1,11 @@
-<!-- one.createPublic case18-mcdonalds -->
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/upload/case18-mcdonalds -->
 c.append("McDonald's", "./brandName").append(t.brandName);
 c.append("McDonald's vision is to be our customers' favorite place and way to eat and drink.", "./vision").append(t.vision);
 c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/McDs.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=IO-3QlcdlAU&feature=share&list=PL308D62066232AFA0", "./brandVideo").append(t.brandVideo);
 c.append("Global Fast Food Industry", "./industry").append(t.industry);
 
-c.append("Cost Leadership", "./correctStrategy").append(t.correctStrategy);
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
 c.append("McDonalds is everywhere servicing everyone.", "./competitiveScope").append(t.competitiveScope);
 c.append("McDonalds prides itself on providing high quality but inexpensive food.", "./costStrategy").append(t.costStrategy);
 
@@ -16,14 +16,14 @@ c.append("This is a very crowded market place and competition is intense.", "./r
 c.append("Buyer power is high as there are many choices although it is limited by brand loyalty and so forth.", "./buyerPower").append(t.buyerPower);
 c.append("New entrants are continually entering the industry.  ", "./newEntrants").append(t.newEntrants);
 
-c.append("firminfrastructure;marketandsell;procurement", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("firmInfrastructure,marketing,procurement", "./correctValueChainActivites").append(t.correctValueChainActivites);
 c.append("Firm infrastructure:  McDonald's have thousands of restaurants around the world.  It is important that systems and processes are in place to support these.  Market and Sell:  As a player in a hyper competitive industry it is important that McDonalds continually markets its products. Procurement:  McDonalds prides itself on the quality of its goods and these depend on obtaining quality ingredients.", "./valueChainJustification").append(t.valueChainJustification);
 
 c.append("Receive customer order process", "./processName").append(t.processName);
 c.append("McDonalds handles millions of customer transactions each day.", "./importantProcess").append(t.importantProcess);
 c.append("Receive order from customer: Pass order to kitchen: Receive payment from customer", "./processSteps").append(t.processSteps);
 
-c.append("Order Management System: Kitchen Management System: Point of Sale System", "./systems").append(t.systems);
-c.append("Frontdesk:Kitchen Staff: FrontDesk", "./orgUnits").append(t.orgUnits);
+c.append("Order Management System:Kitchen Management System:Point of Sale System", "./systems").append(t.systems);
+c.append("Frontdesk:Kitchen Staff:FrontDesk", "./orgUnits").append(t.orgUnits);
 
 <!-- one.end -->
