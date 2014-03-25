@@ -13,7 +13,7 @@ c.append("Nike", "./brandName").append(t.brandName);
 c.append(
         "To bring inspiration and innovation to every athlete in the world.",
         "./brandVision").append(t.vision);
-c.append("http://vince08.edublogs.org/files/2008/11/logonike.gif",
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/logonike.gif",
         "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=45mMioJ5szc",
         "./brandVideo").append(t.brandVideo);

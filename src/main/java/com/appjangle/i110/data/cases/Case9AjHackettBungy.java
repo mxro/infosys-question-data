@@ -13,7 +13,7 @@ public class Case9AjHackettBungy {
 
 c.append("AJ Hackett Bungy", "./brandName").append(t.brandName);
 c.append("Challenge drives our professional organisation.", "./vision").append(t.vision);
-c.append("http://www.conventionsnz.co.nz/pics/3713,4,1,6,4,0/aj-hackett-bungy-new-zealand.jpeg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/aj-hackett-bungy-new-zealand.jpeg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?feature=player_embedded&v=mmrVJq4uJ0E", "./brandVideo").append(t.brandVideo);
 c.append("Adventure tourism industry", "./industry").append(t.industry);
 

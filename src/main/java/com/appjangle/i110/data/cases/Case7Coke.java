@@ -12,7 +12,7 @@ public class Case7Coke {
 
 c.append("Coca Cola Enterprises (CCE)", "./brandName").append(t.brandName);
 c.append("To refresh the world - in mind, body and spirit", "./vision").append(t.vision);
-c.append("http://www.picgifs.com/wallpapers/wallpapers/coca-cola/Coca_Cola03.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/coke.jpg", "./brandImage").append(t.brandImage);
 
 
 c.append("http://www.youtube.com/watch?v=WVRT16-dNsw", "./brandVideo").append(t.brandVideo);

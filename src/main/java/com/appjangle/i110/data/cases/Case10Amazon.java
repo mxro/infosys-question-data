@@ -12,7 +12,7 @@ public class Case10Amazon {
 
 c.append("Amazon", "./brandName").append(t.brandName);
 c.append("To be earth's most customer centric company.", "./vision").append(t.vision);
-c.append("http://www.republicreport.org/wp-content/uploads/2012/04/amazonlogo.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/amazonlogo.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=Ec4kWhEuhYE", "./brandVideo").append(t.brandVideo);
 c.append("Global online shopping industry", "./industry").append(t.industry);
 

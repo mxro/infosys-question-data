@@ -12,7 +12,7 @@ public class Case3MichaelHill {
 
 c.append("Michael Hill", "./brandName").append(t.brandName);
 c.append("To be the most people focused Jeweller in the world. ", "./vision").append(t.vision);
-c.append("http://static.ipaustralia.com.au/store3/11/64/1164788.1.high.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/Michael.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=x_9z4QSBGQo", "./brandVideo").append(t.brandVideo);
 c.append("Retail Fine Jewellery Industry ", "./industry").append(t.industry);
 

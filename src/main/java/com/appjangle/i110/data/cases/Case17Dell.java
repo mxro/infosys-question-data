@@ -11,7 +11,7 @@ public class Case17Dell {
 
 c.append("Dell", "./brandName").append(t.brandName);
 c.append("The power to do more.", "./vision").append(t.vision);
-c.append("http://i.dell.com/images/global/brand/ui/logo-wt-bl.png", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/dell.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=yS5rHgGheHk", "./brandVideo").append(t.brandVideo);
 c.append("Computer Hardware Retail and Manufacturing", "./industry").append(t.industry);
 

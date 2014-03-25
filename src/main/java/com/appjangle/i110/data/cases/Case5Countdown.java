@@ -12,7 +12,7 @@ public class Case5Countdown {
 
 c.append("Countdown", "./brandName").append(t.brandName);
 c.append("Shop Smarter. ", "./vision").append(t.vision);
-c.append("http://www.nzsca.org.nz/upload/content/CD_MS_H_Pos_cmyk%20web.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/countdown.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=aSuaTaefvpg", "./brandVideo").append(t.brandVideo);
 c.append("Supermarket Industry", "./industry").append(t.industry);
 

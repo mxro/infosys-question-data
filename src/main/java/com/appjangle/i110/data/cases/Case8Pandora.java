@@ -12,7 +12,7 @@ public class Case8Pandora {
 
 c.append("Pandora", "./brandName").append(t.brandName);
 c.append("To play only music people will love", "./vision").append(t.vision);
-c.append("http://cdn.thetechjournal.com/wp-content/uploads/2012/10/pandora.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/pandora.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=NVYHq3M1ByI", "./brandVideo").append(t.brandVideo);
 c.append("Internet Radio", "./industry").append(t.industry);
 

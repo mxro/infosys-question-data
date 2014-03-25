@@ -12,7 +12,7 @@ public class Case4AucklandZoo {
 
 c.append("Auckland Zoo", "./brandName").append(t.brandName);
 c.append("A future where people value wildlife, and species are safe from extinction.", "./vision").append(t.vision);
-c.append("http://www.isitemedia.co.nz/user_files/Sponsorship/zoologo.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/zoologo.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=pVstbADVT_U", "./brandVideo").append(t.brandVideo);
 c.append("The Zoo Industry", "./industry").append(t.industry);
 

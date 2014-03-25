@@ -10,11 +10,11 @@ public class Case15Sky {
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudGM2NWlzTVNfaHJJSkpKbFdUWW1IZUE
 c.append("Sky TV", "./brandName").append(t.brandName);
 c.append("To be the pre-eminent pay television broadcasting service in New Zealand", "./vision").append(t.vision);
-c.append("http://www.skytv.co.nz/Portals/0/skyhappylogo.gif", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/skyhappylogo.gif", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=kxl3yAXHryY", "./brandVideo").append(t.brandVideo);
 c.append("NZ Pay Television Industry", "./industry").append(t.industry);
 
-c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
+c.append("Differentiation:", "./correctStrategy").append(t.correctStrategy);
 c.append("Broad scope:  Aimed at everyone in New Zealand.  Over half of NZ households have Sky.", "./competitiveScope").append(t.competitiveScope);
 c.append("High cost:  Sky TV offers a premium service and charges accordingly.", "./costStrategy").append(t.costStrategy);
 

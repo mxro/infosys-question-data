@@ -13,7 +13,7 @@ public class Case12Kiwibank {
 
 c.append("KiwiBank", "./brandName").append(t.brandName);
 c.append("Giving Kiwis better value banking.", "./vision").append(t.vision);
-c.append("http://www.designworks.co.nz/uploads/images/case-studies/kiwibank/kiwibank.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/kiwibank.jpg", "./brandImage").append(t.brandImage);
 c.append("https://www.youtube.com/watch?v=AOmC0NIGfRE&list=PL36471AF1A649489A", "./brandVideo").append(t.brandVideo);
 c.append("New Zealand Banking Industry", "./industry").append(t.industry);
 

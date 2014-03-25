@@ -12,7 +12,7 @@ public class Case6RainbowsEnd {
 
 c.append("Rainbows End", "./brandName").append(t.brandName);
 c.append("New Zealand's premier theme park", "./vision").append(t.vision);
-c.append("http://rainbowsend.co.nz/template/imgs/rainbows-end-logo.png", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/rainbows-end-logo.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=P3mMPh59ryU", "./brandVideo").append(t.brandVideo);
 c.append("Theme Park Industry", "./industry").append(t.industry);
 

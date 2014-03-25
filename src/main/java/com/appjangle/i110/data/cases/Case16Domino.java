@@ -12,7 +12,7 @@ public class Case16Domino {
 
 c.append("Domino's Pizza", "./brandName").append(t.brandName);
 c.append("Sell more Pizza, have more fun!", "./vision").append(t.vision);
-c.append("http://www.dominospizza.co.nz/media/48/logomainnew.png", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/dominos.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=YyZNNmgAAtA", "./brandVideo").append(t.brandVideo);
 c.append("Fast food industry", "./industry").append(t.industry);
 

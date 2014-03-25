@@ -13,7 +13,7 @@ public class Case13StateInsurance {
 
 c.append("State Insurance", "./brandName").append(t.brandName);
 c.append("Keep New Zealanders moving forward by offering a premium insurance experience.", "./vision").append(t.vision);
-c.append("http://www.state.co.nz/Style%20Library/statewebsite/images/state-logo.png", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/state-logo.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=NBTcNMwmm2E", "./brandVideo").append(t.brandVideo);
 c.append("Insurance industry", "./industry").append(t.industry);
 

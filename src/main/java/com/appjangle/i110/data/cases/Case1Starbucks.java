@@ -14,7 +14,7 @@ c.append(
         "To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.",
         "./brandVision").append(t.vision);
 c.append(
-        "http://hollywoodandswine.com/wp-content/uploads/2012/03/Starbucks-2.jpg",
+        "https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/Starbucks-2.jpg",
         "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=JagNph-q9LU&feature=relmfu",
         "./brandVideo").append(t.brandVideo);
