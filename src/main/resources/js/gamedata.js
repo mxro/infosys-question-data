@@ -930,7 +930,8 @@ var case17 = node.append("c17", "./c17");
 				priv.defineCase18McDonalds(t, case18);
 			
 			var case19 = node.append("c19", "./c19");
-			priv.defineCase192Degrees(t, case19)''
+			priv.defineCase192Degrees(t, case19);
+			
 			
 			session.commit().get(function(success) {
 			
