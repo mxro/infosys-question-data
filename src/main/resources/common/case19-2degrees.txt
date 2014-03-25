@@ -1,4 +1,4 @@
-<!-- one.createPublic case19-2degrees -->
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/upload/case19-2degrees -->
 c.append("2 Degrees Mobile", "./brandName").append(t.brandName);
 c.append("Cheaper mobile calling for everyone!", "./vision").append(t.vision);
 c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/2degrees.jpg", "./brandImage").append(t.brandImage);

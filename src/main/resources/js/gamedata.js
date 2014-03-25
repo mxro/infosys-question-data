@@ -730,6 +730,70 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 
 // <!-- one.end -->
 	};
+	priv.defineCase18McDonalds= function(t, c) {
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/upload/case18-mcdonalds -->
+c.append("McDonald's", "./brandName").append(t.brandName);
+c.append("McDonald's vision is to be our customers' favorite place and way to eat and drink.", "./vision").append(t.vision);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/McDs.png", "./brandImage").append(t.brandImage);
+c.append("http://www.youtube.com/watch?v=IO-3QlcdlAU&feature=share&list=PL308D62066232AFA0", "./brandVideo").append(t.brandVideo);
+c.append("Global Fast Food Industry", "./industry").append(t.industry);
+
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
+c.append("McDonalds is everywhere servicing everyone.", "./competitiveScope").append(t.competitiveScope);
+c.append("McDonalds prides itself on providing high quality but inexpensive food.", "./costStrategy").append(t.costStrategy);
+
+c.append("low:low:high:low:high", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("There are many substitutes to fast food including, eating at home, eating at other restaurants etc.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("There are many suppliers of foodstuffs and it is easy for organisations to switch.", "./supplierPower").append(t.supplierPower);
+c.append("This is a very crowded market place and competition is intense.", "./rivarly").append(t.rivarly);
+c.append("Buyer power is high as there are many choices although it is limited by brand loyalty and so forth.", "./buyerPower").append(t.buyerPower);
+c.append("New entrants are continually entering the industry.  ", "./newEntrants").append(t.newEntrants);
+
+c.append("firmInfrastructure,marketing,procurement", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Firm infrastructure:  McDonald's have thousands of restaurants around the world.  It is important that systems and processes are in place to support these.  Market and Sell:  As a player in a hyper competitive industry it is important that McDonalds continually markets its products. Procurement:  McDonalds prides itself on the quality of its goods and these depend on obtaining quality ingredients.", "./valueChainJustification").append(t.valueChainJustification);
+
+c.append("Receive customer order process", "./processName").append(t.processName);
+c.append("McDonalds handles millions of customer transactions each day.", "./importantProcess").append(t.importantProcess);
+c.append("Receive order from customer: Pass order to kitchen: Receive payment from customer", "./processSteps").append(t.processSteps);
+
+c.append("Order Management System:Kitchen Management System:Point of Sale System", "./systems").append(t.systems);
+c.append("Frontdesk:Kitchen Staff:FrontDesk", "./orgUnits").append(t.orgUnits);
+
+// <!-- one.end -->
+	};
+	
+	priv.defineCase192Degrees= function(t, c) {
+		// <!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/upload/case19-2degrees -->
+		c.append("2 Degrees Mobile", "./brandName").append(t.brandName);
+		c.append("Cheaper mobile calling for everyone!", "./vision").append(t.vision);
+		c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/2degrees.jpg", "./brandImage").append(t.brandImage);
+		c.append("http://youtu.be/l87P1QZgK0M", "./brandVideo").append(t.brandVideo);
+		c.append("New Zealand Mobile Communications Industry", "./industry").append(t.industry);
+
+		c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
+		c.append("Over a million people use 2 Degrees implying that the competitive scope is broad.", "./competitiveScope").append(t.competitiveScope);
+		c.append("2 Degrees prides itself on bringing down prepaid prices for mobile service hence the cost strategy is low.", "./costStrategy").append(t.costStrategy);
+
+		c.append("low:low:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
+		c.append("There are no real substitutes to mobile communications except for older technology that is not really used anymore.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+		c.append("There are a large number of potential suppliers to the mobile communications industry and no major supplier has a monopoly so the supplier power is most likely low.", "./supplierPower").append(t.supplierPower);
+		c.append("There are 3 major players in this industry who are fierce competitors.  Hence rivalry is high.", "./rivarly").append(t.rivarly);
+		c.append("Buyer power is high as it is easy to switch from one player to another.  There are no huge barriers beyond customer inertia.", "./buyerPower").append(t.buyerPower);
+		c.append("The market has 3 major players and new entrants would struggle especially considering the large infrastructure footprint required.", "./newEntrants").append(t.newEntrants);
+
+		c.append("firmInfrastructure,afterSales,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
+		c.append("Firm infrastructure:  2 degrees spent over $250 million building their mobile infrastructure and have partnerships with over 2700 outlets selling their SIM cards.  Service after the sale:  2 Degrees pride themselves on their great customer service.  Market and Sell:  As a new player in the industry one of 2 Degrees greatest challenges is to get their message out into the marketplace.", "./valueChainJustification").append(t.valueChainJustification);
+
+		c.append("Answer customer query process", "./processName").append(t.processName);
+		c.append("2 Degrees prides itself on offering great customer service, for free! – 2Degrees New Zealand-based call centre is available to support customers 24 hours a day, seven days a week, and it’s free for 2Degrees customers to call.", "./importantProcess").append(t.importantProcess);
+		c.append("Receive query from customer:Assign query to appropriate staff member:Answer query", "./processSteps").append(t.processSteps);
+
+		c.append("Call Management System:CRM System:Knowledge Management System.", "./systems").append(t.systems);
+		c.append("Customer Relations:Customer Relations:IT", "./orgUnits").append(t.orgUnits);
+
+// <!-- one.end -->
+	};
+	
 	
 	window.gamedata.createTypes = function(session) {
 		var t = {};
@@ -861,6 +925,13 @@ var case17 = node.append("c17", "./c17");
 			
 			priv.defineCase17Dell(t, case17);
 	
+			var case18 = node.append("c18", "./c18"); 
+				
+				priv.defineCase18McDonalds(t, case18);
+			
+			var case19 = node.append("c19", "./c19");
+			priv.defineCase192Degrees(t, case19)''
+			
 			session.commit().get(function(success) {
 			
 				onSuccess();
