@@ -1,5 +1,6 @@
 // <!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-game-data -->
 
+
 (function(Nextweb) {
 	window.gamedata = window.gamedata || {}, priv = {};
 	
@@ -12,7 +13,7 @@ c.append(
         "To inspire and nurture the human spirit - one person, one cup and one neighborhood at a time.",
         "./brandVision").append(t.vision);
 c.append(
-        "http://hollywoodandswine.com/wp-content/uploads/2012/03/Starbucks-2.jpg",
+        "https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/Starbucks-2.jpg",
         "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=JagNph-q9LU&feature=relmfu",
         "./brandVideo").append(t.brandVideo);
@@ -103,7 +104,7 @@ c.append("Nike", "./brandName").append(t.brandName);
 c.append(
         "To bring inspiration and innovation to every athlete in the world.",
         "./brandVision").append(t.vision);
-c.append("http://vince08.edublogs.org/files/2008/11/logonike.gif",
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/logonike.gif",
         "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=45mMioJ5szc",
         "./brandVideo").append(t.brandVideo);
@@ -189,7 +190,7 @@ c.append("Factory Clerk:Factory Labourer:Supervisor").append(
 
 c.append("Michael Hill", "./brandName").append(t.brandName);
 c.append("To be the most people focused Jeweller in the world. ", "./vision").append(t.vision);
-c.append("http://static.ipaustralia.com.au/store3/11/64/1164788.1.high.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/Michael.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=x_9z4QSBGQo", "./brandVideo").append(t.brandVideo);
 c.append("Retail Fine Jewellery Industry ", "./industry").append(t.industry);
 
@@ -227,7 +228,7 @@ c.append("Accounting:Accounting:Sales", "./orgUnits").append(t.orgUnits);
 
 c.append("Auckland Zoo", "./brandName").append(t.brandName);
 c.append("A future where people value wildlife, and species are safe from extinction.", "./vision").append(t.vision);
-c.append("http://www.isitemedia.co.nz/user_files/Sponsorship/zoologo.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/zoologo.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=pVstbADVT_U", "./brandVideo").append(t.brandVideo);
 c.append("The Zoo Industry", "./industry").append(t.industry);
 
@@ -265,7 +266,7 @@ c.append("Maintenance:Maintenance, Accounting, Warehouse:Maintenance", "./orgUni
 
 c.append("Countdown", "./brandName").append(t.brandName);
 c.append("Shop Smarter. ", "./vision").append(t.vision);
-c.append("http://www.nzsca.org.nz/upload/content/CD_MS_H_Pos_cmyk%20web.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/countdown.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=aSuaTaefvpg", "./brandVideo").append(t.brandVideo);
 c.append("Supermarket Industry", "./industry").append(t.industry);
 
@@ -302,7 +303,7 @@ c.append("Purchasing:Purchasing:Warehouse/Inbound Logistics/Inwards Goods", "./o
 
 c.append("Rainbows End", "./brandName").append(t.brandName);
 c.append("New Zealand's premier theme park", "./vision").append(t.vision);
-c.append("http://rainbowsend.co.nz/template/imgs/rainbows-end-logo.png", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/rainbows-end-logo.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=P3mMPh59ryU", "./brandVideo").append(t.brandVideo);
 c.append("Theme Park Industry", "./industry").append(t.industry);
 
@@ -339,7 +340,7 @@ c.append("Accounting:Accounting:Board of Directors", "./orgUnits").append(t.orgU
 
 c.append("Coca Cola Enterprises (CCE)", "./brandName").append(t.brandName);
 c.append("To refresh the world - in mind, body and spirit", "./vision").append(t.vision);
-c.append("http://www.picgifs.com/wallpapers/wallpapers/coca-cola/Coca_Cola03.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/coke.jpg", "./brandImage").append(t.brandImage);
 
 
 c.append("http://www.youtube.com/watch?v=WVRT16-dNsw", "./brandVideo").append(t.brandVideo);
@@ -375,7 +376,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 
 c.append("Pandora", "./brandName").append(t.brandName);
 c.append("To play only music people will love", "./vision").append(t.vision);
-c.append("http://cdn.thetechjournal.com/wp-content/uploads/2012/10/pandora.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/pandora.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=NVYHq3M1ByI", "./brandVideo").append(t.brandVideo);
 c.append("Internet Radio", "./industry").append(t.industry);
 
@@ -412,7 +413,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 
 c.append("AJ Hackett Bungy", "./brandName").append(t.brandName);
 c.append("Challenge drives our professional organisation.", "./vision").append(t.vision);
-c.append("http://www.conventionsnz.co.nz/pics/3713,4,1,6,4,0/aj-hackett-bungy-new-zealand.jpeg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/aj-hackett-bungy-new-zealand.jpeg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?feature=player_embedded&v=mmrVJq4uJ0E", "./brandVideo").append(t.brandVideo);
 c.append("Adventure tourism industry", "./industry").append(t.industry);
 
@@ -447,7 +448,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 
 c.append("Amazon", "./brandName").append(t.brandName);
 c.append("To be earth's most customer centric company.", "./vision").append(t.vision);
-c.append("http://www.republicreport.org/wp-content/uploads/2012/04/amazonlogo.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/amazonlogo.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=Ec4kWhEuhYE", "./brandVideo").append(t.brandVideo);
 c.append("Global online shopping industry", "./industry").append(t.industry);
 
@@ -521,7 +522,7 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 
 c.append("KiwiBank", "./brandName").append(t.brandName);
 c.append("Giving Kiwis better value banking.", "./vision").append(t.vision);
-c.append("http://www.designworks.co.nz/uploads/images/case-studies/kiwibank/kiwibank.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/kiwibank.jpg", "./brandImage").append(t.brandImage);
 c.append("https://www.youtube.com/watch?v=AOmC0NIGfRE&list=PL36471AF1A649489A", "./brandVideo").append(t.brandVideo);
 c.append("New Zealand Banking Industry", "./industry").append(t.industry);
 
@@ -557,7 +558,7 @@ c.append("O1:O2:O3", "./orgUnits").append(t.orgUnits);
 
 c.append("State Insurance", "./brandName").append(t.brandName);
 c.append("Keep New Zealanders moving forward by offering a premium insurance experience.", "./vision").append(t.vision);
-c.append("http://www.state.co.nz/Style%20Library/statewebsite/images/state-logo.png", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/state-logo.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=NBTcNMwmm2E", "./brandVideo").append(t.brandVideo);
 c.append("Insurance industry", "./industry").append(t.industry);
 
@@ -593,7 +594,7 @@ c.append("Customer service:Customer service:Customer service", "./orgUnits").app
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudE9xWmlHS2ZHMmJjbW9iWXEwWFV3X2c
 c.append("Listerine", "./brandName").append(t.brandName);
 c.append("Jumpstart to a healthier mouth.", "./vision").append(t.vision);
-c.append("http://www.listerine.com/sites/default/files/products/products-totalcare-fresh-mint_0.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/listerine.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=wiflxvRl04M", "./brandVideo").append(t.brandVideo);
 c.append("Dental mouthwash industry", "./industry").append(t.industry);
 
@@ -629,11 +630,11 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudGM2NWlzTVNfaHJJSkpKbFdUWW1IZUE
 c.append("Sky TV", "./brandName").append(t.brandName);
 c.append("To be the pre-eminent pay television broadcasting service in New Zealand", "./vision").append(t.vision);
-c.append("http://www.skytv.co.nz/Portals/0/skyhappylogo.gif", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/skyhappylogo.gif", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=kxl3yAXHryY", "./brandVideo").append(t.brandVideo);
 c.append("NZ Pay Television Industry", "./industry").append(t.industry);
 
-c.append("differentiation", "./correctStrategy").append(t.correctStrategy);
+c.append("Differentiation:", "./correctStrategy").append(t.correctStrategy);
 c.append("Broad scope:  Aimed at everyone in New Zealand.  Over half of NZ households have Sky.", "./competitiveScope").append(t.competitiveScope);
 c.append("High cost:  Sky TV offers a premium service and charges accordingly.", "./costStrategy").append(t.costStrategy);
 
@@ -665,7 +666,7 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 
 c.append("Domino's Pizza", "./brandName").append(t.brandName);
 c.append("Sell more Pizza, have more fun!", "./vision").append(t.vision);
-c.append("http://www.dominospizza.co.nz/media/48/logomainnew.png", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/dominos.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=YyZNNmgAAtA", "./brandVideo").append(t.brandVideo);
 c.append("Fast food industry", "./industry").append(t.industry);
 
@@ -699,7 +700,7 @@ c.append("Manufacturing:Accounting:Manufacturing management", "./orgUnits").appe
 
 c.append("Dell", "./brandName").append(t.brandName);
 c.append("The power to do more.", "./vision").append(t.vision);
-c.append("http://i.dell.com/images/global/brand/ui/logo-wt-bl.png", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/dell.png", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=yS5rHgGheHk", "./brandVideo").append(t.brandVideo);
 c.append("Computer Hardware Retail and Manufacturing", "./industry").append(t.industry);
 
@@ -871,5 +872,6 @@ var case17 = node.append("c17", "./c17");
 	
 	
 })(window.Nextweb);
+
 
 // <!-- one.end -->
