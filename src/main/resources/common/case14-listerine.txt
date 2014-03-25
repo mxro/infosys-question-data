@@ -1,8 +1,8 @@
-<!-- one.download https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case14-listerine -->
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/files/case14-listerine -->
 // https://docs.google.com/spreadsheet/ccc?key=0AtPhkJX5BurudE9xWmlHS2ZHMmJjbW9iWXEwWFV3X2c
 c.append("Listerine", "./brandName").append(t.brandName);
 c.append("Jumpstart to a healthier mouth.", "./vision").append(t.vision);
-c.append("http://www.listerine.com/sites/default/files/products/products-totalcare-fresh-mint_0.jpg", "./brandImage").append(t.brandImage);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/listerine.jpg", "./brandImage").append(t.brandImage);
 c.append("http://www.youtube.com/watch?v=wiflxvRl04M", "./brandVideo").append(t.brandVideo);
 c.append("Dental mouthwash industry", "./industry").append(t.industry);
 
