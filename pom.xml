@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Template: Source + GWT + in workspace dependencies 27.11.2010 -->
-<project>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Template: Source + GWT + in workspace dependencies 27.11.2010 --><project>
 	<groupId>com.appjangle.i110.data</groupId>
 	<artifactId>infosys-question-data</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -41,7 +39,7 @@
 		<dependency>
 			<groupId>com.appjangle.java</groupId>
 			<artifactId>appjangle-javaonedb</artifactId>
-			<version>0.0.14</version>
+			<version>0.3.7</version>
 		</dependency>
 
 
@@ -199,8 +197,8 @@
 						</goals>
 						<configuration>
 							<tasks>
-								<delete file="${basedir}/META-INF/MANIFEST.MF" />
-								<copy file="target/classes/META-INF/MANIFEST.MF" tofile="${basedir}/META-INF/MANIFEST.MF" />
+								<delete file="${basedir}/META-INF/MANIFEST.MF"/>
+								<copy file="target/classes/META-INF/MANIFEST.MF" tofile="${basedir}/META-INF/MANIFEST.MF"/>
 							</tasks>
 						</configuration>
 					</execution>
