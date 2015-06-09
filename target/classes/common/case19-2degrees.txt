@@ -1,0 +1,29 @@
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/upload/case19-2degrees -->
+c.append("2 Degrees Mobile", "./brandName").append(t.brandName);
+c.append("Cheaper mobile calling for everyone!", "./vision").append(t.vision);
+c.append("https://dl.dropboxusercontent.com/u/7045962/Vision2ActionLogos/2degrees.jpg", "./brandImage").append(t.brandImage);
+c.append("http://youtu.be/l87P1QZgK0M", "./brandVideo").append(t.brandVideo);
+c.append("New Zealand Mobile Communications Industry", "./industry").append(t.industry);
+
+c.append("costLeadership", "./correctStrategy").append(t.correctStrategy);
+c.append("Over a million people use 2 Degrees implying that the competitive scope is broad.", "./competitiveScope").append(t.competitiveScope);
+c.append("2 Degrees prides itself on bringing down prepaid prices for mobile service hence the cost strategy is low.", "./costStrategy").append(t.costStrategy);
+
+c.append("low:low:high:high:low", "./correctIndustryStructure").append(t.correctIndustryStructure);
+c.append("There are no real substitutes to mobile communications except for older technology that is not really used anymore.", "./threatOfSubsitutes").append(t.threatOfSubsitutes);
+c.append("There are a large number of potential suppliers to the mobile communications industry and no major supplier has a monopoly so the supplier power is most likely low.", "./supplierPower").append(t.supplierPower);
+c.append("There are 3 major players in this industry who are fierce competitors.  Hence rivalry is high.", "./rivarly").append(t.rivarly);
+c.append("Buyer power is high as it is easy to switch from one player to another.  There are no huge barriers beyond customer inertia.", "./buyerPower").append(t.buyerPower);
+c.append("The market has 3 major players and new entrants would struggle especially considering the large infrastructure footprint required.", "./newEntrants").append(t.newEntrants);
+
+c.append("firmInfrastructure,afterSales,marketing", "./correctValueChainActivites").append(t.correctValueChainActivites);
+c.append("Firm infrastructure:  2 degrees spent over $250 million building their mobile infrastructure and have partnerships with over 2700 outlets selling their SIM cards.  Service after the sale:  2 Degrees pride themselves on their great customer service.  Market and Sell:  As a new player in the industry one of 2 Degrees greatest challenges is to get their message out into the marketplace.", "./valueChainJustification").append(t.valueChainJustification);
+
+c.append("Answer customer query process", "./processName").append(t.processName);
+c.append("2 Degrees prides itself on offering great customer service, for free! – 2Degrees New Zealand-based call centre is available to support customers 24 hours a day, seven days a week, and it’s free for 2Degrees customers to call.", "./importantProcess").append(t.importantProcess);
+c.append("Receive query from customer:Assign query to appropriate staff member:Answer query", "./processSteps").append(t.processSteps);
+
+c.append("Call Management System:CRM System:Knowledge Management System.", "./systems").append(t.systems);
+c.append("Customer Relations:Customer Relations:IT", "./orgUnits").append(t.orgUnits);
+
+<!-- one.end -->

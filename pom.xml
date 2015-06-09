@@ -39,7 +39,7 @@
 		<dependency>
 			<groupId>com.appjangle.java</groupId>
 			<artifactId>appjangle-javaonedb</artifactId>
-			<version>0.4.7</version>
+			<version>0.4.8</version>
 		</dependency>
 
 

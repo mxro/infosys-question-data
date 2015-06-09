@@ -1,0 +1,87 @@
+<!-- one.upload https://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-gamedata-exampleapp -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>App</title>
+
+
+<script src="http://appjangle.com/js/v01/appjangle/appjangle.nocache.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script
+	src="http://u1.linnk.it/qc8sbw/usr/apps/textsync/docs/110-game-data.value.js"></script>
+
+<script>
+        
+    window.renderStrategyQuestion = function(session, caseNode, onSuccess) {
+    	$(".output").append("<p>+++++++++++++++++++++</p>");
+    	
+    	var t = window.gamedata.createTypes(session);
+    	
+    	var brandName = caseNode.select(t.brandName);
+    	var brandImage = caseNode.select(t.brandImage);
+    	var correctStrategy = caseNode.select(t.correctStrategy);
+    	var competitiveScope = caseNode.select(t.competitiveScope);
+    	var costStrategy = caseNode.select(t.costStrategy);
+    	
+    	var valueChainJust = caseNode.select(t.valueChainJustification);
+    	
+    	session.getAll(brandName, brandImage, correctStrategy, competitiveScope, costStrategy, valueChainJust, function() {
+    		$(".output").append("<p><b>Brand Data</b></p>");
+    		$(".output").append("<p>Brand: "+brandName.get().value()+"</p>");
+    		$(".output").append("<p>Image: <img width='70px' height='auto' src='"+brandImage.get().value()+"'></p>");
+    		$(".output").append("<p><b>Justification</b></p>");
+    		$(".output").append("<p>Competitive Scope: "+competitiveScope.get().value()+"</p>");
+    		$(".output").append("<p>Cost Strategy: "+costStrategy.get().value()+"</p>");
+    		$(".output").append("<p>Hence, the correct strategy is "+correctStrategy.get().value()+".</p>");
+    		
+    		$(".output").append("<p>And, did you know, there is a value chain justification, too: "+valueChainJust.get().value());
+    		onSuccess();
+    	});
+    	
+    };
+    
+    window.onNextwebOnedb = function() {
+            var server= Nextweb.startServer(7661);
+            var session = Nextweb.createSession();
+            var cases = session.seed("local");
+            
+            window.gamedata.writeCaseData(session, cases, function() {
+                // called back when default game data is written
+                $(".output").append("<p>Example data loaded.</p>");
+                
+                window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c1"), function() { 
+                	window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c2"), function() {
+                		window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c3"), function() {
+                			
+                			window.renderStrategyQuestion(session, session.node(cases.get().uri()+"/c13"), function() {
+                				$(".output").append("<p>Rendered last question.</p>");
+                				session.close().get(function(success) {
+	                			    server.shutdown().get(function(success) {
+	                				    $(".output").append("<p>All done.</p>");
+	                			    });
+	                		    });
+                			});
+                		});
+                	});
+                });
+               
+            });
+        };
+    </script>
+
+</head>
+<body>
+	<div class="output"></div>
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- one.end -->
