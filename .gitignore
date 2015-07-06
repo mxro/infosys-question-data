@@ -1,1 +1,11 @@
-.project
+bin/
+target/
+**/target/
+MANIFEST.MF
+META-INF
+src/main/webapp/
+*.java.trace
+*.java._trace
+*.xtendbin
+*._trace
+
